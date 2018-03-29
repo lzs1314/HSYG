@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>社区主-财务管理</title>
+		<link type="text/css" href="css/r_community_module.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour" style="background: #f6f6f6;">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+        <div class="com_mallTop_wrap">
+            <div class="com_logo">
+                <a href="#" class="comlogo"></a>
+                <div class="welcome">欢迎<span>15288886666</span>用户登陆!</div>
+                <ul class="com_mallTop_right">
+	                <li class="quit"><a>退出</a></li>
+	                <li class="retail"><a>零售入口</a></li>
+		    		<li class="bldin"><a>便利店入口</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="community_main clearfloat">
+            <div class="nav_left clearfloat">
+                <ul class="side clearfloat">
+                    <li class="stair1 notli"><a href="#">基本信息</a></li>
+                    <li><a href="#">基本信息</a></li>
+                    <li><a href="#">新注册用户列表</a></li>
+                    <li><a href="#">修改登录密码</a></li>
+                    <li><a href="#">修改支付密码</a></li>
+                    <li class="stair2 notli"><a href="#">财务管理</a></li>
+                    <li class="sta_on"><a href="#">财务管理</a></li>
+                    <li><a href="#">银行卡管理</a></li>
+                    <li><a href="#">社区主充值</a></li>
+                    <li><a href="#">提现</a></li>
+                    <li class="stair3 notli"><a href="#">零售定价维护</a></li>
+                    <li><a href="#">区间定价</a></li>
+                    <li><a href="#">单商品定价</a></li>
+                    <li class="stair4 notli"><a href="#">批发定价维护</a></li>
+                    <li><a href="#">区间定价</a></li>
+                    <li><a href="#">单商品定价</a></li>
+                    <li class="stair5 notli"><a href="#">订单管理</a></li>
+                    <li><a href="#">零售订单管理</a></li>
+                    <li><a href="#">批发订单管理</a></li>
+                    <li class="stair6 notli"><a href="#">退货单管理</a></li>
+                    <li><a href="#">零售退货单管理</a></li>
+                    <li><a href="#">批发退货单管理</a></li>
+                </ul>
+                <a href="#"><img src="images/sellerCenter/dredge.png" class="ad"/></a>
+            </div>
+            <div class="community_content">
+				<div class="finance shade">
+					<div class="finance_basic">
+						<h5 class="available_tit">可用金额</h5>
+						<span class="available_ma">1999.46</span>
+						<a href="#" class="wallet_pay">充值</a>
+						<a href="#" class="wallet_new">提现</a>
+						<a href="#" class="J_refr wallet_refr"><i>&nbsp;</i>刷新</a>
+						<div class="line_g"></div>
+						<dl class="money_always">
+							<dt>总金额</dt>
+							<dd>1999.46</dd>
+						</dl>
+						<dl class="mo_hr"></dl>
+						<dl class="money_inactive">
+							<dt>待用金额</dt>
+							<dd>0.46</dd>
+						</dl>
+						<dl class="mo_hr"></dl>
+						<dl class="money_earnest">
+							<dt>保证金金额</dt>
+							<dd>1999.46</dd>
+						</dl>
+						<div class="clearfix"></div>
+					</div>
+					<div class="finance_bank">
+						<div class="bank_tit"><span style="color: #666; float: left;">开&nbsp;&nbsp;户&nbsp;行：</span><p class="bankf_p">离开家噢是发就你发奇偶的直接发分公司发给</p></div>
+						<div class="bank_card"><span style="color: #666;">银行卡号：</span>62284<i>****</i>28568880<span class="bank_eyeopen">&nbsp;</span></div>
+						<div class="bank_num"><span style="color: #666;">数字账号：</span>789145551253255588888<b class="queryI"></b></div>
+						<div class="bank_bt"><p class="span_change">申请变更</p></div>
+					</div>
+				</div>
+				<div class="running_water shade">
+					<div class="seek_text">
+						<p class="seatittim">交易时间：</p>
+	                    <div class="time_div">
+							<input type="text" readonly="readonly" maxlength="20" class="searchTime J_start" id="start" >
+							<span class="span_start">开始时间</span>
+						</div>
+	                    <p class="seem">-</p>
+	                    <div class="time_div">
+		                    <input type="text" readonly="readonly" maxlength="20" class="searchTime J_end" id="end" >
+		                    <span class="span_end">结束时间</span>
+		                </div>
+		                <div class="com_sel com_post">
+	                        <p class="sel_p">交易类型</p>
+	                        <ul class="empsel com_ul" style="display:none">
+	                            <li>交易类型</li>
+	                            <li>平台业务</li>
+	                            <li>供应链业务</li>
+	                        </ul>
+	                    </div>
+	                    <div class="div_id com_post">
+	                        <input type="text"  maxlength="20" class="J_id" >
+	                        <span class="span_id">请输入交易单号</span>
+	                    </div>
+	                    <input type="submit" value="搜索" class="search_btn"/>
+                    </div>
+					
+                    <div class="div_tab">
+						<table class="trade_pri_tb">
+	                        <tr class="pri_tr">
+	                            <th width="75px">交易时间</th>
+	                            <th width="50px">入账类型</th>
+	                            <th width="135px">交易单号</th>
+	                            <th width="135px">付款方账号</th>
+	                            <th width="140px">付款方账号名称</th>
+	                            <th width="140px">收款方账号名称</th>
+	                            <th width="95px">收支</th>
+	                            <th width="120px">备注</th>
+	                        </tr>
+	                            
+	                        <tr class="bor_bot">
+	                        	<td>2017/8/4<br>14:25:35</td>
+	                            <td class="deal">收入</td>
+	                            <td>3112510023012924</td>
+	                            <td>3112510023012924863</td>
+	                            <td>测试社区主</td>
+	                            <td>山东合商云购电子商务有限公司</td>
+	                            <td class="trt_plus_sp">+123456789.00</td>
+	                            <td>便利店钱包支付</td>
+	                        </tr>
+	                        <tr class="bor_bot">
+	                        	<td>2017/8/4<br>14:25:35</td>
+	                            <td class="deal">支出</td>
+	                            <td>3112510023012924</td>
+	                            <td>3112510023012924863</td>
+	                            <td>山东合商云购电子商务有限公司</td>
+	                            <td>山东合商云购电子商务有限公司</td>
+	                            <td class="trt_minus_sp">-123456789.00</td>
+	                            <td>便利店钱包支付</td>
+	                        </tr>
+	                    </table>
+	                    <div class="wu_div" style="display:none;">
+	                        暂无数据
+	                    </div>
+	                    <div class="clearfloat rt20 rtbor" >
+	                        <div class="page pa">
+	                            <a class="page_prev page_prev_jin" href="javascript:void(0)"></a>
+	                            <a href="#" class="page_on">1</a>
+	                            <a href="#">2</a>
+	                            <a href="#">3</a>
+	                            <a href="#">4</a>
+	                            <b class="page_b">...</b>
+	                            <a href="#">5</a>
+	                            <a class="page_next" href="#"></a>
+	                            <p class="page_p">共<em>5</em>页</p>
+	                            <span class="page_span">到</span>
+	                            <input type="text" class="page_text" />
+	                            <input type="button" class="page_btn" value="GO" />
+	                        </div>
+	                    </div>
+                    </div>
+				</div>
+            </div>	
+        </div>
+					
+        <script src="js/layer/layer.js" ></script>
+        <script src="js/laydate/laydate.js"></script>
+   		<script src="js/checkIE.js"></script> 
+   		<script src="js/r_community.js"></script>		
+   		<script src="js/r_community_finance.js"></script>
+	</body>
+</html>

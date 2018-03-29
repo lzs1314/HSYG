@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商户-钱包提现</title>
+		<link type="text/css" href="css/r_s_account.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour" onload="setup();setupA();preselect('山东省','济南市','市、县级市、县');preselectA('山东省','济南市','市、县级市、县')">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+		</div>
+		<div class="rs_mycontent clearfloat">
+			<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+			<div class="rs_mcright">
+				<div class="rs_mcrTitle clearfloat">
+					<p class="mt_tit">提现</p>
+				</div>
+				<div class="rs_mcrCont">
+					<div class="account_cont">
+						<table class="wallet_recharge_tb">
+							<tr style="display: none;">
+								<td class="wrt_r">已绑定银行卡：</td>
+								<td>
+									<img class="pabank_img" src="images/sellerCenter/pabank.png" />&nbsp;&nbsp;
+									622625678922220000
+									<a href="#" class="J_wdlBtn apply_bankc_a">申请变更</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="wrt_r">银行卡：</td>
+								<td>
+									<img class="pabank_img" src="images/sellerCenter/pabank.png" />&nbsp;&nbsp;
+									您还未关联银行卡，请先关联
+									<a href="#" class="J_wdlBtn apply_bankc_b">立即关联</a>
+								</td>
+							</tr>
+							<tr class="vt38">
+								<td class="wrt_r">提现金额：</td>
+								<td>
+									<p class="money_mtxt">
+										<input type="text" maxlength="10" />
+										<em>请输入金额</em>
+									</p>
+									<span class="accspan"></span>
+									<div class="clearfix"></div>
+									<p class="accp">&nbsp;</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="wrt_r">到账时间：</td>
+								<td>
+									当日11：00之前提现当日到账，当日11：00之后提现次日到账
+								</td>
+							</tr>
+							<tr class="vt38">
+								<td class="wrt_r">支付密码：</td>
+								<td>
+									<p class="ppwd_mtxt">
+										<input type="password" />	
+										<em>请输入支付密码</em>
+									</p>
+									<span class="accspan"></span>
+									<a class="back_ppwd_a" href="#">找回支付密码？</a>
+		                        	<a style="display: none;" class="back_ppwd_a" href="#">去设置支付密码</a>
+		                        	<p style="display: none;" class="back_ppwd">设置完成，<a href="#">点我刷新</a></p>
+									<div class="clearfix"></div>
+									<p class="accp cha_wrong">提示：您输入密码错误超过5次，已将您的账户冻结，24小时后自动解冻或联系客服解冻，客服电话：400-0000-000</p>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" class="recharge_stbn blight" value="确&nbsp;&nbsp;&nbsp;&nbsp;认" />
+								</td>
+							</tr>
+						</table>
+					</div>	
+					<div style="height: 110px;"></div>
+				</div>
+			</div>
+		</div>
+		
+		<!--变更银行卡信息弹窗-->
+		<div class="change_layer" style="display: none;">
+			<p class="change_tit">变更银行卡信息</p>
+			<table class="change_tab" cellpadding="0" cellspacing="0">
+				<tr class="pb10">
+					<td width="120px">
+						<p class="chatab_tit">开户名<i>*</i>：</p>
+					</td>
+					<td width="300px">
+						<p class="chatab_text">张高冷</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td class="chvt38">
+						<p class="chatab_tit">原银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_text">622625678922220000</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_input">
+							<input class="bankInput" type="text" maxlength="50" />
+							<em>目前仅支持绑定借记卡</em>
+							<span class="fun_span"></span>
+						</p>
+						<div class="clearfix"></div>
+						<p class="vnote">注：此处设置的银行卡会成为默认提款卡</p>
+					</td>
+				</tr>	
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>					
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">开户行<i>*</i>：</p>
+					</td>
+					<td>
+            			<select class="chselect" name="province" id="s1">
+                            <option></option>
+                        </select>
+                        <select class="chselect ml10" name="city" id="s2">
+                            <option></option>
+                        </select>
+                        <select class="chselect" name="town" id="s3" style="display: none;">
+                            <option></option>
+                        </select>
+                        <span class="fun_span"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>	
+				<tr>
+					<td></td>
+					<td>
+						<p class="chatab_input">
+							<input class="bankinfoInput" type="text" maxlength="50" />
+							<em>请填写开户分（支）行信息</em>
+							<span class="fun_span"></span>
+						</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+		            <td>
+		                <input type="button" class="chatab_btn" value="提交变更申请"/>
+		            </td>
+		        </tr>
+			</table>
+		</div>		
+		<!--end  变更银行卡信息弹窗-->
+
+		<!--关联银行卡-->
+		<div class="addbank_layer" style="display: none;">
+			<p class="change_tit">关联银行卡</p>
+			<table class="change_tab" cellpadding="0" cellspacing="0">
+				<tr class="pb10">
+					<td width="120px" class="chvt38">
+						<p class="chatab_tit">开户名：</p>
+					</td>
+					<td width="300px">
+						<p class="chatab_text">张高冷</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_input">
+							<input class="addbankInput" type="text" maxlength="50" />
+							<em>目前仅支持绑定借记卡</em>
+							<span class="fun_span"></span>
+						</p>
+						<div class="clearfix"></div>
+						<p class="vnote">注：此处设置的银行卡会成为默认提款卡</p>
+					</td>
+				</tr>	
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>	
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">开户行<i>*</i>：</p>
+					</td>
+					<td>
+            			<select class="chselect" name="province" id="p1">
+                            <option></option>
+                        </select>
+                        <select class="chselect ml10" name="city" id="p2">
+                            <option></option>
+                        </select>
+                        <select class="chselect" name="town" id="p3" style="display: none;">
+                            <option></option>
+                        </select>
+                        <span class="fun_span"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>	
+				<tr>
+					<td></td>
+					<td>
+                        <p class="chatab_input">
+							<input class="addbankinfoInput" type="text" maxlength="50" />
+							<em>请填写开户分（支）行信息</em>
+							<span class="fun_span"></span>
+						</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+		            <td>
+		                <input type="button" class="addtab_btn" value="确认关联"/>
+		            </td>
+		        </tr>
+			</table>
+		</div>		
+		<!--end  关联银行卡-->		
+	    
+		<script src="js/layer/layer.js"></script>
+		<script src="js/checkIE.js"></script>
+		<script src="js/r_sellerCommon.js" ></script>
+		<script src="js/geo.js"></script>
+		<script src="js/s_function.js"></script>
+	   	<script src="js/s_wallet_withdrawal.js"></script>
+	</body>
+</html>

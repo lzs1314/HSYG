@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网站头-合商零售</title>
+		<link type="text/css" href="css/hs_common.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body onload="setup();preselect('山东省','济南市','市、县级市、县')">
+		<div class="site_nav">
+			<div class="sn_cont clearfloat">
+				<div class="sn_entrance">
+					<ul class="clearfloat">
+						<li class="place">
+							<a class="place_a" href="#">社区：<span>济南市合商总社区</span></a>
+							<em class="place_hint" style="display: none;">该小区暂不支持配送，先来看看商品吧</em>
+							<div class="placeBox" style="display: none;">
+                                <table>
+                                	<tr>
+                                		<td width="70px" class="pbtit">所属区域：</td>
+                                		<td width="260px">
+                                			<select class="pbselect" name="province" id="s1">
+			                                    <option></option>
+			                                </select>
+			                                <select class="pbselect ml2" name="city" id="s2">
+			                                    <option></option>
+			                                </select>
+			                                <select class="pbselect ml2" name="town" id="s3">
+			                                    <option></option>
+			                                </select>
+                                		</td>
+                                	</tr>
+                                	<tr class="pt22">
+                                		<td class="pbtit">所在社区&nbsp;&nbsp;<br>(或周边)：</td>
+                                		<td>
+                                			<select class="pbselect_lg">
+			                                    <option>济南市合商总社区</option>
+			                                    <option>中海国际社区</option>
+			                                    <option>其他小区</option>
+                                			</select>
+                                		</td>
+                                	</tr>
+                                	<tr>
+                                		<td>&nbsp;</td>
+                                		<td><a class="pbbtn" href="#">确认更改</a></td>
+                                	</tr>
+                                </table>
+							</div>
+						</li>
+						<li class="entrance_gd"><a href="#">广大入口</a></li>
+						<li class="entrance_S"><a href="#">商户入口</a></li>
+						<li class="entrance_CVS"><a href="#">便利店入口</a></li>
+					</ul>
+				</div>
+				<div class="sn_menu">
+					<ul class="clearfloat">
+						<li class="sn_loginInfo" style="display: none;"><a href="#">【登录】</a><a href="#" class="pr6">【注册】</a></li>
+						<li class="sn_loginInfo"><p>你好，15629987563来到合商云购！</p><a href="#" class="pr6">【退出】</a></li><!--登录后-->
+						<li class="sn_line">|</li>
+						<li class="sn_quick">
+							<a class="quiBtn" href="#">我的合商<i></i></a>
+							<div class="quiCont" style="display: none;">
+								<a href="#">我的订单</a>
+								<a href="#">我的购物车</a>
+								<a href="#">我的收藏</a>
+								<a href="#">安全中心</a>
+							</div>
+						</li>
+						<li class="sn_line">|</li>
+						<li class="sn_help"><a href="#">帮助中心</a></li>
+						<li class="sn_line">|</li>
+						<li class="sn_app">
+							<a href="#">手机商城</a>
+							<div class="appCont" style="display: none;">
+								<p class="apptit">用户版</p>
+								<img src="images/common/appdownload-code.png">
+								<p class="apptit">商户版</p>
+								<img src="images/common/appdownload-code.png">
+							</div>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+
+		<script src="js/top_sn.js"></script>
+		<script src="js/geo.js"></script>
+	</body>
+</html>

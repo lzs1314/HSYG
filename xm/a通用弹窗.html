@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台弹窗样式</title>
+    <link type="text/css" href="css/common.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.0.min.js"></script>
+</head>
+<body>
+    <input type="button" class="sBtn1" value="成功弹窗1" />
+    <input type="button" class="eBtn1" value="失败弹窗2" />
+    <input type="button" class="wBtn1" value="警告弹窗3" /><br>
+    
+    <input type="button" class="sBtn2" value="成功弹窗1" />
+    <input type="button" class="eBtn2" value="失败弹窗2" />
+    <input type="button" class="wBtn2" value="警告弹窗3" /><br>
+    
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".sBtn1").click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn1',
+		            area: ['380px', '150px'],
+		            btn: ['确 定'],
+		            content: "<div class='layer_suc'><img src='images/common/lay1.png'>提交成功!</div>"
+		        })
+            })
+            $(".eBtn1").click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn1',
+		            area: ['380px', '150px'],
+		            btn: ['确 定'],
+		            content: "<div class='layer_err'><img src='images/common/lay2.png'>提交失败!</div>"
+		        })
+            })
+            $(".wBtn1").click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn1',
+		            area: ['380px', '150px'],
+		            btn: ['确 定'],
+		            content: "<div class='layer_war'><img src='images/common/lay3.png'>请选择商品!</div>"
+		        })
+            })
+            
+            $(".sBtn2").click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn2',
+		            area: ['380px', '150px'],
+		            btn: ['确 定','取消'],
+		            content: "<div class='layer_suc'><img src='images/common/lay1.png'>提交成功!</div>"
+		        })
+            })
+            $(".eBtn2").click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn2',
+		            area: ['380px', '150px'],
+		            btn: ['确 定','取消'],
+		            content: "<div class='layer_err'><img src='images/common/lay2.png'>提交失败!</div>"
+		        })
+            })
+            $(".wBtn2").click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn2',
+		            area: ['380px', '150px'],
+		            btn: ['确 定','取消'],
+		            content: "<div class='layer_war'><img src='images/common/lay3.png'>请选择商品!</div>"
+		        })
+            })
+            
+            
+        })
+    </script>
+</body>
+</html>

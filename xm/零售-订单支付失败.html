@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>合商云购</title>
+		<link type="text/css" href="css/r_hs_list.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	
+	<body class="width_1400" onload="setup();preselect('山东省','济南市','市、县级市、县')">
+	<div id="mall_iec">
+		<div id="iecin">
+			<span>×</span>
+			<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+		</div>
+	</div>
+	<div class="site_nav">
+		<div class="sn_cont clearfloat">
+			<div class="sn_entrance">
+				<ul class="clearfloat">
+					<li class="place">
+						<a class="place_a" href="#">社区：<span>济南市合商总社区</span></a>
+						<em class="place_hint" style="display: none;">该小区暂不支持配送，先来看看商品吧</em>
+						<div class="placeBox" style="display: none;">
+                            <table>
+                            	<tr>
+                            		<td width="70px" class="pbtit">所属区域：</td>
+                            		<td width="260px">
+                            			<select class="pbselect" name="province" id="s1">
+		                                    <option></option>
+		                                </select>
+		                                <select class="pbselect ml2" name="city" id="s2">
+		                                    <option></option>
+		                                </select>
+		                                <select class="pbselect ml2" name="town" id="s3">
+		                                    <option></option>
+		                                </select>
+                            		</td>
+                            	</tr>
+                            	<tr class="pt22">
+                            		<td class="pbtit">所在社区&nbsp;&nbsp;<br>(或周边)：</td>
+                            		<td>
+                            			<select class="pbselect_lg">
+		                                    <option>济南市合商总社区</option>
+		                                    <option>中海国际社区</option>
+		                                    <option>其他小区</option>
+                            			</select>
+                            		</td>
+                            	</tr>
+                            	<tr>
+                            		<td>&nbsp;</td>
+                            		<td><a class="pbbtn" href="#">确认更改</a></td>
+                            	</tr>
+                            </table>
+						</div>
+					</li>
+					<li class="entrance_S"><a href="#">商户入口</a></li>
+					<li class="entrance_CVS"><a href="#">便利店入口</a></li>
+				</ul>
+			</div>
+			<div class="sn_menu">
+				<ul class="clearfloat">
+					<li class="sn_loginInfo" style="display: none;"><a href="#">【登录】</a><a href="#" class="pr6">【注册】</a></li>
+					<li class="sn_loginInfo"><p>你好，15629987563来到合商云购！</p><a href="#" class="pr6">【退出】</a></li><!--登录后-->
+					<li class="sn_line">|</li>
+					<li class="sn_quick">
+						<a class="quiBtn" href="#">我的合商<i></i></a>
+						<div class="quiCont" style="display: none;">
+							<a href="#">我的订单</a>
+							<a href="#">我的购物车</a>
+							<a href="#">我的收藏</a>
+							<a href="#">安全中心</a>
+						</div>
+					</li>
+					<li class="sn_line">|</li>
+					<li class="sn_help"><a href="#">帮助中心</a></li>
+					<li class="sn_line">|</li>
+					<li class="sn_app">
+						<a href="#">手机商城</a>
+						<div class="appCont" style="display: none;">
+							<img src="images/common/appdownload-code.png">
+						</div>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+	<div class="hs_header clearfloat">
+		<a href="#" class="hs_logo"></a>
+		<div class="hs_search">
+			<div class="search_sel">
+                <p><span>商品</span><i class="p_triangle"></i></p>
+                <ul style="display:none;">
+                    <li>商品</li>
+                    <li>商户</li>
+                </ul>
+            </div>
+            <p class="search_text">
+            	<input type="text" value="" />
+            	<span class="search_tip">请输入商品名称</span>
+            </p>
+            <input class="search_btn" type="button" value="搜索" />
+			<div class="clearfix"></div>
+			<ul class="search_list" style="display: none;">
+				<li><a href="#">洗发水1111111111</a></li>
+				<li><a href="#">洗发水2222222222</a></li>
+				<li><a href="#">洗发水3333333333</a></li>
+				<li><a href="#">洗发水4444444444</a></li>
+				<li><a href="#">洗发水5555555555</a></li>
+				<li><a href="#">洗发水6666666666</a></li>
+			</ul>
+		</div>
+		<div class="hs_headCart">
+			<a href="#">我的购物车</a>
+		</div>
+	</div>
+	<div class="hs_nav_wrap" style="height: 0px;"></div>
+    <div class="topay_fail_cont">
+		<ul class="topay_fail">
+			<li><h3 class="topay_fh3">订单支付失败！</h3></li>
+			<li>错误代码：wsj-488754fg-fd2s42io</li>
+			<li><div class="div_topay_qbtn"><input type="button" value="支付遇到问题" class="topay_qbtn"></div></li>
+		</ul>
+    </div>
+    <div class="retail_browse">
+		<div class="rb_tit clearfloat">
+			<p>最近浏览</p>
+			<a class="changeRb" href="javascript:void(0)">换一换</a>
+		</div>
+		<div class="rb_cont">
+			<p class="rb_leftBtn" style="display: none;">&nbsp;</p>
+			<p class="rb_rightBtn" style="display: none;">&nbsp;</p>
+			<ul class="clearfloat">
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-2.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-2.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+				<li>
+					<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+					<p class="rb_price">￥<b>92.90</b></p>
+					<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div class="retail_browse">
+		<div class="rb_tit clearfloat">
+			<p>最近浏览</p>
+		</div>
+		<div class="rb_cont">
+			<div class="rb_nobrowse clearfloat"><i>&nbsp;</i>亲~您没有浏览过商品，快去逛逛吧~</div>
+		</div>
+	</div>	
+
+		<script src="js/checkIE.js"></script>
+		<script src="js/geo.js"></script>
+		<script src="js/top_sn.js"></script>
+		<!--<script src="js/xlist.js"></script>-->
+		<script src="js/hs_browse.js"></script>
+	    <script src="js/hs_topay_result.js"></script>
+	</body>
+</html>

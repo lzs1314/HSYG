@@ -1,0 +1,12 @@
+.editBtn2{ padding:5px 8px; background:#ff7575; font:12px/22px "Microsoft Yahei"; float:right; margin-right:35px; border-radius:5px;}
+.editBtn2 span{ color:#fff;}
+.editBtn2:hover{ background:#f75050;}
+.select_num2{width:80px;height: 30px;border:1px solid #d7d7d7;color: #575757;}
+.editIcon2{background: url(../images/provider/provInfo.png) no-repeat 170px -156px;}
+.details{ width:326px;float:left;}
+.details_t{ width:324px; height:30px; border:1px solid #e8e8e8;}
+.details_b{ width:324px; height:250px;border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8;}
+.details_t_p{ width:70px; height:22px; margin:3px 0 3px 10px; font:12px/22px"Microsoft Yahei"; background:#e8e8e8; border:1px solid #666; border-radius:3px; position:relative; color:#575757; float:left; text-align:center;}
+.details_t_input{ width:50px; height:22px; position:absolute; left:0; top:0; opacity: 0; filter: alpha(opacity=0); cursor: pointer;}
+.select_num2{width:80px;height:23px;border:1px solid #666; border-radius:3px; color: #575757; float:left; margin:3px 0 0 10px;}
+.infoInput2{float: left; width:320px; height:246px;color: #575757;font: 14px "Microsoft Yahei"; }

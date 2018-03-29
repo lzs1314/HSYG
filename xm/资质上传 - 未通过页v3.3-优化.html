@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>资质上传-未通过页</title>
+		<link type="text/css" href="css/aptitude.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body>
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="reg_head_wrap">
+			<div class="reg_head_bg clearfloat">
+				<a class="regLogo" href="#"><img src="images/reg/regLogo.png"></a>
+
+			</div>
+		</div>
+		<div class="rev_reason clearfloat">
+			<i class="revren_i"></i>
+			<div class="revren_div">
+				<p class="revren_tip"><i></i>抱歉，您的审核信息未通过</p>
+				<div class="revren_cont clearfloat">
+					<span>未审核通过的原因：</span>
+					<p>身份证号审核不通过</p>
+				</div>
+			</div>
+		</div>
+		<div class="reg_content clearfloat">
+			<div class="mg_main">
+				<div class="accountInfo">
+					<table class="accInfoTab" cellpadding="0" cellspacing="0">
+						<tr>
+							<td width="150px">&nbsp;</td>
+							<td width="590px">
+								<p class="rev_tip">请根据下列提示重新填写并提交您的资料</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="aItit">企业名称<i>*</i>：</p>
+							</td>
+							<td>
+								<p class="aIinput_p">
+									<input type="text" class="aIinput J_qyname" maxlength="30" >
+									<em class="aIem">企业名称为店铺名，请认真填写</em>
+								</p>
+								<p class="aIp"></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="aItit">联系人姓名<i>*</i>：</p>
+							</td>
+							<td>
+								<p class="aIinput_p">
+									<input type="text" class="aIinput J_lxname" maxlength="10" >
+									<em class="aIem">请输入联系人姓名</em>
+								</p>
+								<p class="aIp"></p>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<p class="aItit">营业执照注册号<i>*</i>：</p>
+								<p class="aItit_tip">(统一社会信用代码)</p>
+							</td>
+							<td>
+								<p class="aIinput_p">
+									<input type="text" class="aIinput J_yynum" maxlength="22" >
+									<em class="aIem">请输入营业执照注册号</em>
+								</p>
+								<p class="aIp"></p>
+							</td>
+						</tr>
+						<tr>
+							<td class="vt38"><p class="aItit">营业执照<i>*</i>：</p></td>
+							<td>
+								<div class="upImg_cont">
+									<div class="aIupimgBox disn">
+										<p class="aIupimg"><img id="img_yy" /></p>
+										<p class="aIupsite"></p>
+									</div>
+									<p class="aIupbtn_p">
+										<a class="aIupbtn" href="#">上传证件照</a>
+										<input class="aIupfile" type="file" id="file_yy" />
+									</p>
+									<div class="clearfix"></div>
+									<p class="aIup_p disn"></p>
+									<p class="uptips">
+										请上传正确格式的营业执照清晰彩色原件扫描件或者数码照。<br>
+										由中国大陆工商局或市场监督管理局颁发。<br>
+										支持JPG.JPEG.PNG.BMP格式照片，大小不超过2M。
+									</p>
+									<span class="aIup_span"></span>
+									<span class="aIup_span1"style="display:none;"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="aItit">法人姓名<i>*</i>：</p>
+							</td>
+							<td>
+								<p class="aIinput_p">
+									<input type="text" class="aIinput J_frname" maxlength="20" >
+									<em class="aIem">请输入法人姓名</em>
+								</p>
+								<p class="aIp"></p>
+							</td>
+						</tr>
+						<tr>
+							<td class="vt38"><p class="aItit">法人证件照<i>*</i>：</p></td>
+							<td>
+								<div class="upImg_cont">
+									<div class="aIupimgBox disn">
+										<p class="aIupimg"><img id="img_zm" /></p>
+										<p class="aIupsite"></p>
+									</div>
+									<p class="aIupbtn_p mb5">
+										<a class="aIupbtn" href="#">正面证件照</a>
+										<input class="aIupfile" type="file" id="file_zm" />
+									</p>
+									<div class="clearfix"></div>
+									<p class="aIup_p mb5 disn"></p>
+									<span class="aIup_span"></span>
+									<span class="aIup_span1" style="display:none;"></span>
+								</div>
+								<div class="upImg_cont">
+									<div class="aIupimgBox disn">
+										<p class="aIupimg"><img id="img_sc" /></p>
+										<p class="aIupsite"></p>
+									</div>
+									<p class="aIupbtn_p">
+										<a class="aIupbtn" href="#">手持证件照</a>
+										<input class="aIupfile" type="file" id="file_sc" />
+									</p>
+									<div class="clearfix"></div>
+									<p class="aIup_p mt5 disn"></p>
+									<p class="uptips">
+										请上传正确格式的法人身份相关证明清晰彩色原件扫描件或者数码照。<br>
+										支持JPG.JPEG.PNG.BMP格式照片，大小不超过2M。
+									</p>
+									<span class="aIup_span"></span>
+									<span class="aIup_span1"style="display:none;"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="aItit">经营范围<i>*</i>：</p>
+							</td>
+							<td>
+								<div class="run_div J_food">
+									<a href="javascript:void(0)"><i></i>食品</a>
+									<a href="javascript:void(0)"><i></i>电子</a>
+									<a href="javascript:void(0)"><i></i>其他</a>
+								</div>
+								<p class="runTip"></p>
+							</td>
+						</tr>
+						
+						<tr class="run_food disn">
+							<td class="vt38"><p class="aItit">食品流通许可证<i>*</i>：</p></td>
+							
+							<td class="vt38">
+								<div class="upImg_cont">
+									<div class="aIupimgBox disn">
+										<p class="aIupimg"><img id="img_sp" /></p>
+										<p class="aIupsite"></p>
+									</div>
+									<p class="aIupbtn_p">
+										<a class="aIupbtn" href="#">食品流通许可证</a>
+										<input class="aIupfile" type="file" id="file_sp" />
+									</p>
+									<div class="clearfix"></div>
+									<p class="aIup_p disn"></p>
+									<p class="uptips">
+										请上传正确格式的卫生许可证清晰彩色原件扫描件或者数码照。<br>
+										在有效期内且年检章齐全（当年成立的可无年检章）。<br>
+										由当地卫生局颁发。<br>
+										支持JPG.JPEG.PNG.BMP格式照片，大小不超过2M。
+									</p>
+									<span class="aIup_span"></span>
+									<span class="aIup_span1"style="display:none;"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td><input type="submit" class="subBtn" value="提 交" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+   		<script src="js/layer/layer.js" ></script>
+   		<script src="js/checkIE.js"></script>
+   		<script src="js/aptitude2.js"></script>
+	</body>
+</html>

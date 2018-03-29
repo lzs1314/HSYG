@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>供应商-财务管理-账户充值</title>
+		<link type="text/css" href="css/provider.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body style="background: #f5f5f5;">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="provider_head_wrap">
+			<div class="provider_head clearfloat">
+				<a class="provlogo" href="#"></a>
+				<p class="greetUser">用户<b>15639265669</b>，欢迎登录！</p>
+				<p class="userHandle clearfloat">
+					<a class="uh_quit" href="#">退出</a>
+					<a class="uh_retail" href="#">零售入口</a>
+				</p>
+			</div>
+		</div>
+		<div class="provider_content clearfloat">
+			<ul class="prov_sidebar clearfloat">
+				<li class="sta1"><a href="#">基本信息</a></li>
+				<li><a href="#">基本信息</a></li>
+                <li><a href="#">修改登录密码</a></li>
+                <li><a href="#">修改支付密码</a></li>
+                <li><a href="#">门店社区对应表</a></li>
+				<li class="sta2 notli"><a href="#">财务管理</a></li>
+				<li><a href="#">财务管理</a></li>
+				<li><a href="#">银行账户管理</a></li>
+				<li><a href="#">账户提现</a></li>
+                <li class="sta_on"><a href="#">账户充值</a></li>
+				<li class="sta3"><a href="#">商品管理</a></li>
+				<li><a href="#">商品信息发布</a></li>
+				<li><a href="#">商品信息维护</a></li>
+				<li class="sta4"><a href="#">订单列表</a></li>
+				<li><a href="#">零售订单列表</a></li>
+				<li><a href="#">批发订单列表</a></li>
+				<li class="sta5"><a href="#">退货单列表</a></li>
+				<li><a href="#">零售退货单列表</a></li>
+				<li><a href="#">批发退货单列表</a></li>
+				<li class="sta6"><a href="#">药品管理</a></li>
+				<li><a href="#">药品信息列表</a></li>
+			</ul>
+			<div class="prov_cont">
+				<div class="prov_tit clearfloat">
+					<p>账户充值</p>
+				</div>
+				<div class="prov_finmain">
+					<div class="pro_rech">
+						<form id="myform" method="post" action="#">
+							<table class="wallet_recharge_tb oddp10">
+								<tr>
+									<td class="wrt_r">您的钱包余额为：</td>
+									<td>188.98元</td>
+								</tr>
+								<tr>
+									<td class="wrt_r">请输入充值金额：</td>
+									<td>
+										<p class="money_mtxt">
+											<input type="text" placeholder="请输入金额" />	
+										</p>
+										<span class="cha_span mt6">&nbsp;</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="wrt_r" valign="top">请选择充值银行：</td>
+									<td>
+										<div class="bank_list">
+									      	<ul class="clearfloat bank_ul">
+										        <li><img src="images/banklogo/cn_zg.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_ny.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_gs.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_js.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_gd.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_jt.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_pf.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_ms.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_xy.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_zs.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_yz.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_zx.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_pa.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_hx.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_bj.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_bh.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_qd.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_hb.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_zhesh.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_hq.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_zd.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_nj.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_nb.jpg" /></li>
+				                            <li><img src="images/banklogo/cn_ql.jpg" /></li>
+								    	</ul>
+								    	<p class="bank_more">更多银行</p>
+								    </div>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<input type="submit" class="recharge_stbn bgray" value="确认支付" disabled="disabled" />
+										<p class="paytip" style="display: none;">温馨提示：充值手续费需您自行承担，中信银行无手续费</p>
+									</td>
+								</tr>
+							</table>
+						</form>					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--充值进行中弹窗-->
+		<div class="recharge_underway_layer" style="display: none;">
+     		<p class="underway_tit">充值正在进行...</p>	
+     		<p class="underway_cont">您正在对钱包进行充值，充值成功后24小时该笔资金可用，充值完毕后请进行选择</p>
+     		<div class="underway_bottom clearfloat">
+     			<a class="underway_btn" href="#">充值成功</a>
+     			<a class="underway_btns" href="#">充值未成功</a>
+     		</div>	
+     	</div>
+     	<!--end 充值进行中弹窗-->		
+
+		<script src="js/layer/layer.js"></script>
+   		<script src="js/checkIE.js"></script>
+   		<script src="js/provider_recharge.js"></script>
+	</body>
+</html>
