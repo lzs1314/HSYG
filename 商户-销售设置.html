@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商户-销售设置</title>
+		<link type="text/css" href="css/r_sgManage.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour" onload="setup();preselect('山东省','济南市','市中区');">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+			<p class="s_ishopping">&nbsp;</p>
+		</div>
+		<div class="rs_mycontent clearfloat">
+			<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+			<div class="rs_mcright">
+				<div class="rs_mcrTitle clearfloat">
+					<p class="mt_tit">销售设置</p>
+					<a class="mt_return" href="#">返回</a>
+				</div>
+				<div class="rs_mcrCont" style="background: transparent;">
+					<div class="store_cont">
+						<div style="height: 20px;"></div>
+						<h3 class="store_img_tit">店铺图片</h3>
+						<div class="store_img_left">
+							<input type="file" class="store_img_upload" />
+							<p>选择您要上传的图片</p>
+							<span>仅支持JPG、GIF、PNG、JPEG格式，</span><br /><span>文件小于4M，建议上传1200*120px</span>
+						</div>
+						<div class="store_img_rt">
+							<p>图片预览</p>
+							<div class="store_img">
+								<span>山东金宇彬电子商务有限公司</span>
+								<img src="images/sindex/scont_store.png" width="600" height="60" />
+								<a class="deletePic">&nbsp;</a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<h3 class="store_kefu_tit">客服设置</h3>
+						<h4 class="store_kefu_h4"><span class="add_kefu">添加</span>QQ客服</h4>
+						<div class="store_kefu_cont">
+							<p class="clearfloat"><span>解除</span>QQ号：123456644<em>&nbsp;</em>昵称1</p>
+							<p class="clearfloat"><span>解除</span>QQ号：123456644<em>&nbsp;</em>昵称1</p>
+						</div>
+	
+						<h3 class="store_kefu_tit">销售区域设置</h3>
+						<h4 class="store_kefu_h4"><input type="button" class="add_xssz" value="新增我的销售区域" />我的销售区域</h4>
+						<div class="store_xsqy_cont">
+							<p class="clearfloat upd_p"><span class="upd">编辑</span>山东省&nbsp;&nbsp;济南市&nbsp;&nbsp;市中区&nbsp;&nbsp;中海社区</p>
+							<p class="clearfloat upd_p"><span class="upd">编辑</span>山东省&nbsp;&nbsp;济南市&nbsp;&nbsp;历下区&nbsp;&nbsp;中海社2222区</p>
+							<p class="clearfloat upd_p"><span class="upd">编辑</span>山东省&nbsp;&nbsp;济南市&nbsp;&nbsp;市中区&nbsp;&nbsp;中海社22区</p>
+							<p class="clearfloat upd_p"><span class="upd">编辑</span>山东省&nbsp;&nbsp;济南市&nbsp;&nbsp;市中区&nbsp;&nbsp;中2222海社22区</p>
+						</div>
+	
+					</div>
+					<div class="recently_viewed">
+						<p class="recently_viewed_p">最近浏览</p>
+						<a class="recently_viewed_a">换一换</a>
+						<div class="clearfloat"></div>
+						<div class="recently_viewed_list">
+							<ul class="clearfloat">
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img1.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img1.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img1.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img1.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img1.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img1.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+							</ul>
+							<ul class="clearfloat">							
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img2.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img2.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img2.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img2.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/sellerCenter/good_img2.jpg">
+										<span>沙宣水润屑洗发露750ml（新老包装随机发货）</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+
+		<table class="kefu_m_tb alert_tb" style="display:none;">
+			<tr>
+				<th colspan="2"><h3>客服设置</h3></th>
+			</tr>
+			<tr>
+	            <td colspan="2" style="height:1px;">
+	                
+	            </td>
+	        </tr>
+	        <tr>
+	            <td align="right" width="200"><span class="star_red"> *</span>QQ号码：</td>
+	            <td width="360"><input type="text" class="input_sm email_verify" placeholder="请输入验证码"><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	            <td align="right" ><span class="star_red"> *</span>客服昵称：</td>
+	            <td><input type="text" class="input_sm new_email" placeholder="请输入新邮箱" /><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	            <td colspan="2">
+	                <input type="submit" class="alert_btn email_btn ml238" value="确认提交"/>
+	            </td>
+	        </tr>
+	    </table>
+	    <table class="yaoshi_m_tb alert_tb" style="display:none;">
+			<tr>
+				<th colspan="2"><h3>药师设置</h3></th>
+			</tr>
+			<tr>
+	            <td colspan="2" style="height:1px;">
+	                
+	            </td>
+	        </tr>
+	        <tr>
+	            <td align="right" width="200"><span class="star_red"> *</span>QQ号码：</td>
+	            <td width="360"><input type="text" class="input_sm email_verify" placeholder="请输入验证码"><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	            <td align="right" ><span class="star_red"> *</span>客服昵称：</td>
+	            <td><input type="text" class="input_sm new_email" placeholder="请输入新邮箱" /><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	            <td colspan="2">
+	                <input type="submit" class="alert_btn email_btn" value="确认提交"/>
+	            </td>
+	        </tr>
+	    </table>
+
+	    <table class="xiaoshou_xs_tb alert_tb" style="display:none;">
+			<tr>
+				<th colspan="2"><h3>销售区域设置</h3></th>
+			</tr>
+			<tr>
+	            <td colspan="2" style="height:1px;">
+	                
+	            </td>
+	        </tr>
+	        <tr>
+	            <td align="right" width="150"><span class="star_red"> *</span>请选择：</td>
+	            <td width="500">
+	            	<select class="select1" name="province" id="s1">
+                        <option></option>
+                    </select>
+                    <select class="select1" name="city" id="s2">
+                        <option></option>
+                    </select>
+                    <select class="select1" name="town" id="s3">
+                        <option></option>
+                    </select>
+                    <select class="select1 select2" name="com" id="s4">
+                        <option>社区</option>
+                        <option>中海社区</option>
+                        <option>中海社区</option>
+                    </select>
+                </td>
+	        </tr>
+	        <tr>
+	        	<td></td>
+	            <td >
+	                <input type="submit" class="xssz_btn" value="保存"/>
+	                <input type="submit" class="center_btn" value="取消"/>
+	            </td>
+	        </tr>
+	    </table>
+	    
+	    <script src="js/layer/layer.js"></script>
+	    <script src="js/checkIE.js"></script> 
+		<script src="js/r_sellerCommon.js"></script>
+   		<script src="js/geo.js"></script> 		
+   		<script src="js/recently_viewed.js"></script>
+        <script src="js/s_store_setting.js"></script>
+	</body>
+</html>

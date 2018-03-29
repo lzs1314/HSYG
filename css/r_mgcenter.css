@@ -1,0 +1,58 @@
+@import url('r_s_common.css');
+
+
+/*********商户管理中心共用css*********/
+.mg_main{float: left;width: 980px;padding-left: 6px;}
+.mg_titlebar{width: 980px;height: 37px;border-bottom: 1px solid #e2e2e2;background: #fff;}
+.maintit{color: #646464;font: bold 14px/37px "Microsoft Yahei";padding-left: 12px;float: left;}
+/*********end 商户管理中心共用css*********/
+
+/*********商户管理中心*********/
+.sinfoBox{width: 1010px;height: 80px;background: #fff;}
+.sinfo{float: left;width: 400px;height: 50px;padding: 15px 0px 0px 20px;}
+.sinfo_tx{float: left;display: block;width: 48px;height: 48px;border: 1px solid #f35353;border-radius: 50%;overflow: hidden;}
+.sinfo_tx img{width: 100%;}
+.sinfo_name{float: left;padding-left: 12px;}
+.sinfo_name span{display: block;height: 24px;color: #666;font: 14px/24px "Microsoft Yahei";}
+.sinfo_name em{display: block;height: 24px;color: #f35050;font: normal 12px/24px "Microsoft Yahei";background: url(../images/sellerCenter/mgcIcon2.png) no-repeat 0px 4px;padding-left: 25px;}
+.sinfo_btn1,.sinfo_btn2{float: right;display: block;border-radius: 4px;color: #fff;font: 12px/32px "Microsoft Yahei";margin-top: 24px;}
+.sinfo_btn1{width: 82px;height: 32px;background: #fe6d6d url(../images/sellerCenter/mgcIcon2.png) no-repeat 10px -31px;padding-left: 38px;margin-right: 50px;}
+.sinfo_btn2{width: 58px;height: 32px;background: #fe6d6d url(../images/sellerCenter/mgcIcon2.png) no-repeat 11px -72px;padding-left: 42px;margin-right: 22px;}
+.sinfo_btn1:hover{background: #e54242 url(../images/sellerCenter/mgcIcon2.png) no-repeat 10px -31px !important;}
+.sinfo_btn2:hover{background: #e54242 url(../images/sellerCenter/mgcIcon2.png) no-repeat 11px -72px !important;}
+.runmg{width: 1010px;height: 54px;margin-top: 19px;}
+.runmg_tit{float: left;width: 500px;height: 42px;color: #fe6d6d;font: 16px "Microsoft Yahei";padding-top: 12px;}
+.runmg_a{float: right;display: block;height: 34px;color: #383838;font:bold 14px "Microsoft Yahei";background: url(../images/sellerCenter/mgcIcon2.png) no-repeat 0px -158px;padding: 20px 0px 0px 68px;}
+.runmg_btn{float: right;display: block;width: 27px;height: 22px;background: #fe6d6d;color: #fff;font:bold 16px/22px "Microsoft Yahei";border-radius: 5px;text-align: center;margin-top: 18px;}
+.runmg_btn:hover{background: #e54242;}
+.mgc_tit{width: 1009px;height: 39px;border-top: 1px solid #e9e9e9;border-right: 1px solid #e9e9e9;border-bottom: 1px solid #f1f1f1;background: #fff;}
+.mgc_tit p{width: 120px;height: 39px;color: #f35050;font: 16px/39px "Microsoft Yahei";margin-left: 0px;border-left: 6px solid #fe6d6d;padding-left: 22px;}
+.pend_tab{width: 1010px;background: #fff;}
+.pend_tab tr td{height: 39px;border-bottom: 1px solid #e9e9e9;border-right: 1px solid #e9e9e9;border-left: 1px solid #e9e9e9;}
+.pendTab_tit{color: #888;font: 14px "Microsoft Yahei";text-align: center;}
+.pendTab_tt{color: #666;font: 14px "Microsoft Yahei";text-align: center;}
+.pendTab_cont a{color: #666;font: 14px "Microsoft Yahei";margin-left: 20px;}
+.pendTab_cont span{color: #f35050;font: 14px "Microsoft Yahei";}
+.pendTab_cont a:hover{color: #f35050;}
+.mt20{margin-top: 20px;}
+.finance_box{padding-bottom: 10px;}
+.finance_box,.safe_box{width: 1008px;border: 1px solid #e9e9e9;border-top: 0px !important;background: #fff;}
+.finance{width: 1008px;height: 40px;}
+.fe_balance{float: left;color: #f35050;font: 14px/40px "Microsoft Yahei";padding-left: 26px;}
+.fe_balance em{font-style: normal;background: url(../images/sellerCenter/mgcIcon2.png) no-repeat 0px -238px;padding: 2px 5px;margin-left: 26px;cursor: pointer;}
+.fe_operation{float: right;}
+.fe_operation a{color: #666;font: 14px/40px "Microsoft Yahei";margin-right: 30px;}
+.fe_operation a:hover{color: #f35050;}
+.finance_chart,.safe_phone{width: 926px;padding: 0px 26px;}
+.feChart_left{float: left;width: 450px;}
+.feChart_right{float: right;width: 450px;}
+.fe_rev,.fe_exp{width: 450px;height: 30px;color: #666;font: 14px/30px "Microsoft Yahei";}
+.safe_box{margin-bottom: 50px;}
+.safe_phone{height: 38px;}
+.safe_phone p{float: left;}
+.safe_phone a{float: right;display: block;}
+.safe_phone p,.safe_phone a{color: #666;font: 14px/38px "Microsoft Yahei";}
+.safe_phone a:hover{color: #f35050;}
+
+
+/*********end 商户管理中心*********/

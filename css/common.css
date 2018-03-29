@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*---------------------- css reset ----------------------*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, a, blockquote, th,i,u {margin:0 auto;padding:0;border:0;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+ol, ul,ol li,ul li {list-style:none;}
+u, i {font-size:12px; font-weight:normal; font-style:normal;}
+table {border-collapse:collapse; border-spacing:0px;}
+fieldset,img {border:0;}
+html {width:100%; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%;}
+body{color:#000;font-family:'Microsoft Yahei',Verdana,Arial,sans-serif,"Times New Roman";}
+a{text-decoration:none !important;}
+/*清除浮动(后)*/
+.clearfix {clear:both;height:0;overflow:hidden;margin:0;padding:0;}
+input,textarea,select{border:0;outline:0;font-family:'Microsoft Yahei',Verdana,Arial,sans-serif,"Times New Roman";}
+/* 使用webkit内核的浏览器 */
+.clearfloat:after { 
+content: "." ; 
+display: block ;
+height: 0 ;
+clear: both ;
+visibility: hidden ;
+}
+.clearfloat{ display: inline-block; }
+/* Hides from IE-mac \*/ 
+*html .clearfloat{ height:1%; }
+.clearfloat{ display:block; }
+/* End hide from IE-mac \*/
+.fl{ float: left;}
+.fr{ float: right;}
+
+/*IE7及以下提示浏览器版本过低*/
+#mall_iec{ width:100%; height:60px; background:#fff; display:none;}
+#iecin{ width:1200px; height:60px; margin: 0 auto; background:#fff;}
+#iecin p{ font:20px/60px Microsoft Yahei; color:#c8202c; text-align: center;}
+#iecin span{ padding-left: 15px; padding-right: 15px; padding-bottom: 5px; 
+border:1px solid #ddd; background:#f5f5f5; font:30px Microsoft Yahei; float:right; margin-top:5px; cursor:pointer;}
+/*end  IE7及以下提示浏览器版本过低*/
+
+
+
+/*弹窗公用自定义样式*/
+.layerBorder{
+border: 10px solid #aeaeae;border: 10px solid rgba(0,0,0,0.1) !important;
+border-radius: 6px !important;box-shadow: none !important;
+-moz-background-clip: border; /* Firefox 3.6 */    
+-webkit-background-clip: border; /* Safari 4? Chrome 6? */    
+background-clip: border-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */    
+-moz-background-clip: padding; /* Firefox 3.6 */    
+-webkit-background-clip: padding; /* Safari 4? Chrome 6? */    
+background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */    
+-moz-background-clip: content; /* Firefox 3.6 */    
+-webkit-background-clip: content; /* Safari 4? Chrome 6? */    
+background-clip: content-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+/*end 弹窗公用自定义样式*/
+
+/*新统一弹窗样式*/
+body .layerBtn1 .layui-layer-btn{padding: 10px 12px 20px 12px;text-align: center;}
+body .layerBtn1 .layui-layer-btn a{}
+body .layerBtn1 .layui-layer-btn .layui-layer-btn0{width: 88px;background-color: #fd7676;border: 1px solid #ff4b4b;}
+body .layerBtn2 .layui-layer-btn{padding: 10px 12px 20px 12px;text-align: center;}
+body .layerBtn2 .layui-layer-btn a{}
+body .layerBtn2 .layui-layer-btn .layui-layer-btn0{width: 48px;background-color: #fd7676;border: 1px solid #ff4b4b;}
+body .layerBtn2 .layui-layer-btn .layui-layer-btn1{width: 48px;border: 1px solid #dedede;background-color: #f1f1f1;}
+.layer_suc{min-height: 37px;color: #333;font: 16px "Microsoft Yahei";text-align: center;margin-top: 30px;padding-right: 20px;}
+.layer_suc img{vertical-align: middle;margin-right: 10px;}
+.layer_war{min-height: 37px;color: #333;font: 16px "Microsoft Yahei";text-align: center;margin-top: 30px;padding-right: 20px;}
+.layer_war img{vertical-align: middle;margin-right: 10px;}
+.layer_err{min-height: 37px;color: #333;font: 16px "Microsoft Yahei";text-align: center;margin-top: 30px;padding-right: 20px;}
+.layer_err img{vertical-align: middle;margin-right: 10px;}
+/*end 新统一弹窗样式*/

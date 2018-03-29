@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>社区主-零售单商品定价</title>
+        <link type="text/css" href="css/r_community_module.css" rel="stylesheet" />
+        <script src="js/jquery-1.8.0.min.js"></script>
+    </head>
+    <body class="sellerCenter_bodyColour" style="background: #f6f6f6;">
+        <div id="mall_iec">
+            <div id="iecin">
+                <span>×</span>
+                <p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+            </div>
+        </div>
+        <div class="com_mallTop_wrap">
+            <div class="com_logo">
+                <a href="#" class="comlogo"></a>
+                <div class="welcome">欢迎<span>15288886666</span>用户登陆!</div>
+                <ul class="com_mallTop_right">
+                    <li class="quit"><a>退出</a></li>
+                    <li class="retail"><a>零售入口</a></li>
+                    <li class="bldin"><a>便利店入口</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="community_main clearfloat">
+            <div class="nav_left clearfloat">
+                <ul class="side clearfloat">
+                    <li class="stair1 notli"><a href="#">基本信息</a></li>
+                    <li><a href="#">基本信息</a></li>
+                    <li><a href="#">新注册用户列表</a></li>
+                    <li><a href="#">修改登录密码</a></li>
+                    <li><a href="#">修改支付密码</a></li>
+                    <li class="stair2 notli"><a href="#">财务管理</a></li>
+                    <li><a href="#">财务管理</a></li>
+                    <li><a href="#">银行卡管理</a></li>
+                    <li><a href="#">社区主充值</a></li>
+                    <li><a href="#">提现</a></li>
+                    <li class="stair3 notli"><a href="#">零售定价维护</a></li>
+                    <li><a href="#">区间定价</a></li>
+                    <li class="sta_on"><a href="#">单商品定价</a></li>
+                    <li class="stair4 notli"><a href="#">批发定价维护</a></li>
+                    <li><a href="#">区间定价</a></li>
+                    <li><a href="#">单商品定价</a></li>
+                    <li class="stair5 notli"><a href="#">订单管理</a></li>
+                    <li><a href="#">零售订单管理</a></li>
+                    <li><a href="#">批发订单管理</a></li>
+                    <li class="stair6 notli"><a href="#">退货单管理</a></li>
+                    <li><a href="#">零售退货单管理</a></li>
+                    <li><a href="#">批发退货单管理</a></li>
+                </ul>
+                <a href="#"><img src="images/sellerCenter/dredge.png" class="ad"/></a>
+            </div>
+            <div class="community_content">
+                <div class="user_title clearfloat">
+                    <div class="com_select">
+                        <p>请选择社区</p>
+                        <ul class="empsel" style="display:none">
+                            <li class="li">请选择社区</li>
+                            <li class="li">万祥新区</li>
+                            <li class="li">合商社区</li>
+                            <li class="li">还新慧园</li>
+                            <li class="li">王官庄小区</li>
+                            <li class="li">中海广场</li>
+                        </ul>
+                    </div>
+                    <div class="seek_div">
+                        <input type="text" class="seek_in" />
+                        <span class="seek_span">输入商品名称或商品编码进行搜索</span>
+                    </div>
+                    <input type="button" class="seek_but" value="搜索" />
+                    <input type="button" class="derive" value="一键导出" />
+                </div>
+                <div class="com_mon_pri">
+                    <div class="come_pricing clearfloat">
+                        <div class="pri"><p class="pricing">已定价</p></div>
+                        <div class="pri"><p class="ple">未定价</p></div>
+                    </div>
+                    <div class="pricing_div bor common_reg shade">
+                        <!-- 无商品信息显示时 -->
+                        <img src="images/r_recruit/err.png" class="comm_rrimg">
+                        <div class="comm_rdiv">亲~您选择的社区无信息显示</div> 
+                        <!-- end 无商品信息显示时 -->
+                    </div>
+                    <div class="pricing_div bor common_reg shade" style="display: none;">
+                        <!-- 无商品信息显示时 -->
+                        <img src="images/r_recruit/err.png" class="comm_rrimg">
+                        <div class="comm_rdiv">亲~您选择的社区无信息显示</div> 
+                        <!-- end 无商品信息显示时 -->
+                    </div>
+
+                </div>
+            </div>  
+        </div>
+        <!-- 编辑弹窗 -->
+        <div class="retail_layer" style="display:none;">
+        <div class="qq"></div>
+            <div class="clearfloat">
+                <dl class="layer_dl">
+                    <dt>商品名称：</dt>
+                    <dd>加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多加多宝加多</dd>
+                </dl>
+                <dl class="layer_dl1">
+                    <dt>批发价：</dt>
+                    <dd>983215.00</dd>
+                </dl>
+                <dl class="layer_dl1">
+                    <dt>零售价：</dt>
+                    <dd>983215.00</dd>
+                </dl>
+                <dl class="layer_dl">
+                    <dt>零售价：</dt>
+                    <dd>
+                        <input type="text" class="inp_bj" maxlength="8"/>元
+                        <p class="wro_p wrb"></p>
+                    </dd>
+                </dl>
+                <dl class="layer_dl layer_ok">
+                    <dt></dt>
+                    <dd><input type="button" class="ok" value="确定" /><input class="ex" value="取消" type="button"/></dd>
+                </dl>
+            </div>
+        </div>
+                    
+        <script src="js/layer/layer.js" ></script>
+        <script src="js/checkIE.js"></script> 
+        <script src="js/r_community.js"></script>       
+        <script src="js/r_community_pricing_single.js"></script>
+    </body>
+</html>

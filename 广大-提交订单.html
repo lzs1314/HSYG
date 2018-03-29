@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>广大-提交订单</title>
+		<link type="text/css" href="css/gd_topay.css" rel="stylesheet" />
+        <script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	
+	<body  onload="setupA();preselectA('山东省','济南市','市、县级市、县')">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="topay_logo clearfloat">
+		    <a href="#"><img src="images/topay/topay_logo.png" /></a>
+		    <ul class="topay_stepul2">
+		    	<li class="tored">提交</li>
+		    	<li>审核通过</li>
+		    	<li>完成</li>
+		    </ul>
+	  	</div>
+	  	<div class="confirm_content">
+	    	<h3 class="topay_h3tt">填写并确认订单</h3>
+		    <div class="topay_box">
+		    	<h3 class="topay_vicett">收货信息<span class="span_add_address">新增收货地址</span></h3>
+		    	<div class="so_cont_b">
+		            <ul class="so_addr_ul">
+		                <li class="clearfloat">
+		                    <span class="addr_on addr_pt">第三方的范德萨</span>
+		                    <span class="addr_detail">山东省 济南市  市中区  中海广场1601<em>&nbsp;</em>15105413673</span>
+		                    <span class="addr_default">默认地址</span>
+		                </li>
+		                <li class="clearfloat">
+		                    <span class="addr_pt">金宇彬</span>
+		                    <span class="addr_detail" title="山东省 青岛市  市南区  房东佛挡杀佛广场1601山东省 青岛市  市南区  房东佛挡杀佛广场1601">山东省 青岛市  市南区  房山东省 青岛市  市南区  房东佛挡杀佛广场1601东佛挡杀佛广场1601<em>&nbsp;</em>15966665473</span>
+		                    <span class="addr_operate"><a>设置为默认地址</a><a>修改</a><a>删除</a></span>
+		                </li>
+		                <li class="clearfloat">
+		                    <span class="addr_pt">金彬</span>
+		                    <span class="addr_detail">山东省 济南市  市中区  中海广场1601<em>&nbsp;</em>15105413673</span>
+		                    <span class="addr_operate"><a>设置为默认地址</a><a>修改</a><a>删除</a></span>
+		                </li>
+		                <li class="clearfloat">
+		                    <span class="addr_pt">金彬</span>
+		                    <span class="addr_detail">山东省 青岛市  市南区  房东佛挡杀佛广场1601<em>&nbsp;</em>15966665473</span>
+		                    <span class="addr_operate"><a>设置为默认地址</a><a>修改</a><a>删除</a></span>
+		                </li>
+		                <li class="clearfloat">
+		                    <span class="addr_pt">金彬</span>
+		                    <span class="addr_detail">山东省 济南市  市中区  中海广场1601<em>&nbsp;</em>15105413673</span>
+		                    <span class="addr_operate"><a>设置为默认地址</a><a>修改</a><a>删除</a></span>
+		                </li>
+		            </ul>
+		            <div class="ss_addr_btn">收起地址</div>
+		        </div>
+                <div class="topay_pharmacy">
+                <div class="topay_bline clearfix clearfloat"></div>
+                    <h3 class="topay_vicett">用药信息<i>为了您的用药安全，请完善用药人真实信息，信息不全会被药师驳回！</i></h3>
+                    <p class="new_built">+&nbsp;新建用药人</p>
+                    <p class="new_built3 new_builts">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <p class="new_built3">张三丰</p>
+                    <table class="topay_tb">
+                        <tr height="40px">
+                            <td width="24px"><span class="star_red2"> *</span></td>
+                            <td class="topay_info" width="20px;">姓<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>名：</td>
+                            <td width="610px"><input type="text" class="topay_input name2"><p class="text_p"></p></td>
+                        </tr>
+                        <tr height="40px">
+                            <td><span class="star_red2"> *</span></td>
+                            <td class="topay_info">
+                            性<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>别：</td>
+                            <td><form name="form1" method="post" action="">
+                              <p>
+                                <label>
+                                  <input name="sex" type="radio" id="sex_0" value="男" checked>
+                                  <span style="font-size:14px;">男</span></label>
+                                <label>
+                                  <input type="radio" name="sex" value="女" id="sex_1">
+                                  <span style="font-size:14px;">女</span>
+                                </label>
+                              </p>
+                            </form></td>
+                        </tr>
+                        <tr height="40px">
+                            <td><span class="star_red2"> *</span></td>
+                            <td class="topay_info">出生日期：</td>
+                            <td><input type="text" id="test1" class="mr7 birthday"><p class="text_p"></p></td>
+                        </tr>
+                        <tr height="40px">
+                            <td><span class="star_red2"> *</span></td>
+                            <td class="topay_info">手<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>机：</td>
+                            <td><input type="text" class="topay_input phone"><p class="text_p"></p></td>
+                        </tr>
+                        <tr height="40px">
+                            <td><span class="star_red2"> *</span></td>
+                            <td class="topay_info">身份证号：</td>
+                            <td><input type="text" class="topay_input ID"><p class="text_p"></p></td>
+                        </tr>
+                        <tr height="40px">
+                            <td><span class="star_red2"> *</span></td>
+                            <td class="topay_info">处&nbsp;&nbsp;方&nbsp;&nbsp;单：</td>
+                            
+                            <td class="topay_img"><div class="topay_img_box"></div><a class="dreupbtn" href="#">选取文件<input class="dreupfile" type="file" id="file_zm" /></a>
+									<i>上传处方单可缩短审核时间，仅支持jpg、png、gif格式，大小不超过5MB，最多可上传5张。</i></td>
+                        </tr>
+                        <tr height="20px"></tr>
+                    </table>
+                </div>
+                <div class="topay_bline"></div>
+                <h3 class="topay_vicett totop15">发票信息</h3>
+		    	<ul class="topay_pway">
+			        <li class="topay_pway1">不开发票</li>
+			        <li class="borred2 topay_pway2">增值税发票</li>
+		    	</ul>
+                <div class="topay_bline"></div>
+                <h3 class="topay_vicett totop15">支付方式</h3>
+		    	<ul class="topay_pway">
+			        <li>货到付款</li>
+			        <li class="borred0">在线支付</li>
+		    	</ul>
+		    	<div class="topay_bline clearfix"></div>
+		    	<h3 class="topay_vicett totop15">商品信息</h3>
+		    	<table class="topay_msg_tb" cellpadding="0" cellspacing="0">
+			        <tr>
+			        	<th width="400">商品名称</th>
+			        	<th width="184">供应商</th>
+			        	<th width="110">单价（元）</th>
+			        	<th width="110">数量</th>
+			        	<th width="110">小计</th>
+			        </tr>
+			        <tr>
+			        	<td width="400">
+				        	<div class="topay_goods_msgd clearfloat">
+					            <img src="images/topay/topay_goods1.jpg" width="58" height="58" />
+					            <a href="#">洋酒版正品小酒版收藏拿破仑XO干邑白兰地斯</a>
+					            <em class="topayor_em">净含量：120ml</em>
+					            <span class="topayor_span pn">不支持货到付款</span>
+				        	</div>
+			        	</td>
+			          <td width="184">山东合商云购有限公司 </td>
+			          <td width="110">￥92.00</td>
+			          <td width="110" class="col9">x1</td>
+			          <td width="110"><b>￥92.00</b></td>
+			        </tr>
+			        <tr class="nb_td">
+			        	<td colspan="5">
+				        	<div class="remark clearfloat">
+				        		<span>备注：</span>
+				        		<input type="text" maxlength="160">
+				        		<span>配送方式：</span>
+	                            <select class="select_ps">
+	                                <option>快递</option><option>自提</option><option>线下配送</option>
+	                            </select>
+				        	</div>
+			        	</td>
+			        </tr>
+			       <tr>
+			        	<td>
+				        	<div class="topay_goods_msgd clearfloat">
+					            <img src="images/topay/topay_goods1.jpg" width="58" height="58" />
+					            <a href="#">洋酒版正品小酒版收藏拿破仑XO</a>
+					            <em class="topayor_em">净含量：120ml</em>
+					            <span class="topayor_span gs"></span>
+				        	</div>
+			        	</td>
+			          <td>山东合商云购有限公司 </td>
+			          <td>￥92.00</td>
+			          <td class="col9">x1</td>
+			          <td><b>￥92.00</b></td>
+			        </tr>
+			        <tr>
+			        	<td>
+				        	<div class="topay_goods_msgd clearfloat">
+					            <img src="images/topay/topay_goods1.jpg" width="58" height="58" />
+					            <a href="#">洋酒版正品小酒版收藏拿破仑XO干邑白兰地斯50ml玻璃瓶</a>
+					            <em class="topayor_em">净含量：120ml</em>
+					            <span class="topayor_span gn">不支持货到付款</span>
+				        	</div>
+			        	</td>
+			          <td>山东合商云购有限公司 </td>
+			          <td>￥92.00</td>
+			          <td class="col9">x1</td>
+			          <td><b>￥92.00</b></td>
+			        </tr>
+			        <tr class="nb_td">
+			        	<td colspan="5">
+				        	<div class="remark clearfloat">
+				        		<span>备注：</span>
+				        		<input type="text" maxlength="160">
+				        		<span>配送方式：</span>
+	                            <select class="select_ps">
+	                                <option>快递</option><option>自提</option><option>线下配送</option>
+	                            </select>
+				        	</div>
+			        	</td>
+			        </tr>		        
+			        <tr>
+			        	<td>
+				        	<div class="topay_goods_msgd clearfloat">
+					            <img src="images/topay/topay_goods1.jpg" width="58" height="58" />
+					            <a href="#">洋酒版正品小酒版收藏</a>
+					            <em class="topayor_em">净含量：120ml</em>
+					            <span class="topayor_span hn">不支持货到付款</span>
+				        	</div>
+			        	</td>
+			          <td>山东合商云购有限公司 </td>
+			          <td>￥92.00</td>
+			          <td class="col9">x1</td>
+			          <td><b>￥92.00</b></td>
+			        </tr>
+			        <tr>
+			        	<td>
+				        	<div class="topay_goods_msgd clearfloat">
+					            <img src="images/topay/topay_goods1.jpg" width="58" height="58" />
+					            <a href="#">洋酒版正品小酒版收藏拿破仑XO干邑白兰地斯50ml玻璃瓶</a>
+					            <em class="topayor_em">净含量：120ml</em>
+					            <span class="topayor_span hs"></span>
+				        	</div>
+			        	</td>
+			          <td>山东合商云购有限公司 </td>
+			          <td>￥92.00</td>
+			          <td class="col9">x1</td>
+			          <td><b>￥92.00</b></td>
+			        </tr>
+			        <tr class="nb_td">
+			        	<td colspan="5">
+				        	<div class="remark clearfloat">
+				        		<span>备注：</span>
+				        		<input type="text" maxlength="160">
+				        		<span>配送方式：</span>
+	                            <select class="select_ps">
+	                                <option>快递</option><option>自提</option><option>线下配送</option>
+	                            </select>
+				        	</div>
+			        	</td>
+			        </tr>		        
+			    </table>
+		    	
+		    	
+		    </div>
+	
+		    <ul class="topay_price_ul">
+		    	<li><span>2</span>件商品 &nbsp; 商品总计：<span>￥352.00</span></li>
+		    	<li>运费：<em class="toe">￥00.00</em></li>     
+		    </ul>
+		    <div class="topay_subdiv clearfloat">
+		    	<input type="submit" value="提交订单" class="topay_subbtn submitOrder_operation"/>
+		    	<input type="submit" value="提交订单" class="topay_not_subbtn submitOrder_operation"/>
+		    	<p>应付总额：<span>￥352.00</span></p>
+				<a class="topay_subdiv_returnCart">返回购物车</a>
+		    </div>
+	  	</div>
+		<div class="hs_footer_wrap">
+			<div class="hs_footer clearfloat">
+				<p class="hs_footerAd"><img src="images/common/hs_footerAd.png"></p>
+				<ul>
+					<li class="hsf_b">购物指南</li>
+					<li><a href="#">新用户注册</a></li>
+					<li><a href="#">购物流程</a></li>
+					<li><a href="#">服务协议</a></li>
+					<li><a href="#">发票总则</a></li>
+				</ul>
+				<ul>
+					<li class="hsf_b">支付方式</li>
+					<li><a href="#">支付方式说明</a></li>
+					<li><a href="#">在线支付</a></li>
+					<li><a href="#">货到付款</a></li>
+				</ul>
+				<ul>
+					<li class="hsf_b">售后服务</li>
+					<li><a href="#">服务承诺</a></li>
+					<li><a href="#">退换货说明</a></li>
+					<li><a href="#">退款说明</a></li>
+					<li><a href="#">客服中心</a></li>
+					<li><a href="#">争议处理</a></li>
+					<li><a href="#">防诈骗公告</a></li>
+				</ul>
+				<ul>
+					<li class="hsf_b">配送方式</li>
+					<li><a href="#">配送服务查询</a></li>
+					<li><a href="#">验收与签收</a></li>
+					<li><a href="#">特别说明</a></li>
+				</ul>
+				<ul>
+					<li class="hsf_b">合作招募</li>
+					<li><a href="#">社区主招募</a></li>
+					<li><a href="#">供应商招募</a></li>
+					<li><a href="#">诚聘英才</a></li>
+				</ul>
+				<div class="hsCode clearfloat">
+					<dl class="ml26">
+						<dt>合商微信</dt>
+						<dd><img src="images/common/hs_wx.png"></dd>
+					</dl>
+					<dl class="ml49">
+						<dt>合商客户端</dt>
+						<dd><img src="images/common/hs_khd.png"></dd>
+					</dl>
+				</div>
+			</div>
+			<ul class="hs_footerNav clearfloat">
+				<li style="margin-left: 0px;"><a href="#">首页</a></li>
+				<li>|</li>
+				<li><a href="#">购物指南</a></li>
+				<li>|</li>
+				<li><a href="#">支付方式</a></li>
+				<li>|</li>
+				<li><a href="#">售后服务</a></li>
+				<li>|</li>
+				<li><a href="#">配送方式</a></li>
+				<li>|</li>
+				<li><a href="#">个人中心</a></li>
+				<li>|</li>
+				<li><a href="#">客服中心</a></li>
+				<li>|</li>
+				<li><a href="#">关于我们</a></li>
+			</ul>
+			<div class="hs_footerInfo">
+				<ul>
+					<li>Copyright©2014-2015 合商云购&nbsp;&nbsp;&nbsp;&nbsp;www.heshang365.com&nbsp;版权所有&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;鲁ICP备14033877号 -1 </li>
+					<li><img class="footPhone" src="images/common/hs_footPhone.png">客服热线：400-8821555&nbsp;&nbsp;&nbsp;&nbsp;办公地址：山东省济南市市中区中海国际16楼</li>
+					<li class="hsf"><img src="images/common/beian.jpg"><a href="#"><img border="0" class="hsf_jc" src="http://img.webscan.360.cn/status/pai/hash/751f266a276bc30e20411648236c0c50"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--新增收货地址-->
+	    <table class="add_address_tb alert_tb" style="display:none;">
+	        <tr>
+	            <th colspan="2"><h3>新增收货地址</h3></th>
+	        </tr>
+	        <tr>
+	            <td colspan="2" style="height:20px;padding:0">&nbsp;</td>
+	        </tr>
+	        <tr>
+	            <td width="160" align="right"><span class="star_red"> *</span> 姓名：</td>
+	            <td width="450"><input type="text" class="input_sm name" placeholder="建议您如实填写真实姓名"><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	            <td align="right"><span class="star_red "> *</span> 电话：</td>
+	            <td><input type="text" class="input_sm new_phone" placeholder="建议您如实填写电话号码"><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	            <td align="right"><span class="star_red"> *</span> 收货地址：</td>
+	            <td>
+	                <p class="regsel">
+	                        <select class="select1" name="province" id="p1">
+	                            <option></option>
+	                        </select>
+	                        <select class="select1" name="city" id="p2">
+	                            <option></option>
+	                        </select>
+	                        <select class="select1 select2" name="town" id="p3">
+	                            <option></option>
+	                        </select>
+	                    </p>
+	                    <span class="note_p"></span>
+	            </td>
+	        </tr>
+	        <tr>
+	            <td align="right"><span class="star_red"> *</span>所在(或周边)社区：</td>
+	            <td>
+	                <p class="regsel">
+	                    <select class="select_lg">
+	                        <option>请选择</option>
+	                        <option>中海国际社区</option>
+	                        <option>其他小区</option>
+	                    </select>
+	                    <span class="note_p"></span>
+	                </p>
+	                
+	            </td>
+	        </tr>
+	        <tr>
+	            <td align="right" ></td>
+	            <td><input type="text" class="input_lg bank_info address" placeholder="建议您如实填写详细地址信息" /><span class="note_p"></span></td>
+	        </tr>
+	        <tr>
+	        	<td>&nbsp;</td>
+	            <td>
+	                <input type="submit" class="addr_sbtn alert_btn" value="确&nbsp;&nbsp;认"/>
+	            </td>
+	        </tr>
+	    </table>
+       <!--新建用药人信息-->
+	    <table class="add_pharmacy_tb" style="display:none;">
+	        <tr class="alert_tb_1 pd12_tr">
+	            <th colspan="2"><h3>新建用药人</h3></th>
+	        </tr>
+	       
+	        <tr>
+	            <td width="250" align="right"><span class="star_red"> *</span>姓名：</td>
+	            <td width="500"><input type="text" class="input_sms J_name"><p></p></td>
+	        </tr>
+	        <tr>
+	            <td align="right"><span class="star_red "> *</span>性别：</td>
+	            <td><label>
+                                  <input name="sex" type="radio" id="sex_0" value="男" checked>
+                                  男&nbsp;&nbsp;&nbsp;</label>
+                                
+                                <label>
+                                  <input type="radio" name="sex" value="女" id="sex_1">
+                                  女&nbsp;&nbsp;&nbsp;</label></td>
+	        </tr>
+	        <tr>
+	            <td align="right"><span class="star_red"> *</span>出生日期：</td>
+	            <td><input type="text" id="test2" class="mr7 J_birthday"><p></p></td>
+	        </tr>
+	        <tr>
+	            <td align="right"><span class="star_red "> *</span>手机：</td>
+	            <td><input type="text" class="input_sms J_phone"><p></p></td>
+	        </tr>
+            <tr>
+	            <td align="right">
+                    <span class="star_red "> *</span>身份证号：
+                </td>
+	            <td>
+                    <input type="text" class="input_sms J_ID" maxlength="18">
+                    <p></p>
+                </td>
+	        </tr>
+            <tr height="40px">
+                            <td align="right"><span class="star_red "> *</span>&nbsp;处&nbsp;方&nbsp;单：</td>
+                            <td class="topay_img"><div class="topay_img_box"></div><a class="dreupbtn" href="#">选取文件<input class="dreupfile" type="file" id="file_zm" /></a></td>
+                        </tr>
+	    </table>
+        <!--发票信息-->
+	    <table class="add_invoice_tb" style="display:none;">
+	        <tr class="alert_tb_1 pd12_tr">
+	            <th colspan="2"><h3>发票信息</h3></th>
+	        </tr>
+	       
+	        <tr>
+	            <td width="150" align="left"><span>&nbsp;</span><p class="borred3">普通发票</p></td></tr>
+	        <tr style="height:48">
+	            <td align="right" class="fptt">发票抬头:</td>
+	            <td class="J_ttp"><div class="invdiv2"><p class="borred4 topay_add2">个人</p></div></td>
+	        </tr>
+	        <tr>
+	            <td align="right"></td>
+	            <td class="pos_invoice">
+	            	<div id="InputsWrapper">
+
+	            	</div>
+	            	<a class="new_invoice" id="AddMoreFileBox" href="#">新增发票抬头</a>
+	            </td>
+	        </tr>
+	        <tr>
+	            <td align="right">发票内容:</td>
+	            <td><span>&nbsp;</span><p class="borred5">明细</p></td>
+	        </tr>
+	    </table>
+	    <table class="community_prompt" style="display:none;">
+			<tr>
+				<td width="540"></td>
+			</tr>
+			<tr>
+				<td class="community_text">您所选的药品不在配送范围内，请您更换社区或更换收货地址重新提交</td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+	    
+	    <script src="js/layer/layer.js"></script>	
+		<script src="js/checkIE.js"></script>
+		<script src="js/geo.js"></script>
+		<script src="js/confirm_order.js"></script>
+        <script src="js/ph_gd.js"></script>
+        <script src="js/laydate/laydate.js" ></script>
+        <script src="js/hs_pc_pharmacy.js"></script>
+	</body>
+</html>

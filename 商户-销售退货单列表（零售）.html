@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商户-销售退货单列表（零售）</title>
+		<link type="text/css" href="css/r_sellerCenter.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+			<p class="s_ishopping">&nbsp;</p>
+		</div>
+		<div class="rs_mycontent clearfloat">
+			<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+			<div class="rs_mcright">
+				<div class="rs_mcrTitle clearfloat">
+					<p class="mt_tit">零售退货单</p>
+				</div>
+				<div class="rs_mcrCont" style="background: transparent;">
+					<div class="sfilter">
+						<div class="sf_cont">
+							<p class="sfInput_p">
+								<input type="text" maxlength="40" class="J_name" />
+								<em>输入退货单号或商品名称</em>
+							</p>
+			                <p class="sf_seatit ml20">下单时间：</p>
+							<input type="text" readonly="readonly" class="sf_time J_start" id="start" />
+							<em class="sfem">-</em>
+							<input type="text" readonly="readonly" class="sf_time J_end" id="end" />
+							<input class="vesselBtn ml20" type="button" value="搜索" />		
+							<input class="deriveBtn ml20" type="button" value="一键导出" />	
+						</div>
+						<div class="sf_state">
+							<span>退货单状态：</span>
+							<a href="#" class="sf_state_on">全部</a>
+							<a href="#">退货审核</a>
+							<a href="#">退货中</a>
+							<a href="#">退款中</a>
+							<a href="#">退货完成</a>
+							<a href="#">退货失败</a>
+						</div>
+					</div>
+					
+					<div class="pur_cont">
+						<ul class="pur_cont_tit">
+							<li class="pt_sp">商品信息</li>
+							<li class="pt_dj">单价</li>
+							<li class="pt_sl">数量</li>
+							<li class="pt_je">总金额</li>
+							<li class="pt_thzt">退货单状态</li>
+							<li class="pt_thcz">操作</li>
+						</ul>
+						<table class="table_single">
+							<tr>
+								<th colspan="4" class="ts_message">
+									<p>
+										<span>退货单号：</span><em>HSQY000000000</em>
+										<span>申请时间：</span><em>2015-11-19&nbsp;&nbsp;13:14:49</em>
+										<span>买家：</span><em>山东合商云购有限公司</em>
+									</p>
+								</th>
+							</tr>
+							<tr>
+								<td width="490px">
+									<div class="clearfloat" style="width: 490px;">
+										<div class="w295 fl ts_good">
+											<img src="images/sellerCenter/good_img1.jpg">
+											<a href="#">法国进口洋酒收藏 皇家路易白兰地 XO 蓝色天地盖 700ml+50ml</a>
+											<p class="fl_gg_p" title="净含量：700ml">净含量：700ml</p>
+											<div class="clearfix"></div>
+										</div>
+										<p class="w99 fl ts_jg">￥22.80</p>
+										<p class="w80 fl ts_num">x10</p>	
+									</div>
+									<div class="clearfloat" style="width: 490px;">
+										<div class="w295 fl ts_good">
+											<img src="images/sellerCenter/good_img1.jpg">
+											<a href="#">法国进口洋酒收藏 皇家路易白兰地 XO 蓝色天地盖 700ml+50ml</a>
+											<p class="fl_gg_p" title="净含量：700ml&nbsp;&nbsp;净含量：700ml">净含量：700ml&nbsp;&nbsp;净含量：700ml</p>
+											<div class="clearfix"></div>
+										</div>
+										<p class="w99 fl ts_jg">￥22.80</p>
+										<p class="w80 fl ts_num">x10</p>	
+									</div>
+									<div class="clearfloat" style="width: 490px;">
+										<div class="w295 fl ts_good">
+											<img src="images/sellerCenter/good_img1.jpg">
+											<a href="#">法国进口洋酒收藏 皇家路易白兰地 XO 蓝色天地盖 700ml+50ml</a>
+											<p class="fl_gg_p" title="净含量：700ml&nbsp;&nbsp;净含量：700ml">净含量：700ml&nbsp;&nbsp;净含量：700ml</p>
+											<div class="clearfix"></div>
+										</div>
+										<p class="w99 fl ts_jg">￥22.80</p>
+										<p class="w80 fl ts_num">x10</p>	
+									</div>
+								</td>
+								<td width="170">
+									<div class="ts_zjg"><p>￥228.00</p><span>(含运费￥20.00)</span></div>
+								</td>
+								<td width="150px"><p class="ts_zt ts_zt_dfu">退货中</p></td>
+								<td width="160px"><a href="#" class="shipmentsBtn cfbtn">确认收货</a></td>
+							</tr>
+						</table>
+						<table class="table_single">
+							<tr>
+								<th colspan="4" class="ts_message">
+									<p>
+										<span>退货单号：</span><em>HSQY000000000</em>
+										<span>申请时间：</span><em>2015-11-19&nbsp;&nbsp;13:14:49</em>
+										<span>买家：</span><em>山东合商云购有限公司</em>
+									</p>
+								</th>
+							</tr>
+							<tr>
+								<td width="490px">
+									<div class="clearfloat" style="width: 490px;">
+										<div class="w295 fl ts_good">
+											<img src="images/sellerCenter/good_img1.jpg">
+											<a href="#">法国进口洋酒收藏 皇家路易白兰地 XO 蓝色天地盖 700ml+50ml</a>
+											<p class="fl_gg_p" title="净含量：700ml&nbsp;&nbsp;净含量：700ml">净含量：700ml&nbsp;&nbsp;净含量：700ml</p>
+											<div class="clearfix"></div>
+										</div>
+										<p class="w99 fl ts_jg">￥22.80</p>
+										<p class="w80 fl ts_num">x10</p>	
+									</div>
+									<div class="clearfloat" style="width: 490px;">
+										<div class="w295 fl ts_good">
+											<img src="images/sellerCenter/good_img1.jpg">
+											<a href="#">法国进口洋酒收藏 皇家路易白兰地 XO 蓝色天地盖 700ml+50ml</a>
+											<p class="fl_gg_p" title="净含量：700ml&nbsp;&nbsp;净含量：700ml">净含量：700ml&nbsp;&nbsp;净含量：700ml</p>
+											<div class="clearfix"></div>
+										</div>
+										<p class="w99 fl ts_jg">￥22.80</p>
+										<p class="w80 fl ts_num">x10</p>	
+									</div>
+								</td>
+								<td width="170px">
+									<div class="ts_zjg"><p>￥228.00</p><span>(含运费￥20.00)</span></div>
+								</td>
+								<td width="150px"><p class="ts_zt ts_zt_dfa">退货审核</p></td>
+								<td width="160px">
+									<a href="javascript:void(0)" class="shipmentsBtn agreebtn">同意</a>
+									<a href="javascript:void(0)" class="refuseBtn rejectbtn">拒绝</a>
+								</td>
+							</tr>
+						</table>
+						<div class="noret" style="display: none;">
+	                		<p>非常抱歉！</p>
+	                		<p>未搜索到相关退货单信息</p>
+	                	</div>					
+						<div class="h50"></div>
+						<div class="gm_page_div clearfloat">
+				            <div class="gm_page clearfloat">
+				            	<a href="#" class="gmpage_prev gmpage_prev_jin"></a>
+				            	<a href="#" class="gmpage_on">1</a>
+				            	<a href="#">2</a>
+				            	<a href="#">3</a>
+				            	<b class="gmpage_b">...</b>
+				            	<a href="#">5</a>
+				            	<a href="#" class="gmpage_next"></a>
+				            	<p class="gmpage_p">共<em>5</em>页</p>
+				            	<span class="gmpage_span">到</span>
+				            	<input type="text" class="gmpage_text" />
+				            	<span class="gmpage_span">页</span>
+				            	<p class="gmpage_btn mr20"><input type="button" value="GO" /></p>
+				            </div>
+				        </div>   
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!--同意弹窗-->
+	    <div class="agr_layer" style="display: none;">
+	    	<div class="agrlayer_tit">填写收货信息</div>
+	    	<table class="aglr_table" cellpadding="0" cellspacing="0">
+	    		<tr>
+	    			<td width="90px"><p class="aglrTit">手机号：</p></td>
+	    			<td width="240px"><input type="text" class="aglrInput J_agrPhone" value="15725107888" maxlength="11" /></td>
+	    			<td width="30px"><span class="aglrSpan"></span></td>
+	    		</tr>
+	    		<tr>
+	    			<td>&nbsp;</td>
+	    			<td><p class="aglrP">&nbsp;</p></td>
+	    		</tr>
+	    		<tr>
+	    			<td><p class="aglrTit">收货人：</p></td>
+	    			<td><input type="text" class="aglrInput J_agrName" value="小王" maxlength="10" /></td>
+	    			<td><span class="aglrSpan"></span></td>
+	    		</tr>
+	    		<tr>
+	    			<td>&nbsp;</td>
+	    			<td><p class="aglrP">&nbsp;</p></td>
+	    		</tr>	    		
+	    		<tr>
+	    			<td><p class="aglrTit">收货地址：</p></td>
+	    			<td><textarea maxlength="40" class="aglr_textarea J_aglr_textarea"></textarea></td>
+	    			<td><span class="aglrSpan"></span></td>
+	    		</tr>
+	    		<tr>
+	    			<td>&nbsp;</td>
+	    			<td><p class="aglrP">&nbsp;</p></td>
+	    		</tr>	
+	    		<tr>
+	    			<td colspan="3" class="aglrBtn_td"><input type="button" class="aglrBtn" value="确 定" /></td>
+	    		</tr>	
+	    	</table>
+	    </div>
+	    <!--end 同意弹窗-->
+	    <div class="oinfo_panel reject_reason" style="display: none;">
+	        <p>拒绝原因：</p>
+	        <textarea maxlength="40"></textarea>
+	    </div>
+		
+		<script src="js/layer/layer.js"></script>
+		<script src="js/laydate/laydate.js"></script>
+		<script src="js/checkIE.js"></script>
+		<script src="js/r_sellerCommon.js"></script>
+		<script src="js/s_soldreturnlist.js"></script>
+	</body>
+</html>

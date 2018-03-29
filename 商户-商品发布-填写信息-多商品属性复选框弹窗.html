@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>合商云购</title>
+		<link type="text/css" href="css/s_release.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body style="background: #f9f9f9;">
+		<a class="setczBtn" href="#">设置</a>
+		
+		<!--多属性复选框弹窗-->
+		<div class="setcz_layer" style="display: none;">
+			<div class="setcz_tit">请选择</div>
+			<div class="setcz_cont">
+				<div class="szseek_div clearfloat">
+					<i class="szseek_icon"></i>
+					<input type="text" class="szseek_text" />
+					<input type="button" class="szseek_btn" value="搜索" />
+					<input type="button" class="checkall_btn" value="全选" />
+				</div>
+				<div class="szcont chec_input clearfloat">
+					<div class="szcont_div">
+						<input class="prop_chk prop_chk_213" id="chk_prop_122217" data-pname="适用年龄" data-pid="213" data-vid="122217" value="19岁" type="checkbox">
+	                    <input value="19岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">19岁</span>
+					</div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122218" data-pname="适用年龄" data-pid="213" data-vid="122218" value="20岁" type="checkbox">
+	                    <input value="20岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">20岁</span>
+                    </div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122219" data-pname="适用年龄" data-pid="213" data-vid="122219" value="21岁" type="checkbox">
+	                    <input value="21岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">21岁</span>
+                    </div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122220" data-pname="适用年龄" data-pid="213" data-vid="122220" value="22岁" type="checkbox">
+	                    <input value="22岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">22岁</span>
+                    </div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122221" data-pname="适用年龄" data-pid="213" data-vid="122221" value="23岁" type="checkbox">
+	                    <input value="23岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">23岁</span>
+                    </div>
+                    <div class="szcont_div">
+						<input class="prop_chk prop_chk_213" id="chk_prop_122222" data-pname="适用年龄" data-pid="213" data-vid="122217" value="24岁" type="checkbox">
+	                    <input value="24岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">24岁</span>
+					</div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122223" data-pname="适用年龄" data-pid="213" data-vid="122218" value="25岁" type="checkbox">
+	                    <input value="25岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">25岁</span>
+                    </div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122224" data-pname="适用年龄" data-pid="213" data-vid="122219" value="26岁" type="checkbox">
+	                    <input value="26岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">26岁</span>
+                    </div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122225" data-pname="适用年龄" data-pid="213" data-vid="122220" value="27岁" type="checkbox">
+	                    <input value="27岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">27岁</span>
+                    </div>
+                    <div class="szcont_div">
+                    	<input class="prop_chk prop_chk_213" id="chk_prop_122226" data-pname="适用年龄" data-pid="213" data-vid="122221" value="28岁" type="checkbox">
+	                    <input value="28岁" type="hidden">
+	                    <span style="font:12px/35px Microsoft yahei;color: #646464;padding-right:10px;padding-left:3px">28岁</span>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!--end 多属性复选框弹窗-->
+		
+		<script src="js/layer/layer.js"></script>
+		<script type="text/javascript">
+			var $setczBtn = $(".setczBtn");
+            $setczBtn.click(function(){
+                layer.open({
+		            type: 1,
+		            title: false,
+		            closeBtn: 1,
+		            skin: 'layerBtn1',
+		            area: ['530px', '380px'],
+		            btn: ['确 定'],
+		            content: $(".setcz_layer")
+		        })
+            })			
+		</script>
+	</body>
+</html>

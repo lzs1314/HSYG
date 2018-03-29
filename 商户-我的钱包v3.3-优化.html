@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商户-我的钱包</title>
+		<link type="text/css" href="css/r_s_account.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour" onload="setup();setupA();preselect('山东省','济南市','市、县级市、县');preselectA('山东省','济南市','市、县级市、县')">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+		</div>
+		<div class="rs_mycontent clearfloat">
+			<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+			<div class="rs_mcright">
+				<div class="rs_mcrTitle clearfloat">
+					<p class="mt_tit">我的钱包</p>
+				</div>
+				<div class="rs_mcrCont" style="background: transparent;">
+					<div class="account_cont">
+						<div class="wallet_basic">
+							<h5 class="available_mn_h5">可用金额</h5>
+							<span class="available_mn_sp">1999.46</span>
+							<a href="#" class="wallet_in">充值</a>
+							<a href="#" class="wallet_out">提现</a>
+							<a href="#" class="J_refr wallet_refr"><i>&nbsp;</i>刷新</a>
+							<a href="#" class="refr_jin" style="display: none;"><i>&nbsp;</i><span>120</span>&nbsp;s</a>
+							<div class="line_g"></div>
+							<dl class="total_mn">
+								<dt>总金额</dt>
+								<dd>1999.46</dd>
+							</dl>
+							<dl class="frozen_mn">
+								<dt>待用金额</dt>
+								<dd>0.00</dd>
+							</dl>
+						</div>
+						<div class="wallet_bank">
+							<div class="wallet_bank_block">
+								<div class="bank_logo">&nbsp;</div>
+								<dl>
+									<dt>平安银行 山东省济南市山大路支行</dt>
+									<dd>62262<i>****</i>22220000<span>&nbsp;</span></dd>
+								</dl>
+								<div class="clearfix"></div>
+								<div class="ZHnum clearfloat">
+									<em>数字账号：1234568778456164321</em>
+									<b class="queryI"></b>
+								</div>
+								<div class="account_kname">开户人姓名：张三丰</div>
+							</div>
+							<p class="apply_btn apply_ch"><a href="#">申请变更银行卡</a></p>
+						</div>
+						<div class="wallet_bank" style="display: none;">
+							<div class="wallet_bank_block">
+								<div class="bank_logo">&nbsp;</div>
+								<dl>
+									<dt>您还未关联银行卡，请先关联</dt>
+								</dl>
+								<div class="clearfix"></div>
+							</div>
+							<p class="apply_btn apply_go"><a href="#">立即关联</a></p>
+						</div>						
+						<div class="clearfix"></div>
+					</div>
+					<div class="trade_record">
+						<div class="tr_cont clearfloat">
+							<p class="tr_seatit ml10">订单号：</p>
+							<p class="trInput_p">
+								<input type="text" maxlength="20" class="J_ornum" />
+								<em>请输入订单号</em>
+							</p>
+							<p class="tr_seatit ml12">交易时间：</p>
+							<input type="text" readonly="readonly" class="tr_time J_start" id="start" />
+							<em class="trem">-</em>
+							<input type="text" readonly="readonly" class="tr_time J_end" id="end" />
+							<p class="tr_seatit ml12">入账类型：</p>
+							<div class="tr_select">
+			                    <p>全部</p>
+			                    <ul style="display: none;">
+			                        <li>全部</li>
+									<li>收入</li>
+									<li>支出</li>
+			                    </ul>
+			                </div>
+							<input class="tr_vesselBtn ml12" type="button" value="搜索" />							
+						</div>
+						<div class="wu_div" style="display:none;">
+							暂无数据
+						</div>
+						<table class="trade_record_tb">
+							<tr>
+								<td width="40px">&nbsp;</span></td>
+								<td width="150px"><span class="trt_head_span"><b>交易时间</b></span></td>
+								<td width="160px"><span class="trt_head_span"><b>订单单号</b></span></td>
+								<td width="100px"><span class="trt_head_span"><b>入账类型</b></span></td>
+								<td width="120px"><span class="trt_head_span"><b>交易类型</b></span></td>
+								<td width="260px"><span class="trt_head_span"><b>交易方</b></span></td>
+								<td width="150px"><span class="trt_head_span"><b>交易金额</b></span></td>
+							</tr>
+							<tr>
+								<td class="num_cr">1</td>
+								<td><span class="trt_head_span">2015.12.12 10：30</span></td>
+								<td>LS123456789</td>
+								<td>收入</td>
+								<td>平台业务</td>
+								<td>济南呵呵工呵工贸公司</td>
+								<td><span class="trt_plus_sp">+5000.00</span></td>
+							</tr>
+							<tr>
+								<td class="num_cr">2</td>
+								<td><span class="trt_head_span">2015.12.11 10：30</span></td>
+								<td>LS123222789</td>
+								<td>支出</td>
+								<td>平台业务</td>
+								<td>济南呵呵工贸公司</td>
+								<td><span class="trt_minus_sp">-4000.00</span></td>
+							</tr>
+							<tr>
+								<td class="num_cr">3</td>
+								<td><span class="trt_head_span">2015.12.11 20：30</span></td>
+								<td>LS123456781</td>
+								<td>收入</td>
+								<td>平台业务</td>
+								<td>济南呵呵工贸公司</td>
+								<td><span class="trt_plus_sp">+5000.00</span></td>
+							</tr>
+							<tr>
+								<td class="num_cr">4</td>
+								<td><span class="trt_head_span">2015.12.11 11：30</span></td>
+								<td>LS003456789</td>
+								<td>支出</td>
+								<td>供应链业务</td>
+								<td>济南呵呵工呵工贸公司</td>
+								<td><span class="trt_minus_sp">-5000.00</span></td>
+							</tr>
+							<tr>
+								<td class="num_cr">5</td>
+								<td><span class="trt_head_span">2015.12.10 10：30</span></td>
+								<td>LS123456789</td>
+								<td>收入</td>
+								<td>供应链业务</td>
+								<td>济南呵呵工呵工呵工贸公司</td>
+								<td><span class="trt_plus_sp">+50.00</span></td>
+							</tr>
+							<tr>
+								<td class="num_cr">6</td>
+								<td><span class="trt_head_span">2015.12.12 10：30</span></td>
+								<td>LS123456789</td>
+								<td>收入</td>
+								<td>供应链业务</td>
+								<td>济南呵呵工贸公司</td>
+								<td><span class="trt_plus_sp">+5000.00</span></td>
+							</tr>
+						</table>
+						<div class="gm_page_div clearfloat">
+				            <div class="gm_page clearfloat">
+				            	<a href="#" class="gmpage_prev gmpage_prev_jin"></a>
+				            	<a href="#" class="gmpage_on">1</a>
+				            	<a href="#">2</a>
+				            	<a href="#">3</a>
+				            	<b class="gmpage_b">...</b>
+				            	<a href="#">5</a>
+				            	<a href="#" class="gmpage_next"></a>
+				            	<p class="gmpage_p">共<em>5</em>页</p>
+				            	<span class="gmpage_span">到</span>
+				            	<input type="text" class="gmpage_text" />
+				            	<span class="gmpage_span">页</span>
+				            	<p class="gmpage_btn mr20"><input type="button" value="GO" /></p>
+				            </div>
+				        </div>   
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="blank_10"></div>
+		<!--变更银行卡信息弹窗-->
+		<div class="change_layer" style="display: none;">
+			<p class="change_tit">变更银行卡信息</p>
+			<table class="change_tab" cellpadding="0" cellspacing="0">
+				<tr class="pb10">
+					<td width="120px">
+						<p class="chatab_tit">开户名<i>*</i>：</p>
+					</td>
+					<td width="300px">
+						<p class="chatab_text">张高冷</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td class="chvt38">
+						<p class="chatab_tit">原银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_text">622625678922220000</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_input">
+							<input class="bankInput" type="text" maxlength="50" />
+							<em>目前仅支持绑定借记卡</em>
+							<span class="fun_span"></span>
+						</p>
+						<div class="clearfix"></div>
+						<p class="vnote">注：此处设置的银行卡会成为默认提款卡</p>
+					</td>
+				</tr>	
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>					
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">开户行<i>*</i>：</p>
+					</td>
+					<td>
+            			<select class="chselect" name="province" id="s1">
+                            <option></option>
+                        </select>
+                        <select class="chselect ml10" name="city" id="s2">
+                            <option></option>
+                        </select>
+                        <select class="chselect" name="town" id="s3" style="display: none;">
+                            <option></option>
+                        </select>
+                        <span class="fun_span"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>	
+				<tr>
+					<td></td>
+					<td>
+						<p class="chatab_input">
+							<input class="bankinfoInput" type="text" maxlength="50" />
+							<em>请填写开户分（支）行信息</em>
+							<span class="fun_span"></span>
+						</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+		            <td>
+		                <input type="button" class="chatab_btn" value="提交变更申请"/>
+		            </td>
+		        </tr>
+			</table>
+		</div>		
+		<!--end  变更银行卡信息弹窗-->
+
+		<!--关联银行卡-->
+		<div class="addbank_layer" style="display: none;">
+			<p class="change_tit">关联银行卡</p>
+			<table class="change_tab" cellpadding="0" cellspacing="0">
+				<tr class="pb10">
+					<td width="120px" class="chvt38">
+						<p class="chatab_tit">开户名：</p>
+					</td>
+					<td width="300px">
+						<p class="chatab_text">张高冷</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_input">
+							<input class="addbankInput" type="text" maxlength="50" />
+							<em>目前仅支持绑定借记卡</em>
+							<span class="fun_span"></span>
+						</p>
+						<div class="clearfix"></div>
+						<p class="vnote">注：此处设置的银行卡会成为默认提款卡</p>
+					</td>
+				</tr>	
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>	
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">开户行<i>*</i>：</p>
+					</td>
+					<td>
+            			<select class="chselect" name="province" id="p1">
+                            <option></option>
+                        </select>
+                        <select class="chselect ml10" name="city" id="p2">
+                            <option></option>
+                        </select>
+                        <select class="chselect" name="town" id="p3" style="display: none;">
+                            <option></option>
+                        </select>
+                        <span class="fun_span"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>	
+				<tr>
+					<td></td>
+					<td>
+						<p class="chatab_input">
+							<input class="addbankinfoInput" type="text" maxlength="50" />
+							<em>请填写开户分（支）行信息</em>
+							<span class="fun_span"></span>
+						</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td>&nbsp;</td>
+					<td>
+						<p class="fun_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+		            <td>
+		                <input type="button" class="addtab_btn" value="确认关联"/>
+		            </td>
+		        </tr>
+			</table>
+		</div>		
+		<!--end  关联银行卡-->		
+	    
+		<script src="js/layer/layer.js"></script>
+		<script src="js/laydate/laydate.js"></script>
+		<script src="js/checkIE.js"></script>
+		<script src="js/r_sellerCommon.js"></script>
+	   	<script src="js/geo.js"></script>
+	   	<script src="js/s_function.js"></script>
+	   	<script src="js/s_wallet.js"></script>
+	</body>
+</html>

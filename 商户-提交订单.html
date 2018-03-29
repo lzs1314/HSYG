@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商户-提交订单</title>
+    <link type="text/css" href="css/s_order.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.0.min.js"></script>
+</head>
+<body class="porder_body_bg" onload="setupA();preselectA('山东省','济南市','市、县级市、县');setup();preselect('山东省','济南市','市、县级市、县')">
+    <div id="mall_iec">
+        <div id="iecin">
+            <span>×</span>
+            <p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+        </div>
+    </div>
+    <div class="so_outw">
+        <div class="so_header clearfloat">
+            <img src="images/sindex/hs_logo.jpg" class="sotop_24"/>
+            <img src="images/sindex/lstep_2.jpg" class="sotop_37"/>
+        </div>
+    </div>
+    <div class="so_cont">
+        <h3 class="so_h3_tit">收货信息<span class="addr_add_span" style="display: none;">新增收货地址</span></h3>
+        <div class="so_cont_b">
+            <ul class="so_addr_ul">
+                <li class="clearfloat">
+                    <span class="addr_on addr_pt">第三方的范德萨</span>
+                    <span class="addr_detail">山东省 济南市  市中区  中海广场1601<em>&nbsp;</em>15105413673</span>
+                    <a href="#" class="addr_default">修改地址</a>
+                </li>
+            </ul>
+        </div>
+        <div class="so_cont_b" style="display: none;">
+            <div class="noaddr">
+            	<div class="noaddr_div">
+            		<p>暂无收货地址，请点击右上角按钮添加</p>
+            		<span>为了保障您的权益，请您填写正确的收货地址</span>
+            	</div>
+            </div>
+        </div>
+    </div>
+    <div class="so_cont">
+        <h3 class="so_h3_tit">支付方式</h3>
+        <div class="so_cont_b">
+            <ul class="so_pay_way clearfloat">
+                <li class="way_on">网银支付</li>
+                <li><p>货到付款</p><p class="way_gray">(支持POS机刷卡)</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="so_cont">
+        <h3 class="so_h3_tit">商品信息</h3>
+        <div class="so_cont_b">
+            <table class="so_table_tit">
+                <tr>
+                    <td width="330">商品</td>
+                    <td width="110">单价（元）</td>
+                    <td width="110">数量</td>
+                    <td width="120">优惠</td>
+                    <td width="130">小计</td>
+                    <td width="120">运费</td>
+                </tr>
+            </table>
+            <table class="so_table_cont">
+                <tr>
+                    <th colspan="6">山东合商云购电子商务有限公司<span class="nonsupport">不支持货到付款</span></th>
+                </tr>
+                <tr>
+                    <td width="330">
+                        <dl class="clearfloat">
+                            <dt><img src="images/hs_list/c11.jpg" /></dt>
+                            <dd class="so_dd_1081"><a href="#">发到手机福利圣诞节反垄断法</a></dd>
+                            <dd class="so_dd_1081 corac" title="净含量：750ml">净含量：750ml</dd>
+                            <dd class="so_dd_1082"><span class="nonsupport">不支持货到付款</span></dd>
+                        </dl>
+                    </td>
+                    <td width="110">￥92.00</td>
+                    <td width="110">x1</td>
+                    <td width="120">——</td>
+                    <td width="130"><b>￥104.00</b></td>
+                    <td width="120">￥12.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <dl class="clearfloat">
+                            <dt><img src="images/hs_list/c11.jpg" /></dt>
+                            <dd class="so_dd_1081"><a href="#">发到手机福</a></dd>
+                            <dd class="so_dd_1081 corac" title="净含量：750ml&nbsp;&nbsp;净含量：750ml">净含量：750ml&nbsp;&nbsp;净含量：750ml</dd>
+                            <dd class="so_dd_1082"><span class="nonsupport">不支持货到付款</span></dd>
+                        </dl>
+                    </td>
+                    <td>￥92.00</td>
+                    <td>x1</td>
+                    <td><span class="stc_span_"></span></td>
+                    <td><b>￥104.00</b></td>
+                    <td>￥12.00</td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <div class="stc_blank10"></div>
+                        <div class="stc_aleft">备注：<input type="text" class="stc_txt" placeholder="请输入备注内容" maxlength="50" />
+                           <span> 配送方式：
+                                <select class="select_ps">
+                                    <option>快递</option><option>自提</option><option>线下配送</option>
+                                </select>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table class="so_table_cont">
+                <tr>
+                    <th colspan="6">山东合商云购电子商务有限公司</th>
+                </tr>
+                <tr>
+                    <td width="330">
+                        <dl class="clearfloat">
+                            <dt><img src="images/hs_list/c11.jpg" /></dt>
+                            <dd class="so_dd_1081"><a href="#">发到手机福利圣诞节反垄断法</a></dd>
+                            <dd class="so_dd_1081 corac" title="净含量：750ml&nbsp;&nbsp;净含量：750ml&nbsp;&nbsp;净含量：750ml">净含量：750ml&nbsp;&nbsp;净含量：750ml&nbsp;&nbsp;净含量：750ml</dd>
+                        </dl>
+                    </td>
+                    <td width="110">￥92.00</td>
+                    <td width="110">x1</td>
+                    <td width="120">——</td>
+                    <td width="130"><b>￥104.00</b></td>
+                    <td width="120">￥12.00</td>
+                </tr>
+                <tr>
+                    <td width="330">
+                        <dl class="clearfloat">
+                            <dt><img src="images/hs_list/c11.jpg" /></dt>
+                            <dd class="so_dd_1081"><a href="#">发到手机福利圣发到手机福利圣</a></dd>
+                            <dd class="so_dd_1081 corac" title="净含量：750ml">净含量：750ml</dd>
+                        </dl>
+                    </td>
+                    <td width="110">￥92.00</td>
+                    <td>x1</td>
+                    <td><span class="stc_span_"></span></td>
+                    <td><b>￥104.00</b></td>
+                    <td>￥12.00</td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <div class="stc_blank10"></div>
+                        <div class="stc_aleft">备注：<input type="text" class="stc_txt" placeholder="请输入备注内容" maxlength="50" />
+                           <span> 配送方式：
+                                <select class="select_ps">
+                                    <option>快递</option><option>自提</option><option>线下配送</option>
+                                </select>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="stc_blank50"></div>
+        </div>
+    </div>
+    <div class="so_cont_speb">
+        <ul>
+            <li>金额总计：<b>￥276.00</b></li>
+            <li>运费：<b>￥0.00</b></li>
+        </ul>
+    </div>
+    <div class="so_cont_nob clearfloat">
+        <input type="submit" value="提交订单" class="stc_sbtn" />
+        <input type="submit" value="提交订单" class="stc_not_sbtn" style="display: none;" />
+        <span class="stc_total_mm">应付总额： <b>￥276.00</b></span>
+        <span class="stc_returnlist"><a href="#">返回购物车列表</a></span>
+    </div>
+	<!--新增收货地址-->
+    <table class="add_address_tb alert_tb" style="display:none;">
+        <tr>
+            <th colspan="2"><h3>新增收货地址</h3></th>
+        </tr>
+        <tr>
+            <td colspan="2" style="height:20px;padding:0">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="160" align="right"><span class="star_red"> *</span> 收货人：</td>
+            <td width="450"><input type="text" class="input_sm name" placeholder="请输入姓名" maxlength="10"><span class="note_p"></span></td>
+        </tr>
+        <tr>
+            <td align="right"><span class="star_red "> *</span> 手机号：</td>
+            <td><input type="text" class="input_sm new_phone" placeholder="请输入手机号" maxlength="11"><span class="note_p"></span></td>
+        </tr>
+        <tr>
+            <td align="right"><span class="star_red"> *</span> 所属区域：</td>
+            <td>
+                <p class="regsel">
+                        <select class="select1" name="province" id="p1">
+                            <option></option>
+                        </select>
+                        <select class="select1" name="city" id="p2">
+                            <option></option>
+                        </select>
+                        <select class="select1 select2" name="town" id="p3">
+                            <option></option>
+                        </select>
+                    </p>
+                    <span class="note_p"></span>
+            </td>
+        </tr>
+        <tr>
+            <td align="right"><span class="star_red"> *</span>所在(或周边)社区：</td>
+            <td>
+                <p class="regsel">
+                    <select class="select_lg">
+                        <option>请选择</option>
+                        <option>中海国际社区</option>
+                        <option>其他小区</option>
+                    </select>
+                    <span class="note_p"></span>
+                </p>
+                
+            </td>
+        </tr>
+        <tr>
+            <td align="right" ><span class="star_red"> *</span>收货地址：</td>
+            <td><input type="text" class="input_lg bank_info address" placeholder="请输入详细地址" maxlength="50" /><span class="note_p"></span></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="submit" class="addr_sbtn alert_btn" value="确&nbsp;&nbsp;认"/>
+            </td>
+        </tr>
+    </table>
+    <!--end 新增收货地址-->
+	<!--修改收货地址-->
+    <table class="change_address_tb alert_tb" style="display:none;">
+        <tr>
+            <th colspan="2"><h3>修改收货地址</h3></th>
+        </tr>
+        <tr>
+            <td colspan="2" style="height:20px;padding:0">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="160" align="right"><span class="star_red"> *</span> 收货人：</td>
+            <td width="450"><input type="text" class="input_sm name" placeholder="请输入姓名" maxlength="10"><span class="note_p"></span></td>
+        </tr>
+        <tr>
+            <td align="right"><span class="star_red "> *</span> 手机号：</td>
+            <td><input type="text" class="input_sm new_phone" placeholder="请输入手机号" maxlength="11"><span class="note_p"></span></td>
+        </tr>
+        <tr>
+            <td align="right"><span class="star_red"> *</span> 所属区域：</td>
+            <td>
+                <p class="regsel">
+                        <select class="select1" name="province" id="s1">
+                            <option></option>
+                        </select>
+                        <select class="select1" name="city" id="s2">
+                            <option></option>
+                        </select>
+                        <select class="select1 select2" name="town" id="s3">
+                            <option></option>
+                        </select>
+                    </p>
+                    <span class="note_p"></span>
+            </td>
+        </tr>
+        <tr>
+            <td align="right"><span class="star_red"> *</span>所在(或周边)社区：</td>
+            <td>
+                <p class="regsel">
+                    <select class="select_lg">
+                        <option>请选择</option>
+                        <option>中海国际社区</option>
+                        <option>其他小区</option>
+                    </select>
+                    <span class="note_p"></span>
+                </p>
+                
+            </td>
+        </tr>
+        <tr>
+            <td align="right" ><span class="star_red"> *</span>收货地址：</td>
+            <td><input type="text" class="input_lg bank_info address" placeholder="请输入详细地址" maxlength="50" /><span class="note_p"></span></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="submit" class="alert_btn" value="确&nbsp;&nbsp;认"/>
+            </td>
+        </tr>
+    </table>
+    <!--end 修改收货地址-->    
+    
+    <script src="js/layer/layer.js"></script>
+    <script src="js/checkIE.js"></script>
+    <script src="js/geo.js"></script>
+    <script src="js/s_sbtn_order.js"></script>
+</body>
+</html>

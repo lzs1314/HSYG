@@ -1,0 +1,1242 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>广大-药品列表页</title>
+		<link type="text/css" href="css/r_gd_list.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/list_adapt.css" /><!--列表自适应-->
+		<link rel="stylesheet" href="css/gd_footer.css" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+
+	<body style="background: #fff;" class="width_1390" onload="setup();preselect('山东省','济南市','市、县级市、县')">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="site_nav">
+			<div class="sn_cont clearfloat">
+				<div class="sn_entrance">
+					<ul class="clearfloat">
+						<li class="place">
+							<a class="place_a" href="#">社区：<span>济南市合商总社区</span></a>
+							<em class="place_hint" style="display: none;">该小区暂不支持配送，先来看看商品吧</em>
+							<div class="placeBox" style="display: none;">
+	                            <table>
+	                            	<tr>
+	                            		<td width="70px" class="pbtit">所属区域：</td>
+	                            		<td width="260px">
+	                            			<select class="pbselect" name="province" id="s1">
+			                                    <option></option>
+			                                </select>
+			                                <select class="pbselect ml2" name="city" id="s2">
+			                                    <option></option>
+			                                </select>
+			                                <select class="pbselect ml2" name="town" id="s3">
+			                                    <option></option>
+			                                </select>
+	                            		</td>
+	                            	</tr>
+	                            	<tr class="pt22">
+	                            		<td class="pbtit">所在社区&nbsp;&nbsp;<br>(或周边)：</td>
+	                            		<td>
+	                            			<select class="pbselect_lg">
+			                                    <option>济南市合商总社区</option>
+			                                    <option>中海国际社区</option>
+			                                    <option>其他小区</option>
+	                            			</select>
+	                            		</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td>&nbsp;</td>
+	                            		<td><a class="pbbtn" href="#">确认更改</a></td>
+	                            	</tr>
+	                            </table>
+							</div>
+						</li>
+						<li class="entrance_H"><a href="#">合商入口</a></li>
+					</ul>
+				</div>
+				<div class="sn_menu">
+					<ul class="clearfloat">
+						<li class="sn_loginInfo" style="display: none;"><a href="#">【登录】</a><a href="#" class="pr6">【注册】</a></li>
+						<li class="sn_loginInfo"><p>你好，15629987563来到合商云购！</p><a href="#" class="pr20">【登录】</a><a href="#" class="pr20">退出</a></li>
+						<li class="sn_line">|</li>
+						<li class="sn_quick">
+							<a class="quiBtn" href="#">我的合商<i></i></a>
+							<div class="quiCont" style="display: none;">
+								<a href="#">我的订单</a>
+								<a href="#">我的购物车</a>
+								<a href="#">我的收藏</a>
+								<a href="#">安全中心</a>
+							</div>
+						</li>
+						<li class="sn_line">|</li>
+						<li class="sn_help"><a href="#">帮助中心</a></li>
+						<li class="sn_line">|</li>
+						<li class="sn_app">
+							<a href="#">手机商城</a>
+							<div class="appCont" style="display: none;">
+								<img src="images/common/appdownload-code.png">
+							</div>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<div class="hs_header clearfloat">
+			<a href="#" class="hs_logo"></a>
+			<div class="hs_search">
+				<div class="search_sel"></div>
+                <p class="search_text">
+                	<input type="text" value="" />
+                	<span class="search_tip">请输入商品名称</span>
+                </p>
+                <input class="search_btn" type="button" value="搜索" />
+			</div>
+		</div>
+		<div class="hs_nav_wrap">
+			<div class="hs_nav clearfloat">
+				<a href="#" class="nav_cateall">全部商品分类</a>
+				<div class="nav_nav">
+					<p class="clearfloat">
+						<a href="#">商城首页</a>
+					</p>
+				</div>
+				<div class="nav_ad"><img src="images/hs_list/safebuy.gif"></div>
+			</div>	
+		</div>
+		<div class="list_cata_wrap" style="display: none;">
+		<div class="gd_menu clearfloat">
+		    <ul class="all_catalog">
+		    	<li class="cata_s1"><a href="#" class="pt6">中西药品</a></li>
+		    	<li class="cata_s2"><a href="#">医疗器材</a></li>
+		    	<li class="cata_s3"><a href="#">滋补保健</a></li>
+		    	<li class="cata_s4"><a href="#">成人用品</a></li>
+		    	<li class="cata_s5"><a href="#">母婴用品</a></li>
+		    </ul>	
+            <div class="catalog_cont detail_catalog">
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">血压计</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">制氧机</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">雾化器</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">轮椅</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">治疗仪</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">体温计</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">其他器械</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>		   	
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">血压计</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">制氧机</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                      </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">雾化器</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                        	<a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                      </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">轮椅</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                       </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">治疗仪</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                        </dd>
+                       </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">体温计</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                        </dd>
+                      </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">其他器械</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                        </dd>
+                     </dl>
+                </div>		 
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">血压计</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">制氧机</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">雾化器</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">轮椅</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">治疗仪</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">体温计</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">其他器械</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">计生用品</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">情趣用品</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">孕妈用品</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">儿童用品</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">营养保健</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">婴童用品、玩具</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">宠物用品</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">珠宝/手表/眼镜</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">服饰内衣</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">家居家纺</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">手机、数码、配件</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">其它</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="catalog_single" style="display: none;">
+                    <dl class="clearfloat">
+                        <dt>
+                            <a href="#">其它</a>
+                        </dt>
+                        <dd>		    			
+                            <a href="#">橄榄油</a>
+                            <a href="#">花生油</a>
+                            <a href="#">葵花籽油</a>
+                            <a href="#">调和油</a>
+                            <a href="#">大豆油</a>
+                            <a href="#">玉米油</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>	
+		</div>		
+	</div>
+		<div class="list_content">
+			<div class="list_tt clearfloat">
+				<div class="list_crumbs clearfloat">
+					<em>所有分类</em>
+					<span>&gt;</span>
+					<a class="cru1" href="#">个护洗化</a>
+					<span>&gt;</span>
+					<a class="cru1" href="#">洗发护发</a>
+				</div>
+				<div class="list_crumbs clearfloat">
+					<span>&gt;</span>
+					<a class="cru2" href="#">品牌：御泥坊<i>&nbsp;</i></a>
+					<span>&gt;</span>
+					<a class="cru2" href="#">产地：中国<i>&nbsp;</i></a>
+					<span>&gt;</span>
+					<a class="cru2" href="#">选购热点：补水保湿<i>&nbsp;</i></a>
+				</div>
+				<p class="list_owned">共1201个商品</p>
+			</div>
+		</div>
+	    <div class="list_content mt10 clearfloat">
+			<div class="list_hotsell">
+				<p class="hotsell_tt">热销排行</p>
+				<dl>
+					<dt><img src="" /><p>&nbsp;</p></dt>
+					<dd><span><em>￥</em>33.00</span></dd>
+					<dd><a href="#">放大来看飞nb哈哈机上的</a></dd>
+				</dl>
+				<dl>
+					<dt><img src="images/hs_list/11.jpg" /><p>&nbsp;</p></dt>
+					<dd><span><em>￥</em>33.00</span></dd>
+					<dd><a href="#">放大来看飞nb哈哈机上的</a></dd>
+				</dl>
+				<dl>
+					<dt><img src="images/hs_list/11.jpg" /><p>&nbsp;</p></dt>
+					<dd><span><em>￥</em>33.00</span></dd>
+					<dd><a href="#">放大来看飞nb哈哈机上的</a></dd>
+				</dl>
+				<dl>
+					<dt><img src="images/hs_list/11.jpg" /></dt>
+					<dd><span><em>￥</em>33.00</span></dd>
+					<dd><a href="#">放大来看飞nb哈哈机上的</a></dd>
+				</dl>
+				<dl>
+					<dt><img src="images/hs_list/11.jpg" /></dt>
+					<dd><span><em>￥</em>33.00</span></dd>
+					<dd><a href="#">放大来看飞nb哈哈机上的</a></dd>
+				</dl>
+				<dl>
+					<dt><img src="" /></dt>
+					<dd><span><em>￥</em>33.00</span></dd>
+					<dd><a href="#">放大来看飞nb哈哈机上的</a></dd>
+				</dl>
+			</div>
+			<div class="list_contri">
+				<div class="listcont_div_tt clearfloat">
+					<div class="list_filt clearfloat">
+						<a href="#" class="fsbl J_filt filt_on">综合排序</a>
+						<a class="J_filt" href="#">销量</a>
+						<a class="J_filt_jg" href="#">价格<i>&nbsp;</i></a>
+					</div>
+					<div class="filt_search clearfloat">
+						<p class="fsInput_p"><input type="text" /><span>在当前分类中搜索</span></p>
+						<input class="fsBtn" type="button" value="确定" />
+					</div>
+					<div class="filt_page clearfloat">
+						<p class="filt_page_num"><span>1</span>/5</p>
+						<a href="javascript:void(0)" class="filt_page_prev fp_prev_jin" title="上一页"></a>
+						<a href="javascript:void(0)" class="filt_page_next" title="下一页"></a>
+					</div>
+				</div>
+				<div class="clearfloat listcont_width">
+					<div class="listcont_div_signle">
+						<dl>
+							<dt>
+								<img src="images/goods_img/b11.jpg" />
+								<img src="images/goods_img/b12.jpg" style="display: none;" />
+							</dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp pt_logo_ic">金宇彬商户旗舰店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt>
+								<img src="images/goods_img/b11.jpg" />
+								<img src="images/goods_img/b12.jpg" style="display: none;" />
+								<img src="images/goods_img/b13.jpg" style="display: none;" />
+								<img src="images/goods_img/b14.jpg" style="display: none;" />
+								<img src="images/goods_img/b15.jpg" style="display: none;" />
+								<img src="images/goods_img/b11.jpg" style="display: none;" />
+								<img src="images/goods_img/b12.jpg" style="display: none;" />
+								<img src="images/goods_img/b13.jpg" style="display: none;" />
+								<img src="images/goods_img/b14.jpg" style="display: none;" />
+								<img src="images/goods_img/b15.jpg" style="display: none;" />
+							</dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑">沙宣沙宣水润去屑沙宣水润去屑</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp hn_logo_ic">金宇彬便利店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt>
+								<img src="images/goods_img/b11.jpg" />
+								<img src="images/goods_img/b12.jpg" style="display: none;" />
+								<img src="images/goods_img/b13.jpg" style="display: none;" />
+								<img src="images/goods_img/b14.jpg" style="display: none;" />
+								<img src="images/goods_img/b15.jpg" style="display: none;" />
+								<img src="images/goods_img/b11.jpg" style="display: none;" />
+								<img src="images/goods_img/b12.jpg" style="display: none;" />
+								<img src="images/goods_img/b13.jpg" style="display: none;" />
+								<img src="images/goods_img/b14.jpg" style="display: none;" />
+								<img src="images/goods_img/b15.jpg" style="display: none;" />
+							</dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp hn_logo_ic">豪诺医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt>
+								<img src="images/goods_img/b11.jpg" />
+								<img src="images/goods_img/b12.jpg" style="display: none;" />
+								<img src="images/goods_img/b13.jpg" style="display: none;" />
+								<img src="images/goods_img/b14.jpg" style="display: none;" />
+							</dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑">沙宣沙宣水润去屑沙宣水润去屑</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp gd_logo_ic">广大医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润">沙宣沙宣水润</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp pt_logo_ic">金宇彬旗舰店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp pt_logo_ic">金宇彬旗舰店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp hn_logo_ic">豪诺医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp gd_logo_ic">广大医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp gd_logo_ic">广大医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp pt_logo_ic">金宇彬旗舰店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去沙宣">沙宣沙宣水润去沙宣</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp hn_logo_ic">豪诺医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑水露750ml">沙宣沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp pt_logo_ic">金宇彬旗舰店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑水露750ml">沙宣沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp gd_logo_ic">广大医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp pt_logo_ic">金宇彬旗舰店</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑水露750ml">沙宣沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp hn_logo_ic">豪诺医药</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="listcont_div_signle">
+						<dl>
+							<dt><img src="images/goods_img/list_good_01.jpg" /></dt>
+							<dd class="lssingle_jg">
+								￥<span>9119.00</span>
+							</dd>
+							<dd class="list_tt_dd"><a href="" title="沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml">沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml沙宣沙宣水润去屑沙宣水润去屑沙宣水润去屑水露750ml</a></dd>
+							<dd class="lssingle_info">
+								<p class="signle_lp gd_logo_ic">广大医药</p>
+							</dd>
+						</dl>
+					</div>					
+				</div>
+				<div class="hslist_page_div clearfloat">
+		            <div class="hslist_page clearfloat">
+		            	<a href="#" class="htpage_prev htpage_prev_jin">上一页</a>
+		            	<a href="#" class="htpage_on">1</a>
+		            	<a href="#">2</a>
+		            	<a href="#">3</a>
+		            	<b class="htpage_b">...</b>
+		            	<a href="#">5</a>
+		            	<a href="#" class="htpage_next">下一页</a>
+		            	<p class="htpage_p">共<em>5</em>页</p>
+		            	<span class="htpage_span">到</span>
+		            	<input type="text" class="htpage_text" />
+		            	<span class="htpage_span">页</span>
+		            	<p class="htpage_btn"><input type="button" value="确定" /></p>
+		            </div>
+		        </div>
+			</div>
+	    </div>
+	    <div class="retail_browse">
+			<div class="rb_tit clearfloat">
+				<p>最近浏览</p>
+			</div>
+			<div class="rb_cont">
+				<p class="rb_nobrowse">亲~您没有浏览过商品，快去逛逛吧~</p>
+			</div>
+		</div>
+	    <div class="retail_browse">
+			<div class="rb_tit clearfloat">
+				<p>最近浏览</p>
+				<a class="changeRb" href="javascript:void(0)">换一换</a>
+			</div>
+			<div class="rb_cont">
+				<p class="rb_leftBtn" style="display: none;">&nbsp;</p>
+				<p class="rb_rightBtn" style="display: none;">&nbsp;</p>
+				<ul class="clearfloat">
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-1.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-2.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr1-2.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+					<li>
+						<a class="rb_img" href="#"><img src="images/goods_img/floor/flr2-2.jpg"></a>
+						<p class="rb_price">￥<b>92.90</b></p>
+						<a class="rb_text" href="#">沙宣水润屑洗发露750ML（新老包装随机发货）</a>
+					</li>
+				</ul>
+			</div>
+		</div>	    
+		<div class="gd_footer_wrap">
+			<div class="gd_footer clearfloat">
+				<ul>
+					<li class="gdf_b">购物指南</li>
+					<li><a href="#">新用户注册</a></li>
+					<li><a href="#">购物流程</a></li>
+					<li><a href="#">服务协议</a></li>
+					<li><a href="#">发票总则</a></li>
+				</ul>
+				<ul>
+					<li class="gdf_b">支付方式</li>
+					<li><a href="#">支付方式说明</a></li>
+					<li><a href="#">在线支付</a></li>
+					<li><a href="#">货到付款</a></li>
+				</ul>
+	            <ul>
+					<li class="gdf_b">售后服务</li>
+					<li><a href="#">服务承诺</a></li>
+					<li><a href="#">退换货说明</a></li>
+					<li><a href="#">退款说明</a></li>
+					<li><a href="#">客服中心</a></li>
+					<li><a href="#">争议处理</a></li>
+					<li><a href="#">防诈骗公告</a></li>
+				</ul>
+				<ul>
+					<li class="gdf_b">配送方式</li>
+					<li><a href="#">合商配送说明</a></li>
+					<li><a href="#">商家配送说明</a></li>
+				</ul>
+			</div>
+			<div class="gd_footerInfo">
+				<ul>
+					<li>Copyright©2015-2016 广大医药<em>&nbsp;</em>www.gdyyls.com&nbsp;版权所有<em>|</em>鲁ICP备15039900号 -1 </li>
+					<li class="gd_cet">
+						<img class="footPhone" src="images/gd_img/gd_footPhone.png">客服热线：400-8821555
+						<em>|</em>
+						<a target="_blank" href="http://app2.sfda.gov.cn/datasearchp/gzcxSearch.do?formRender=cx&page=1">互联网药品交易服务资格证书：</a>
+						<a target="_blank" href="images/gd_img/footerImg/fi_07.jpg">鲁C20160004</a>
+						<em>|</em>
+						<a target="_blank" href="http://app2.sfda.gov.cn/datasearchp/gzcxSearch.do?formRender=cx&page=1">互联网药品信息服务资格证书：</a>
+						<a target="_blank" href="images/gd_img/footerImg/fi_08.png">（鲁）-非经营性-2015-0061</a>
+					</li>
+					<li class="gd_zs">
+						<a target="_blank" href="http://zyys.sfda.gov.cn/commonweb.action?method=previewsysportal&unid=J8f4e08183bc4b82af128e57a0a33da0&appunid=J5b9d21d6e744c3fa925985bb6178015#n">执业医师证书：</a>
+						<a target="_blank" href="images/gd_img/footerImg/fi_01.jpg">372217011790</a>、
+						<a target="_blank" href="images/gd_img/footerImg/fi_02.jpg">372217011791</a>、
+						<a target="_blank" href="images/gd_img/footerImg/fi_03.jpg">371217012301</a>
+						<em>|</em>
+						<a target="_blank" href="http://sd.gsxt.gov.cn/%7BF6B6598091D0A80D7DA4F3B2C2A31405DC16A6D6975D3CE7084958814B2F08D1864C2DF61958E84D5F4EEBF9491EAEEFDAC936E1C700C42CEB14EA02C5268C7ADA8ADA8ADA2C8CDC0FDC80D080D080DC80D0035303A3FFA3F3A3F3AFAE6C77C0A4AFE898F94EDB8C9DEDA271A2461660D07567D71DAADA9563C393C393C3-1521684316378%7D">营业执照：</a>
+						<a target="_blank" href="images/gd_img/footerImg/fi_04.jpg">91370113553744296F</a>
+						<em>|</em>
+						<a target="_blank" href="http://sd.gsxt.gov.cn/%7BF6B6598091D0A80D7DA4F3B2C2A31405DC16A6D6975D3CE7084958814B2F08D1864C2DF61958E84D5F4EEBF9491EAEEFDAC936E1C700C42CEB14EA02C5268C7ADA8ADA8ADA2C8CDC0FDC80D080D080DC80D0035303A3FFA3F3A3F3AFAE6C77C0A4AFE898F94EDB8C9DEDA271A2461660D07567D71DAADA9563C393C393C3-1521684316378%7D">经营许可证：</a>
+						<a target="_blank" href="images/gd_img/footerImg/fi_05.png">JY13701130015918</a>、
+						<a target="_blank" href="images/gd_img/footerImg/fi_06.png">鲁DA5312401</a>
+					</li>
+					<li>
+		                <a href="#" rel="nofollow" target="_blank"><img border="0" src="images/common/site_xinyong.jpg" class="outb"></a>
+		                <a href="#" rel="nofollow" target="_blank"><img border="0" src="images/common/site_police.jpg" class="outb"></a>
+		                <a href="#" rel="nofollow" target="_blank"><img border="0" src="images/common/site_cc.jpg" class="outb"></a>
+		                <a href="http://www.sfda.gov.cn/" rel="nofollow" target="_blank"><img border="0" src="images/common/site_gj.jpg" class="outb"></a>
+		            </li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<script src="js/checkIE.js"></script>
+	    <script src="js/top_sn.js"></script>
+		<script src="js/geo.js"></script>
+		<script src="js/list_adapt.js" ></script><!--列表自适应-->
+		<!--<script src="js/xlist.js"></script>-->
+		<script src="js/gd_browse.js"></script>
+	    <script src="js/r_gd_list.js"></script>
+	    <script src="js/r_gd_list2.js"></script>
+	  	<script src="js/nopics.js"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('common.css');
+/* CSS Document */
+
+/*****************************************************商户-找回登录支付密码专用css*****************************************************/
+
+/**************************找回密码 1**************************************/
+.cont_pwd{width: 750px;padding: 60px 0px 0px 140px;}
+.pwdail{width: 940px;margin-top: 19px;background: #fff;}
+.pwdail_cont{border: 1px solid #e7e7e7;border-top: none;padding: 60px 0px 260px 0px;}
+.pwdailadd{width: 750px;margin: 0 auto;}
+.pwdailTit{height: 50px; color: #555;font: 14px/38px "Microsoft Yahei";text-align: right;padding-right: 10px;white-space: normal;}
+.pwdinput_sm{float: left;position: relative;width: 180px;}
+.pwdinput_sm input{border: 1px solid #e5e5e5;box-shadow:inset 0 1px 0 #d6d6d6;width: 168px;height: 18px;padding:9px 0px 9px 10px;color: #434343;font: 14px/18px "Microsoft Yahei";}
+.pwdailem{display: block;font-style: normal;color: #ccc;font: 12px/18px "Microsoft Yahei";position: absolute;top: 0px;left: 10px;height: 18px;padding: 10px 0px;}
+.div_pwdcodeBtn{float: left;width: 120px;height: 36px;margin-left: 15px;border: 1px solid #e6e6e6;cursor: pointer;}
+.pwdcodeTip{color: #646464;font: 12px "Microsoft Yahei";margin-top: 5px;background: url(../images/common/wricon.png) no-repeat 0px -182px;padding-left: 20px;}
+.pwdcodeTip span{color: #ff6161;padding: 0px 4px;}
+.pwdspan{float: left;display: block;width: 200px;height: 38px;padding-left: 20px;margin-left: 15px; font:14px/38px Microsoft Yahei;color: #ff4545;}
+.pwdp{color: #ff4545;font: 12px "Microsoft Yahei";padding: 5px 0px 5px 20px;}
+.EmailBtn{width: 182px;height: 38px;background: url(../images/hs_pc_all/retBtn.png) no-repeat 0px 0px;cursor: pointer;color: #fff;font: bold 16px "Microsoft Yahei";}
+.EmailBtn:hover{background: url(../images/hs_pc_all/retBtn.png) no-repeat 0px -362px;}
+.pwd_wrong{background: url(../images/common/wricon.png) no-repeat 0px 13px;}
+.pwd_right{background: url(../images/common/wricon.png) no-repeat 6px -75px;}
+.pwd_blue{ border: 1px solid #3998e4 !important;box-shadow:inset 0 1px 0 #0066cc !important;}
+.pwd_red{ border: 1px solid #ff4545 !important;box-shadow:inset 0 1px 0 #ff6161 !important;}
+.pcodeBtn{width: 120px;height: 36px;background: #f6f6f6;border: 0px !important;color: #7d7d7d;font: 12px "Microsoft Yahei";cursor: pointer;*margin-left: -15px;}
+.pcodeBtn:hover{color: #646464;}
+.EmailBtn_suc{background: url(../images/common/suc.png) no-repeat 0px 0px;height: 30px;color: #333;font: 20px/30px "Microsoft Yahei";padding-left: 40px;margin: 40px 0px 0px 125px;}
+.pw1200{width: 1200px !important; padding-left: 0px !important;}
+/**************************end 找回密码1**************************************/
+/**************设置登陆密码********************/
+.back_pwd_cont{width:1010px;height:400px;background:#fff;}
+.backTab{width: 490px;margin: 0 auto;}
+.backTit{color: #646464;font: 14px "Microsoft Yahei";text-align: right;padding-right: 5px;}
+.backTit i{color: #ff4545;margin: 0px 4px;}
+.backInput{width: 330px;height: 40px;position: relative;float: left;}
+.backInput input{color: #646464;font: 12px/18px "Microsoft Yahei";width: 320px;height: 18px;padding:10px 0px 10px 8px;border: 1px solid #ddd;}
+.backInput em{display: block;color: #a9a9a9;font:normal 12px/40px "Microsoft Yahei";position: absolute;top: 0px;left: 8px;}
+.back_span{float: left;width: 30px;height: 40px;}
+.back_note{width: 300px;height: 26px;padding-left: 20px;color: #ff4545;font: 12px/26px "Microsoft Yahei";margin-left: 0px;}
+.back_wrong{background: url(../images/common/wricon.png) no-repeat 0px 5px;}
+.back_right{background: url(../images/common/wricon.png) no-repeat 6px -72px;}
+.back_blue{border: 1px solid #3998e4 !important;}
+.back_red{border: 1px solid #ff4545 !important;}
+/**************end 设置登陆密码********************/
+
+.findpwd_btn{border:1px solid #ff4b4b;background:#fd7676;width:220px;height:36px;border-radius:3px;font:16px microsoft yahei;color:#fff;cursor:pointer;}
+.findpwd_btn:hover{background:#ff4b4b;}
+
+
+/*****************************************************商户-找回登录支付密码专用css*****************************************************/

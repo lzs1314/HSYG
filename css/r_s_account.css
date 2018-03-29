@@ -1,0 +1,346 @@
+@charset "utf-8";
+@import url('r_sellerCenter.css');
+
+/************************共用************************/
+/*表单判断提示*/
+.accspan{float: left;display: block;width: 30px;height: 38px;}
+.accp{color: #ff4545;font: 12px "Microsoft Yahei";width: 360px;margin-left: 0px;padding: 5px 0px 5px 20px;}
+.acc_wrong{background: url(../images/common/wricon2.png) no-repeat 0px 12px;}
+.acc_right{background: url(../images/common/wricon2.png) no-repeat 6px -74px;margin: 0px !important;}
+.acc_blue{border: 1px solid #3998e4 !important;}
+.acc_red{border: 1px solid #ff4545 !important;}
+.note_p{float:left;display:block;height:38px;color: #ff4545;font: 12px/38px "Microsoft Yahei";padding-left:25px;}
+.note_wrong{background: url(../images/common/wricon2.png) no-repeat 6px 12px;}
+.note_right{background:url(../images/common/wricon2.png) no-repeat 6px -74px;}
+.b_blue{border:1px solid #3998e4 !important;}
+.b_red{border:1px solid #ff4545 !important;}
+.iwrong{background: url(../images/common/wricon2.png) no-repeat 0px 12px;}
+.iright{background:url(../images/common/wricon2.png) no-repeat 0px -74px;}
+.accbank_wrong{background: url(../images/common/wricon2.png) no-repeat 0px 3px;}
+/*end 表单判断提示*/
+/*placeholder字体颜色*/
+:-moz-placeholder{color: #8d8d8d;font-family: microsoft yahei;}/* Mozilla Firefox 4 to 18 */
+::-moz-placeholder{color: #8d8d8d;font-family: microsoft yahei;}/* Mozilla Firefox 19+ */
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color: #8d8d8d;font-family: microsoft yahei;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {color: #8d8d8d;font-family: microsoft yahei;}
+/*end placeholder字体颜色*/
+.vt38 td{padding-top: 20px;}
+.vt38 .wrt_r{vertical-align: top;line-height: 38px !important;}
+.account_cont{width: 1010px;background: #fff;padding:10px 0 10px 0;}
+.color_red{color:red;}
+.tdvt38{vertical-align: top;}
+.tdvt38 .chatab_tit{line-height: 38px !important;}
+/*申请变更银行卡*/
+.chvt38{vertical-align: top;}
+.chvt38 p{line-height: 38px !important;}
+.change_layer{width: 560px;background: #fff;padding-bottom: 40px;overflow: hidden;}
+.addbank_layer{width: 560px;background: #fff;padding-bottom: 40px;overflow: hidden;}
+.change_tit{width: 490px;height: 22px;color: #333;font: 16px/22px "Microsoft Yahei";border-bottom: 1px solid #ddd;padding:20px 0px 10px 10px;margin-bottom: 25px;}
+.change_tab{width: 420px;margin-left: 40px;}
+.chatab_tit{color: #646464;font: 14px "Microsoft Yahei";text-align: right;padding-right: 6px;}
+.chatab_tit i{color:#ff4545;margin: 0px 2px;}
+.chatab_text{color: #434343;font: 14px "Microsoft Yahei";}
+.chatab_input{width: 300px;height: 38px;position: relative;margin-left: 0px;}
+.chatab_input input{float: left;width: 258px;padding:9px 10px 9px 10px;height: 18px;border:1px solid #ddd;color:#333;font: 14px/18px "Microsoft Yahei";}
+.chatab_input em{display: block;color: #bdbdbd;font: normal 14px/36px "Microsoft Yahei";position: absolute;top: 1px;left: 10px;}
+.vnote{height: 14px;color:#ababab;font: 12px/14px "Microsoft Yahei";margin-top: 2px;}
+.ml10{margin-left: 10px;}
+.pb10 td{padding-bottom: 10px;}
+.disn{display: none;}
+.chselect{float: left;width:135px;height:38px;border:1px solid #ddd;color:#434343;font: 14px/32px "Microsoft Yahei";padding-left: 7px;}
+.note_span{float: left;display: block;width: 180px;height: 38px;color: #ff4545;font: 12px/38px "Microsoft Yahei";}
+.chatab_btn{width:220px;height:38px;border:1px solid #ff4b4b;background:#fd7676;border-radius:3px;color:#fff;font:16px microsoft yahei;cursor:pointer;}
+.chatab_btn:hover{background:#ff4b4b;}
+.addtab_btn{width:220px;height:38px;border:1px solid #ff4b4b;background:#fd7676;border-radius:3px;color:#fff;font:16px microsoft yahei;cursor:pointer;}
+.addtab_btn:hover{background:#ff4b4b;}
+.mt6{margin: 1px 0px 0px 6px;}
+.cha_span{float: left;display: block;color: #ff4545;font: 12px "Microsoft Yahei";padding: 18px 0px 20px 20px;*padding-bottom: 3px;}
+.cha_p{height: 20px;color: #ff4545;font: 12px/20px "Microsoft Yahei";padding-left: 20px;}
+.cha_wrong{background: url(../images/common/wricon2.png) no-repeat 0px 6px;}
+.cha_right{background: url(../images/common/wricon2.png) no-repeat 6px -74px;}
+.cha_blue{border: 1px solid #3998e4 !important;}
+.cha_red{border: 1px solid #ff4545 !important;}
+.fun_span{float: left;display: block;width: 20px;height: 38px;}
+.fun_p{height: 20px;color: #ff4545;font: 12px/20px "Microsoft Yahei";padding-left: 20px;}
+.fun_wrong{background: url(../images/common/wricon2.png) no-repeat 0px 3px;}
+.fun_right{background: url(../images/common/wricon2.png) no-repeat 6px -74px;}
+.fun_blue{border: 1px solid #3998e4 !important;}
+.fun_red{border: 1px solid #ff4545 !important;}
+/*end 申请变更银行卡*/
+.input_lg{float:left;width:208px;border:1px solid #ddd;height:16px;padding: 10px 0px 10px 10px;color:#333;font: 12px/16px "Microsoft Yahei";}
+.checkbox{line-height:38px;height:38px;vertical-align:middle;margin-right:6px;}
+.s2{float:left;height:30px;padding:0 12px 0 25px;margin:-5px 0 0 5px;color: #ff4545;font: 12px/38px "Microsoft Yahei";} 
+.wrong_note{margin:30px 10px 10px 30px;height:45px;width:260px;overflow:hidden;font-size:14px;color:#575757;}
+.pb40{padding-bottom: 40px;}/*所有弹窗按钮距离底部距离*/
+/************************end 共用************************/
+
+
+/*************************商户-账号信息、资质上传/修改*************************/
+.account_basic_tb{width:840px;margin:20px 0 0 70px;}
+.account_basic_tb td{border-bottom:1px solid #dedede;padding:25px 0;font-size:14px;color:#898989;}
+.account_basic_tb td span{color:#565656;margin-left:30px;}
+.account_basic_tb td img{border:1px solid #eee;}
+.account_basic_tb td img{cursor: url(http://www.heshang365.com/erp/sysimages/big.cur),auto;}
+.cname{float:left;width:200px;height:18px;border:1px solid #eee;font:14px/18px microsoft yahei;color:#565656;padding:9px 0px 9px 10px;}
+.span_editable{background:url(../images/sellerCenter/editpen.png) no-repeat 0px 11px;padding:8px 20px;}
+.info_save_lgbtn{display:block;width:240px;height:42px;background:#fd7272;border:1px solid #ff4444;border-radius:6px;color:#fff;font:16px microsoft yahei;margin-top:30px;margin-bottom:30px;cursor:pointer;}
+.info_save_lgbtn:hover{background:#ff4444;}
+.it{display: block;float: left;width: 262px;height: 38px;padding-left:18px;margin-left:10px;color:#646464;font: 12px/38px "Microsoft Yahei";}
+.run_div{width: 240px;height: 38px;float: left;}
+.run_div a{float: left;display: block;color: #646464;font: 14px/38px "Microsoft Yahei";padding-right: 10px; margin-right: 10px;}
+.run_div i{float: left;display: block;width: 16px;height: 16px;border: 1px solid #cdcdcd;border-radius: 50px;background: #fff;margin-right: 8px;margin-top: 10px;cursor: pointer;}
+.run_on{background:#fff url(../images/common/chooseIcon.png) no-repeat 2px -35px !important; border-color: #ff6161 !important;}
+.runTip{float: left;width: 100px;height: 38px;}
+.upImg_cont{width: 340px;float: left;position: relative;}
+.aIupimgBox{width: 162px;float: left;padding-right: 58px;}
+.aIupimg{width: 160px;height: 104px;border: 1px solid #edf0f5;overflow: hidden;}
+.aIupimg img{height: 100%;}
+.aIupbtn_p{width: 120px;height: 34px;position: relative;float: left;}
+.aIupfile{width: 120px;height: 34px;position: absolute;top: 0px;left: 0px;z-index: 999;opacity: 0; filter:alpha(opacity=0);font-size: 26px;overflow: hidden;}
+.aIupbtn{display: block;width: 118px;height: 32px;background: #edf0f5;border: 1px solid #e4e5e6;border-radius: 4px;color: #646464;font: 14px/32px "Microsoft Yahei";text-align: center;}
+.aIupbtn_p:hover .aIupbtn{color: #fff;border: 1px solid #fd7373;background: #fd7373;}
+.aIupbtn_jin{color: #fff !important;border: 1px solid #d7d7d7 !important;background: #d7d7d7 !important;}
+.aIupsite{width: 162px;min-height: 18px;color: #646464;font: 12px/18px "Microsoft Yahei";word-wrap: break-word;overflow: hidden;padding: 5px 0px;}
+.uptips{width: 372px;color: #a9a9a9;font: 12px/16px "Microsoft Yahei";margin-left: 0px;padding: 5px 0px;}
+.aIup_p{display: block;width: 340px;height: 24px;color: #ff4545;font: 12px/24px "Microsoft Yahei";padding-left: 20px;}
+.aIup_span{display: block;width: 30px;height: 34px;position: absolute;top: 70px;right: -38px;}
+.aI_wrong{background: url(../images/common/wricon2.png) no-repeat 8px 11px;}
+.aI_right{background: url(../images/common/wricon2.png) no-repeat 8px -74px;}
+/*************************end 商户-账号信息、资质上传/修改*************************/
+
+/*************************商户-我的钱包*************************/
+.wu_div{width: 195px;height:100px;background: url(../images/sellerCenter/notpur.png) no-repeat 0px 65px;color: #757575;font-size: 16px;padding: 105px 0px 62px 92px;}
+.wallet_basic{width:550px;float:left;padding:20px 0 0 50px;}
+.available_mn_h5,.total_mn dt,.frozen_mn dt{font:14px/26px microsoft yahei;color:#b7b6af;height:26px;}
+.available_mn_h5{margin-left:20px;}
+.available_mn_sp{font:600 32px microsoft yahei;color:#fd7700;margin-left:20px;}
+.wallet_in{padding:2px 20px 4px 20px;background:#fa6b6b;border:1px solid #f84f4f;border-radius:5px;color:#fff;font: 14px "Microsoft Yahei";position:relative;top:-7px;margin-left:26px;}
+.wallet_in:hover{background:#f84f4f;}
+.wallet_out{color:#fa6b6b;font: 14px "Microsoft Yahei";margin-left:7px;padding:2px 20px 4px 20px;background:#fff;border:1px solid #f84f4f;border-radius:5px;position:relative;top:-7px;}
+.wallet_out:hover{background:#f84f4f;color:#fff;}
+.wallet_refr{padding: 2px 11px 4px 29px;border: 1px solid #3996e4;background: #fff;border-radius: 5px;color: #3996e4;font: 14px "Microsoft Yahei";position: relative;top: -7px;margin-left: 8px;}
+.wallet_refr i{display: block;width: 14px;height: 14px;background: url(../images/sellerCenter/query_i.png) no-repeat 0px -47px;position: absolute;top: 5px;*top: 20px;left: 11px;}
+.wallet_refr:hover{background: #3996e4;color: #fff;}
+.wallet_refr:hover i{background: url(../images/sellerCenter/query_i.png) no-repeat 0px -93px;}
+.refr_jin{padding: 5px 11px 6px 29px;background: #cecece;border-radius: 5px;color: #fff;font: 12px "Microsoft Yahei";cursor: not-allowed;position: relative;top: -7px;margin-left: 8px;}
+.refr_jin i{display: block;width: 14px;height: 14px;background: url(../images/sellerCenter/query_i.png) no-repeat 0px -146px;position: absolute;top: 6px;*top: 22px;left: 11px;}
+.total_mn{display:inline-block;margin:0 0 30px 20px;width:190px;float:left;}
+.frozen_mn{display:inline-block;width:170px;float:left;padding-left:20px;border-left:1px solid #ededed;}
+.total_mn dd,.frozen_mn dd{font:22px microsoft yahei;color:#565656;}
+.line_g{border-top:1px solid #ededed;margin:20px 0 30px 0;width:480px;}
+.wallet_bank{float:right;margin-right:60px;}
+.wallet_bank_block{width:318px;padding-bottom:15px;border:1px solid #cfcfcf;border-radius:5px;background:#fafafa;margin-top:12px;}
+.bank_logo{float:left;margin:21px 0 0 15px;width:22px;height:22px;background:url(../images/account/modify_icon.png) no-repeat 0 -200px;}
+.wallet_bank_block dl{float:left;margin:19px 0 0 10px;width:220px;}
+.wallet_bank_block dl dt{font:14px/26px microsoft yahei;color:#454545;}
+.wallet_bank_block dl dd{font:14px/26px microsoft yahei;color:#b7b6af;}
+.wallet_bank_block dl dd span{margin-left:8px;padding:2px 8px;background:url(../images/sellerCenter/look_i.png) 2px 4px no-repeat;cursor:pointer;}
+.wallet_bank_block i{font-size:14px;font-style:normal;}
+.wallet_bank p{width: 320px;height: 34px;text-align:center;font:14px/32px microsoft yahei;border:1px solid #f84f4f;margin-top:14px;border-radius:5px;}
+.wallet_bank p a{color:#fa6b6b;padding:2px 8px;}
+.wallet_bank p:hover{background:#f84f4f;color:#fff;}
+.wallet_bank p:hover a{color:#fff;}
+.trade_record{margin-top:20px;width:1008px;border-left:1px solid #ededed;border-right:1px solid #ededed;background: #fff;padding-top:10px;}
+.trade_record_h3{height:32px;border-left:3px solid #fa6b6b;float:left;font:14px/32px microsoft yahei;padding-left:10px;color:#646464;width:200px;}
+.trade_record_tb{width:1008px;text-align:center;padding-top:10px;border-top:1px solid #ededed;border-bottom:1px solid #ededed;}
+.trade_record_tb td{font:14px/52px microsoft yahei;color:#747474;height:52px;}
+.trt_head_span b{color:#565656;}
+.trt_minus_sp{color:#43a93e;}
+.trt_plus_sp{color:#fa6b6b;}
+.ZHnum em{float: left;display: block;color: #747474;font: normal 14px "Microsoft Yahei";margin-left: 46px;}/*数字账号*/
+.queryI{float: left;display: block;width: 24px;height: 22px;background: url(../images/sellerCenter/query_i.png) no-repeat 4px 0px;cursor: pointer;}
+.account_kname{margin-left: 46px;color:#646464;font: 14px/32px microsoft yahei;}
+.paytip{color: #ff4545;font: 12px/20px "Microsoft Yahei";margin-top: 8px;}
+.recharge_underway_layer{padding: 0px 20px;}
+.num_cr{color: #999 !important;}
+/*我的钱包筛选条件*/
+.tr_cont{width: 1008px;height: 30px;padding: 10px 0px 20px 0px;}
+.trInput_p{float: left;position: relative;}
+.trInput_p input{color:#434343;font: 12px "Microsoft Yahei";width: 150px;padding:4px 0 4px 8px;height: 20px;border: 1px solid #dedede;}
+.trInput_p em{display: block;color: #909090;font: normal 12px/30px "Microsoft Yahei";position: absolute;top: 0px;left: 8px;}
+.tr_seatit{float: left;color: #575757;font: 14px/30px "Microsoft Yahei";text-align: right;}
+.tr_select{float: left;width: 80px;height: 30px;position:relative;}
+.tr_select p{width: 70px;height: 28px;background: url(../images/common/sstIcon.png) no-repeat 60px -37px;border: 1px solid #dedede;color:#575757;font:12px/28px "Microsoft Yahei";cursor:pointer;padding-left: 8px;}
+.tr_select ul{width:78px;position:absolute;left:0px;top:30px;z-index: 100;border:1px solid #3aa2e4;border-top:0;background:#fff;}
+.tr_select ul li{font:12px/26px Microsoft yahei;color:#575757;cursor:pointer;padding-left: 8px;}
+.tr_select ul li:hover{background:#79beff !important;color:#fff !important;}
+.p_on{border:1px solid #3aa2e4 !important;background: url(../images/common/sstIcon.png) no-repeat 60px -87px !important;}
+.tr_time{float: left;width: 98px;padding-left: 4px;height: 28px;color:#434343;font: 12px/28px "Microsoft Yahei";border: 1px solid #dedede;background: #fff url(../images/sellerCenter/pur_icon.png) no-repeat 78px 7px;cursor: pointer;}
+.trem{float: left;display: block;width: 24px;height: 30px;color: #cbcbcb;font: 26px/30px "Microsoft Yahei";text-align: center;}
+.tr_vesselBtn{float: left;width: 80px;height: 30px;background: #ff8484 url(../images/sellerCenter/derIcon.png) no-repeat 18px 8px;border: 1px solid #ff6565;border-radius: 2px;color: #fff;font: 12px "Microsoft Yahei";padding-left: 16px;cursor: pointer;}
+.tr_vesselBtn:hover{background: #fe6767 url(../images/sellerCenter/derIcon.png) no-repeat 18px 8px;border: 1px solid #fe6767;}
+.ml10{margin-left: 10px;}
+.ml12{margin-left: 12px;}
+/*end 我的钱包筛选条件*/
+/*************************end 商户-我的钱包*************************/
+
+/*************************商户-钱包充值/提现*************************/
+.oddp10 td{padding: 10px 0px;}
+.oddp10 .cha_span{padding: 10px 0px 6px 21px;}
+.wallet_recharge_tb{width:820px;margin:20px 0 50px 95px;}
+.wallet_recharge_tb td{font:14px Microsoft yahei;color:#646464;}
+.wrt_r{text-align:right;padding-right:10px !important;width:160px;}
+.money_mtxt,.ppwd_mtxt{width: 192px;height: 38px;float: left;position: relative;}
+.money_mtxt input,.ppwd_mtxt input{float:left;width:180px;height:18px;border:1px solid #ededed;padding:9px 0px 9px 10px;color:#646464;font:14px/18px microsoft yahei;}
+.money_mtxt em,.ppwd_mtxt em{display: block;color: #bdbdbd;font: normal 14px/38px "Microsoft Yahei";position: absolute;top: 0px;left: 10px;}
+.bank_list{width:600px;margin-left:0px;margin-top:-12px;}
+.bank_list ul li{width:150px; height:36px; text-align:center;border:1px solid #ededed;float:left;margin:15px 30px 0 0px;border-radius:5px;cursor:pointer;}
+.bank_list ul li img{width:128px;height:26px;margin:5px 0 0 10px;display: block;}
+.bank_more{width:150px;height:36px;font:600 14px/36px 'Microsoft Yahei';text-align:center;border:1px solid #97cfef;border-radius: 5px;background:#d8f1ff;color:#2ea7e7;margin:15px 0 0 0px;cursor:pointer;}
+.isChecked{border:1px solid #ff5757 !important;color:#ff5757 !important;background:url(../images/account/scs_icon.png) no-repeat right bottom;}
+.recharge_stbn{width: 240px;height: 38px;border-radius: 6px;font: 16px microsoft yahei;color: #fff;}
+.bgray{background: #c9c9c9;border: 1px solid #a6a6a6;cursor: not-allowed;}
+.blight{background: #fd7272;border: 1px solid #ff4444;cursor: pointer;}
+/*充值正在进行...弹窗*/
+.underway_tit{color: #575757;font-size: 16px;text-align: center;margin-top: 29px;}
+.underway_cont{color: #646464;font-size: 14px;text-align: center;margin-top: 20px;}
+.underway_bottom{margin-top: 30px;}
+.underway_bottom .underway_btn{float: left;display: block;width: 80px;height: 26px;color: #fff;font: 12px/26px "Microsoft Yahei";text-align: center;border: 1px solid #ff4444;background: #fd7272;border-radius: 2px;margin-left: 58px;}
+.underway_bottom .underway_btns{float: left;display: block;width: 80px;height: 26px;color: #fff;font: 12px/26px "Microsoft Yahei";text-align: center;border: 1px solid #2f8ad4;background: #3998e4;border-radius: 2px;margin-left: 40px;}
+/*end充值正在进行...弹窗*/  
+.pabank_img{vertical-align: middle;}
+.apply_bankc_a{font:14px microsoft yahei;color:#0088cc;padding:5px 6px 5px 22px;margin-left:5px;background:url(../images/account/ch_bank.png) no-repeat 0 8px;}
+.apply_bankc_a:hover{text-decoration:underline;}
+.apply_bankc_b{font:14px microsoft yahei;color:#0088cc;padding:5px 6px 5px 22px;margin-left:5px;}
+.apply_bankc_b:hover{text-decoration:underline;}
+.back_ppwd_a{float:left;display: block;height: 38px;padding-left:6px;color:#9b9b9b;font: 14px/38px "Microsoft Yahei";}
+.back_ppwd_a:hover{color:#0088cc;text-decoration:underline;}
+.paylayer{color: #666;font: 14px/20px "Microsoft Yahei";text-align: center;margin-top: 48px;}
+/*************************end 商户-钱包充值/提现*************************/
+
+/*************************商户-账号安全*************************/
+.acc_sec_dl{margin:0 36px;border-bottom:1px solid #ededed;padding:18px 0 15px 0;}
+.acc_sec_dl dt{float:left;width:510px;font:600 16px Microsoft Yahei;color:#565656;padding-left:40px;}
+.acc_sec_dl dt p{font:14px/20px Microsoft Yahei;color:#9b9b9b;}
+.acc_sec_dl dd{float:right;width:90px;margin-top:6px;}
+.acc_sec_dl dd a{display:block;width:88px;height:25px;border:1px solid #f84f4f;color:#fa6b6b;font:14px/25px Microsoft Yahei;text-align:center;border-radius:5px;}
+.acc_sec_dl dd a:hover{color:#fff;background:#f84f4f;}
+.lpwd_icon{background:url(../images/account/modify_icon.png) no-repeat 0 27px;}
+.phone_icon{background:url(../images/account/modify_icon.png) no-repeat 0 -35px;}
+.email_icon{background:url(../images/account/modify_icon.png) no-repeat 0 -105px;}
+.bank_icon{background:url(../images/account/modify_icon.png) no-repeat 0 -170px;}
+.ppwd_icon{background:url(../images/account/modify_icon.png) no-repeat 0 27px;}
+.addr_icon{background:url(../images/account/modify_icon.png) no-repeat 0 -232px;}
+.chapwd_btn,.cha_ppwd_btn{border:1px solid #ff4b4b;background:#fd7676;width:180px;height:38px;border-radius:3px;font:16px microsoft yahei;color:#fff;cursor:pointer;vertical-align: middle;}
+.chapwd_btn:hover,.cha_ppwd_btn:hover{background:#ff4b4b;}
+.forget_lpwd_a{font-size:14px;color:#9a9a9a;margin-left:10px;}
+.forget_lpwd_a:hover{color:#0088cc;text-decoration:underline;}
+.send_verify_span{padding:4px 10px;border:1px solid #ddd;background:#f7f7f7;border-radius:2px;font-size:12px;cursor:pointer;}
+.verify_way{margin-left:10px;color:#0088cc;font-size:12px;padding-left:20px;cursor:pointer;background:url(../images/account/way_icon.png) no-repeat}
+.cgray{cursor: not-allowed;color:#ddd;}
+.blank_5{height:6px;}
+/*变更收货地址弹窗*/
+.change_site_tab tr td{padding: 5px 0px !important;}
+.site_h3{border-bottom: 1px solid #ddd;margin:0 30px;text-align:left;color:#333;padding:0 0 10px 10px;font-size: 16px;}
+.siteTit{color: #323232;font-size: 14px;padding-left: 30px;}
+.siteTit span{color: #999 !important;font-size: 12px;}
+.streetInfo{height: 36px !important;line-height: 36px !important;margin-right: 6px !important;float: left;}
+.site_old{margin-left:30px;}
+.site_old span{color: #323232;font-size: 14px;margin-right: 5px;}
+.w159{width: 159px !important; }
+/*end 变更收货地址弹窗*/
+.alert_tb{width:460px;margin-left: 25px;}
+.alert_tb th h3{border-bottom: 1px solid #ddd;margin:0 30px;text-align:left;color:#333;padding:0 0 10px 10px;}
+.pd10 td{padding:10px 10px 10px 0;}
+.pt10 td{padding:10px 10px 0px 0;}
+.trhi20{height: 20px !important;}
+.trhi20 td{height: 20px !important;}
+.ml218{margin-left: 218px !important;}
+.w262{width:262px !important;}
+.left10{margin-left:10px;}
+.star_red{color:#ff4545;}
+.alert_btn{width: 220px;height: 38px;border: 1px solid #ff4b4b;background: #fd7676;border-radius: 3px;color: #fff;font: 16px microsoft yahei;cursor: pointer;}
+.alert_btn:hover{background:#ff4b4b;}
+.ml175{margin-left: 175px;}
+.ml178{margin-left: 178px;}
+.ml153{margin-left: 153px;}
+.sec_note{padding-left: 20px;font-size: 12px;}
+.mr6{margin-right: 6px;}
+/*兼容IE6/IE7/IE8/火狐---下拉菜单select样式设置*/
+.select_border{width:103px;height:36px;*background:#fff;background:#fff;*border:1px solid #ddd;float:left;margin-top:-5px;*margin-top:0px;} 
+.container{*border:0;*position:relative;*height:38px;*overflow:hidden;} 
+.select{border:1px solid #ddd;padding:4px 3px;font-size:12px;height:38px;width:105px;*width:105px;font-family:Microsoft yahei;color:#333;line-height: 32px;} 
+/*end 兼容IE6/IE7/IE8/火狐---下拉菜单select样式设置*/
+/*添加邮箱*/
+.treme{height: 30px !important;}
+.treme td{height: 30px !important;}
+.alert_tb1 th{margin-top: 10px !important;}
+.alert_tb1{width:500px;margin-top:30px;}
+.alert_tb1 th h3{border-bottom: 1px solid #ddd;margin:0 30px;text-align:left;color:#333;padding:0 0 10px 10px;}
+.alert_tb1 td{font-size:14px;color:#646464; overflow:hidden}
+.ematd{margin-top: 20px;}
+.email{width: 940px;margin-top: 19px;background: #fff;}
+.email_tit{width: 938px;height: 20px;padding: 9px 0px;border:1px solid #e7e7e7;}
+.email_tit span{color: #333;font: 14px "Microsoft Yahei";border-bottom: 2px solid #ea0000;padding: 7px 14px;margin-left: 15px;}
+.email_cont{border: 1px solid #e7e7e7;border-top: none;padding: 60px 0px 260px 0px;}
+.emailadd{width: 600px;height: 200px;}
+.emailTit{color: #555;font: 14px/38px "Microsoft Yahei";text-align: right;padding-right: 10px;white-space: normal;}
+.eminput_lg{float: left;position: relative;width: 310px;}
+.eminput_sm{float: left;position: relative;width: 300px;}
+.eminput_lg input{border: 1px solid #e5e5e5;width: 298px;height: 18px;padding:9px 0px 9px 10px;color: #434343;font: 14px/18px "Microsoft Yahei";}
+.emsm_input{float: left;width: 158px;padding: 9px 10px 9px 10px;height: 18px;border: 1px solid #ddd;color: #333;font: 14px/18px "Microsoft Yahei";}
+.eminput_sm em{display: block;color: #bdbdbd;font: normal 14px/36px "Microsoft Yahei";position: absolute;top: 1px;left: 10px;}
+.emailem{display: block;font-style: normal;color: #ccc;font: 12px/38px "Microsoft Yahei";position: absolute;top: 0px;left: 10px;}
+.emcodeBtn{float: left;margin-left: 5px;width: 95px;height: 38px;background: #f7f7f7;border: 1px solid #ddd;font: 12px "Microsoft Yahei";cursor: pointer;}
+.emcodeBtn:hover{color: #646464;}
+.div_emcodeBtn{float: left;width: 120px;height: 36px;border: 1px solid #e6e6e6;cursor: pointer;margin-left: 10px;}
+.emcodeBtn_jin{color: #ddd !important;background: #f7f7f7 !important;cursor: not-allowed !important;}
+.emcodeTip{color: #646464;font: 12px "Microsoft Yahei";margin-top: 5px;background: url(../images/common/wricon2.png) no-repeat 0px -182px;padding-left: 20px;width: 298px;margin-left: 0px;}
+.emcodeTip span{color: #ff6161;padding: 0px 4px;}
+.emspan{float: left;display: block;width: 24px;height: 38px;padding-left: 6px;}
+.emp{color: #ff4545;font: 12px "Microsoft Yahei";padding: 5px 0px 5px 20px;}
+.em_wrong{background: url(../images/common/wricon2.png) no-repeat 0px 6px;}
+.em_right{background: url(../images/common/wricon2.png) no-repeat 6px -75px;}
+.em_blue{ border: 1px solid #3998e4 !important;}
+.em_red{ border: 1px solid #ff4545 !important;}
+.EmailBtn_suc{background: url(../images/common/suc.png) no-repeat 0px 0px;height: 30px;color: #333;font: 20px/30px "Microsoft Yahei";padding-left: 40px;margin: 40px 0px 0px 125px;}
+/*end 添加邮箱*/
+.lefttd{width: 143px !important;}
+.select1{width: 80px;height: 38px;color: #646464;font: 12px/32px "Microsoft Yahei";border: 1px solid #e6e6e6;padding-left: 5px;margin-right: 8px;float: left;}
+.select2{width: 99px !important;margin-right: 0px !important;}
+.select_lg,.select_lg1{float: left;width: 275px;height: 38px;color: #646464;font: 12px/32px "Microsoft Yahei";border: 1px solid #e6e6e6;padding-left: 10px;}
+/*修改手机/邮箱*/
+.chphone{width: 510px;margin: 0 auto;}
+.chphone_tit{color: #666;font: 14px/38px "Microsoft Yahei";text-align: right;padding-right: 10px;}
+.chphone_tit i{color: #ff4545;margin: 0px 2px;}
+.chphone_text{float: left;color: #434343;font: 14px "Microsoft Yahei";}
+.phtext_btn{float: left;display: block;color: #0088cc;font: 12px "Microsoft Yahei";background:url(../images/hs_pc_all/way_icon.png) no-repeat;cursor:pointer;padding-left: 20px;margin-left: 10px;}
+.chinput_lg{position: relative;width: 310px;}
+.chinput_lg input{border: 1px solid #e5e5e5;box-shadow:inset 0 1px 0 #d6d6d6;width: 298px;height: 20px;padding:8px 0 8px 10px;color: #434343;font: 14px/20px "Microsoft Yahei";}
+.chinput_lg em{display: block;color: #ccc;font:normal 12px/38px "Microsoft Yahei";position: absolute;top: 0px;left: 10px;}
+.chinput_sm{float: left;width: 180px;height: 38px;position: relative;margin-right: 10px;}
+.chinput_sm input{border: 1px solid #e5e5e5;box-shadow:inset 0 1px 0 #d6d6d6;width: 168px;height: 20px;padding:8px 0 8px 10px;color: #434343;font: 14px/20px "Microsoft Yahei";}
+.chinput_sm em{display: block;color: #ccc;font:normal 12px/38px "Microsoft Yahei";position: absolute;top: 0px;left: 10px;}
+.chspan{display: block;width: 24px;height: 38px;padding-left: 6px;}
+.chcodeBtn_p{float: left;width: 118px;height: 36px;border: 1px solid #e6e6e6;cursor: pointer;}
+.chcodeBtn{width: 118px;height: 36px;background: #f6f6f6;border: 0px !important;color: #7d7d7d;font: 12px "Microsoft Yahei";cursor: pointer;}
+.chcodeBtn:hover{color: #646464;}
+.chcodeBtn_jin{color: #fff !important;background: #e0e0e0 !important;cursor: not-allowed !important;}
+.changeBtn{width: 182px;height: 38px;background: url(../images/hs_pc_all/retBtn.png) no-repeat 0px 0px;cursor: pointer;color: #fff;font: 16px "Microsoft Yahei";border: 0px;}
+.changeBtn:hover{background: url(../images/hs_pc_all/retBtn.png) no-repeat 0px -362px;}
+.chtip{width: 290px;color: #646464;font: 12px "Microsoft Yahei";background: url(../images/common/wricon3.png) no-repeat 0px -185px;padding-left: 20px;margin: 5px 0px 0px 0px;}
+.chtip span{color: #ff6161;padding: 0px 4px;}
+.chanp{color: #ff4545;font: 12px "Microsoft Yahei";padding: 5px 0px 5px 20px;}
+.ch_wrong{background: url(../images/common/wricon2.png) no-repeat 0px 6px;}
+.ch_right{background: url(../images/common/wricon2.png) no-repeat 6px -75px;}
+.ch_blue{ border: 1px solid #3998e4 !important;box-shadow:inset 0 1px 0 #0066cc !important;}
+.ch_red{ border: 1px solid #ff4545 !important;box-shadow:inset 0 1px 0 #ff6161 !important;}
+.disn{display: none;}
+.phoalert_tb,.emlalert_tb{width: 535px; margin-left: 25px;}
+.phoalert_tb td,.emlalert_tb td{font-size:14px;color:#646464;overflow:hidden}
+/*end 修改手机/邮箱*/
+/*修改弹窗*/
+.chemail_layer{width:600px;margin-top:30px;}
+.chemail_layer th{padding-bottom: 15px;}
+.chemail_layer th h3{border-bottom: 1px solid #ddd;margin:0 30px;text-align:left;color:#333;padding:0 0 10px 10px;}
+.chemail_layer .chinput_lg{margin-left: 0px;}
+.pb50 td{padding-bottom: 50px;}
+.mb15{margin-bottom: 15px !important;}
+.pb0{padding-bottom: 0px !important;}
+.mb45{margin-bottom: 45px;}
+/*end 修改弹窗*/
+/*修改登录密码*/
+.chlogin{width: 470px;margin: 0 auto;}
+.forgetpwd{display: block;color: #1a53ff;font: 12px "Microsoft Yahei";margin: 10px 0px 0px 18px;text-decoration:underline !important;}
+/*end 修改登录密码*/
+/*************************end 商户-账号安全*************************/

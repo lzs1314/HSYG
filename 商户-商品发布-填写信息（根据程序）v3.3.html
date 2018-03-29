@@ -1,0 +1,1083 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>商品发布-合商云购</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="renderer" content="webkit">
+        <link href="http://123.232.124.106:8508/bootstrap/bootstrap.min.css?v=3.0.1" rel="stylesheet" type="text/css">
+        <link href="http://123.232.124.106:8508/manager/css/common.css?v=3.0.1" rel="stylesheet" type="text/css">
+        <link href="http://123.232.124.106:8508/manager/css/publish.css?v=3.0.1" rel="stylesheet" type="text/css">
+        <link href="http://123.232.124.106:8508/manager/css/chosen.css?v=3.0.1" rel="stylesheet" type="text/css">
+        <link href="http://123.232.124.106:8508/manager/ProductManager/css/upload.css?v=3.0.1" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="http://123.232.124.106:8508/ui/3.0/js/layer/skin/layer.ext.css" id="layui_layer_skinlayerextcss" style="" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/issue.css">
+        <link href="css/r_s_release.css" rel="stylesheet"/>
+        <script src="js/jquery-1.8.0.min.js"></script>
+        <script src="http://123.232.124.106:8508/jquery/jquery.unobtrusive-ajax.min.js?v=3.0.1" type="text/javascript"></script>
+        <script src="js/checkIE.js"></script>
+        <script src="js/layer/layer.js" ></script>
+    </head>
+    
+    <body style="background: #f6f6f6;" onload="setup();">
+        <div id="mall_iec">
+            <div id="iecin">
+                <span>×</span>
+                <p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+            </div>
+        </div>
+    	<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+		</div>
+        <div class="rs_mycontent clearfloat">
+    		<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+            <div class="rs_mcright">
+                <div class="s_publishTit">
+                    <img src="images/sellerCenter/s_publishTit2.png">
+                </div>
+                <div class="publishSecond_tit">
+                    <p>商品基本信息</p>
+                </div>
+                <div class="publishSecond_cont">
+                    <div class="content m-t-30">
+                        <div class="goods-info-two">
+                            <form id="LibGoodsModel" class="form-horizontal" name="LibGoodsModel"
+                            action="/goods/lib-goods/index.html?cat_id=92" method="post" novalidate="novalidate">
+                                <input type="hidden" name="_csrf" value="uKMNZt7xT7kgYz0-QMmivgnCz4gzPmKd0y-NQnyToZVZEM9YEeWTwKQ6WXsjJ59mu4HmxT9UUBMjV_Gb2O6z4Q==">
+                                <!-- 分类编号 -->
+                                <input type="hidden" id="libgoodsmodel-cat_id" class="form-control" name="LibGoodsModel[cat_id]"
+                                value="92" aria-required="true">
+                               
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="text4" class="col-sm-3 control-label">
+                                            <span class="text-danger ng-binding">
+                                                *
+                                            </span>
+                                            <span class="ng-binding">
+                                                商品分类：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <label class="control-label" data-anchor="商品分类ID">
+                                                手机数码 &gt; 手机通讯 &gt; 手机
+                                            </label>
+                                            <input type="hidden" id="libgoodsmodel-cat_id" class="form-control" name="LibGoodsModel[cat_id]"
+                                            value="92">
+                                            <a id="change_category" href="javascript:void(0);" class="btn btn-warning btn-sm m-l-5">
+                                                切换商品分类
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品名称 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-goods_name" class="col-sm-3 control-label">
+                                            <span class="text-danger ng-binding">
+                                                *
+                                            </span>
+                                            <span class="ng-binding">
+                                                商品名称：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <input type="text" id="libgoodsmodel-goods_name" class="form-control error"
+                                                name="LibGoodsModel[goods_name]" data-anchor="商品名称" aria-required="true"
+                                                aria-invalid="true">
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                                <!-- 改 -->
+                                                <div class="help-block help-block-t">
+                                                    商品标题名称长度至少3个字，最长60个字
+                                                </div>
+                                            </div>
+                                            <span id="libgoodsmodel-goods_name-error" data-error-id="libgoodsmodel-goods_name-error"
+                                            class="form-control-error">
+                                                商品名称不能为空。
+                                            </span>
+                                            <!-- 改 -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品原地址 -->
+                                <!-- 商品原id -->
+                                <!-- 商品关键词 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                商品品牌：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <div class="chosen-container chosen-container-single" title="">
+                                                    <a class="chosen-single" tabindex="-1">
+                                                        <span>
+                                                            ------请选择品牌------
+                                                        </span>
+                                                    </a>
+                                                    <div class="chosen-drop">
+                                                        <div class="chosen-search">
+                                                            <input type="text" autocomplete="off">
+                                                        </div>
+                                                        <ul class="chosen-results">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <select name="LibGoodsModel[brand_id]" class="form-control chosen-select"
+                                                style="display: none">
+                                                    <option value="">
+                                                        ------请选择品牌------
+                                                    </option>
+                                                    <option value="150">
+                                                        Huawei/华为
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品属性 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-goods_attr" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                商品属性：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <div class="goods-attr w750" data-anchor="商品属性">
+                                                    <div class="he20">
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    尺
+                                                                    <span>
+                                                                    </span>
+                                                                    寸：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="3" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <input type="text" id="goods_attrs_3" class="form-control" name="goods_attrs[3]"
+                                                                        data-rule-required="" data-msg="" aria-required="true">
+                                                                        <!-- 品牌属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    运行内存：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="25" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <div class="chosen-container chosen-container-single" title="" id="goods_attrs_25_chosen">
+                                                                            <a class="chosen-single chosen-default" tabindex="-1">
+                                                                            </a>
+                                                                            <div class="chosen-drop">
+                                                                                <div class="chosen-search">
+                                                                                    <input type="text" autocomplete="off">
+                                                                                </div>
+                                                                                <ul class="chosen-results">
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <select id="goods_attrs_25" class="form-control chosen-select" name="goods_attrs[25]"
+                                                                        data-rule-required="" data-msg="" aria-required="true" style="display: none;">
+                                                                            <option value="100">
+                                                                                其他
+                                                                            </option>
+                                                                        </select>
+                                                                        <!-- 文本属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    机身内存：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="28" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <div class="chosen-container chosen-container-single" title="" id="goods_attrs_28_chosen">
+                                                                            <a class="chosen-single chosen-default" tabindex="-1">
+                                                                            </a>
+                                                                            <div class="chosen-drop">
+                                                                                <div class="chosen-search">
+                                                                                    <input type="text" autocomplete="off">
+                                                                                </div>
+                                                                                <ul class="chosen-results">
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <select id="goods_attrs_28" class="form-control chosen-select" name="goods_attrs[28]"
+                                                                        data-rule-required="" data-msg="" aria-required="true" style="display: none;">
+                                                                            <option value="109">
+                                                                                8G
+                                                                            </option>
+                                                                        </select>
+                                                                        <!-- 文本属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    商品产地：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="26" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <div class="chosen-container chosen-container-single" title="" id="goods_attrs_26_chosen">
+                                                                            <a class="chosen-single chosen-default" tabindex="-1">
+                                                                            </a>
+                                                                            <div class="chosen-drop">
+                                                                                <div class="chosen-search">
+                                                                                    <input type="text" autocomplete="off">
+                                                                                </div>
+                                                                                <ul class="chosen-results">
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <select id="goods_attrs_26" class="form-control chosen-select" name="goods_attrs[26]"
+                                                                        data-rule-required="" data-msg="" aria-required="true" style="display: none;">
+                                                                            <option value="101">
+                                                                                中国大陆
+                                                                            </option>
+                                                                        </select>
+                                                                        <!-- 文本属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    机身颜色：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="31" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <div class="chosen-container chosen-container-single" title="" id="goods_attrs_31_chosen">
+                                                                            <a class="chosen-single chosen-default" tabindex="-1">
+                                                                            </a>
+                                                                            <div class="chosen-drop">
+                                                                                <div class="chosen-search">
+                                                                                    <input type="text" autocomplete="off">
+                                                                                </div>
+                                                                                <ul class="chosen-results">
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <select id="goods_attrs_31" class="form-control chosen-select" name="goods_attrs[31]"
+                                                                        data-rule-required="" data-msg="" aria-required="true" style="display: none;">
+                                                                            <option value="116">
+                                                                                金色
+                                                                            </option>
+                                                                        </select>
+                                                                        <!-- 文本属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    像
+                                                                    <span>
+                                                                    </span>
+                                                                    素：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="22" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <div class="chosen-container chosen-container-single" title="" id="goods_attrs_22_chosen">
+                                                                            <a class="chosen-single chosen-default" tabindex="-1">
+                                                                            </a>
+                                                                            <div class="chosen-drop">
+                                                                                <div class="chosen-search">
+                                                                                    <input type="text" autocomplete="off">
+                                                                                </div>
+                                                                                <ul class="chosen-results">
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <select id="goods_attrs_22" class="form-control chosen-select" name="goods_attrs[22]"
+                                                                        data-rule-required="" data-msg="" aria-required="true" style="display: none;">
+                                                                            <option value="92">
+                                                                                500-1000
+                                                                            </option>
+                                                                        </select>
+                                                                        <!-- 文本属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    款
+                                                                    <span>
+                                                                    </span>
+                                                                    式：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="4" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <input type="text" id="goods_attrs_4" class="form-control" name="goods_attrs[4]"
+                                                                        data-rule-required="" data-msg="" aria-required="true">
+                                                                        <!-- 品牌属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field">
+                                                        <div class="form-group">
+                                                            <label for="" class="col-sm-2 control-label">
+                                                                <span class="ng-binding">
+                                                                    核
+                                                                    <span>
+                                                                    </span>
+                                                                    数：
+                                                                </span>
+                                                            </label>
+                                                            <div class="col-sm-9">
+                                                                <div class="form-control-box">
+                                                                    <div class="attr-values" data-attr-id="35" data-required="0">
+                                                                        <!-- 多选属性 -->
+                                                                        <label class="control-label cur-p m-r-10">
+                                                                            <input type="checkbox" id="goods_attrs_35_134" name="goods_attrs[35][]"
+                                                                            value="134" data-rule-required="" data-msg="" aria-required="true">
+                                                                            <label for="goods_attrs_35_134" class="goods_attrs_35_134">
+                                                                            </label>
+                                                                            四核
+                                                                        </label>
+                                                                        <label class="control-label cur-p m-r-10">
+                                                                            <input type="checkbox" id="goods_attrs_35_135" name="goods_attrs[35][]"
+                                                                            value="135" data-rule-required="" data-msg="" aria-required="true">
+                                                                            <label for="goods_attrs_35_135" class="goods_attrs_35_134">
+                                                                            </label>
+                                                                            八核
+                                                                        </label>
+                                                                        <!-- 单选属性 -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="help-block help-block-t">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品规格 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-goods_spec" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                商品规格：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <div class="simple-form-field spec-title-box">
+                                                    <!-- 改 -->
+                                                    <div class="form-group pd14">
+                                                        <div class="hint">
+                                                            <!--已选中的默认规格，为span添加 selected样式-->
+                                                            <span class="spec-values-item selected">
+                                                                <label class="control-label">
+                                                                    <input type="checkbox" value="27" id="open_norms">
+                                                                    <label for="open_norms" class="goods_attrs_35_134">
+                                                                    </label>
+                                                                    开启规格
+                                                                </label>
+                                                            </span>
+                                                            <span class="hinticon">
+                                                                1）.设置默认规格后，才可以编辑商品的相册图片。
+                                                                <span>
+                                                                </span>
+                                                                2）.您需要选择至少一个商品规格，才能组合成完整的规格信息。
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="goods-spec w750" data-anchor="商品规格">
+                                                    <div class="simple-form-field goods-spec-item" data-spec-id="27">
+                                                        <input type="hidden" name="spec_alias[0][attr_id]" value="27">
+                                                        <div class="form-group spec-id-27" data-spec-id="27" data-spec-name="颜色">
+                                                            <!-- 规格名称 -->
+                                                            <label class="col-sm-2 control-label spec-name cur-p" data-spec-id="162">
+                                                                <span class="ng-binding">
+                                                                    颜色
+                                                                </span>
+                                                                ：
+                                                            </label>
+                                                            <!-- 设置规格别名 end-->
+                                                            </label>
+                                                            <!-- 规格值列表 -->
+                                                            <div class="col-sm-9 spec-values" data-spec-id="27">
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="golden" value="102" data-attr-id="27" data-vid="102"
+                                                                    data-vname="金色" class="spec-value">
+                                                                    <label for="golden">
+                                                                    </label>
+                                                                    金色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="black" value="103" data-attr-id="27" data-vid="103"
+                                                                    data-vname="黑色" class="spec-value">
+                                                                    <label for="black">
+                                                                    </label>
+                                                                    黑色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id ="104"  value="104" data-attr-id="27" data-vid="104" data-vname="白色"
+                                                                    class="spec-value">
+                                                                    <label for="104"></label>
+                                                                    白色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="105" value="105" data-attr-id="27" data-vid="105" data-vname="玫瑰金"
+                                                                    class="spec-value">
+                                                                    <label for="105"></label>
+                                                                    玫瑰金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="106" value="106" data-attr-id="27" data-vid="106" data-vname="香槟色"
+                                                                    class="spec-value">
+                                                                    <label for="106"></label>
+                                                                    香槟色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="107" value="107" data-attr-id="27" data-vid="107" data-vname="粉色"
+                                                                    class="spec-value">
+                                                                    <label for="107"></label>
+                                                                    粉色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="108" value="108" data-attr-id="27" data-vid="108" data-vname="绿色"
+                                                                    class="spec-value">
+                                                                    <label for="108"></label>
+                                                                    绿色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <!-- 遍历自定义规格 start -->
+                                                                <!-- 遍历自定义规格 end -->
+                                                                <label class="control-label cur-p">
+                                                                    <input type="checkbox" value="1" id="qita" class="spec-value spec-other-value" data-attr-id="27">
+                                                                    <label for="qita"></label>
+                                                                    <input type="text" name="other_spec[]" value="" placeholder="其他" maxlength="15"
+                                                                    class="form-control form-control-xs w80 spec-other-text" data-rule-uniqueotherspecname="true">
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field goods-spec-item" data-spec-id="32">
+                                                        <input type="hidden" name="spec_alias[1][attr_id]" value="32">
+                                                        <div class="form-group spec-id-32" data-spec-id="32" data-spec-name="版本">
+                                                            <!-- 规格名称 -->
+                                                            <label class="col-sm-2 control-label spec-name cur-p" data-spec-id="162">
+                                                                <span class="ng-binding">
+                                                                    版本
+                                                                </span>
+                                                                ：
+                                                            </label>
+                                                            <!-- 设置规格别名 end-->
+                                                            </label>
+                                                            <!-- 规格值列表 -->
+                                                            <div class="col-sm-9 spec-values" data-spec-id="32">
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="117" value="117" data-attr-id="32" data-vid="117" data-vname="公开版"
+                                                                    class="spec-value">
+                                                                    <label for="117"></label> 
+                                                                    公开版 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="118" value="118" data-attr-id="32" data-vid="118" data-vname="移动版"
+                                                                    class="spec-value">
+                                                                    <label for="118"></label>
+                                                                    移动版 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="119" value="119" data-attr-id="32" data-vid="119" data-vname="电信版"
+                                                                    class="spec-value">
+                                                                    <label for="119"></label>
+                                                                    电信版 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="120" value="120" data-attr-id="32" data-vid="120" data-vname="联通版"
+                                                                    class="spec-value">
+                                                                    <label for="120"></label>
+                                                                    联通版 &nbsp; &nbsp;
+                                                                </label>
+                                                                <!-- 遍历自定义规格 start -->
+                                                                <!-- 遍历自定义规格 end -->
+                                                                <label class="control-label cur-p">
+                                                                    <input type="checkbox" id="32v" value="1" class="spec-value spec-other-value" data-attr-id="32">
+                                                                    <label for="32v"></label>
+                                                                    <input type="text" name="other_spec[]" value="" placeholder="其他" maxlength="15"
+                                                                    class="form-control form-control-xs w80 spec-other-text" data-rule-uniqueotherspecname="true">
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field goods-spec-item" data-spec-id="161">
+                                                        <input type="hidden" name="spec_alias[2][attr_id]" value="161">
+                                                        <div class="form-group spec-id-161" data-spec-id="161" data-spec-name="网络类型">
+                                                            <!-- 规格名称 -->
+                                                            <label class="col-sm-2 control-label spec-name cur-p" data-spec-id="161">
+                                                                <span class="ng-binding">
+                                                                    网络类型
+                                                                </span>
+                                                                ：
+                                                            </label>
+                                                            <!-- 规格值列表 -->
+                                                            <div class="col-sm-9 spec-values" data-spec-id="161">
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1088" value="1088" data-attr-id="161" data-vid="1088"
+                                                                    data-vname="移动4G/联通4G/电信4G" class="spec-value">
+                                                                    <label for="1088"></label>
+                                                                    移动4G/联通4G/电信4G &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1079" value="1079" data-attr-id="161" data-vid="1079"
+                                                                    data-vname="移动4G" class="spec-value">
+                                                                    <label for="1079"></label>
+                                                                    移动4G &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1070" value="1070" data-attr-id="161" data-vid="1070"
+                                                                    data-vname="移动4G/联通4G/电信4G" class="spec-value">
+                                                                    <label for="1070"></label>
+                                                                    移动4G/联通4G/电信4G &nbsp; &nbsp;
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field goods-spec-item" data-spec-id="162">
+                                                        <input type="hidden" name="spec_alias[3][attr_id]" value="162">
+                                                        <div class="form-group spec-id-162" data-spec-id="162" data-spec-name="颜色分类">
+                                                            <!-- 规格名称 -->
+                                                            <label class="col-sm-2 control-label spec-name cur-p" data-spec-id="162">
+                                                                <span class="ng-binding">
+                                                                    颜色分类
+                                                                </span>
+                                                                ：
+                                                            </label>
+                                                            <!-- 规格值列表 -->
+                                                            <div class="col-sm-9 spec-values" data-spec-id="162">
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1081" value="1081" data-attr-id="162" data-vid="1081"
+                                                                    data-vname="铂雅金" class="spec-value">
+                                                                    <label for="1081"></label>
+                                                                    铂雅金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1083" value="1083" data-attr-id="162" data-vid="1083"
+                                                                    data-vname="钛银灰" class="spec-value">
+                                                                    <label for="1083"></label>
+                                                                    钛银灰 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1084" value="1084" data-attr-id="162" data-vid="1084"
+                                                                    data-vname="皓月银" class="spec-value">
+                                                                    <label for="1084"></label>
+                                                                    皓月银 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1085" value="1085" data-attr-id="162" data-vid="1085"
+                                                                    data-vname="流光金" class="spec-value">
+                                                                    <label for="1085"></label>
+                                                                    流光金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1086" value="1086" data-attr-id="162" data-vid="1086"
+                                                                    data-vname="摩卡金" class="spec-value">
+                                                                    <label for="1086"></label>
+                                                                    摩卡金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1087" value="1087" data-attr-id="162" data-vid="1087"
+                                                                    data-vname="香槟金" class="spec-value">
+                                                                    <label for="1087"></label>
+                                                                    香槟金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1089" value="1089" data-attr-id="162" data-vid="1089"
+                                                                    data-vname="香槟金（黑）" class="spec-value">
+                                                                    <label for="1089"></label>
+                                                                    香槟金（黑） &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1080" value="1080" data-attr-id="162" data-vid="1080"
+                                                                    data-vname="月光银" class="spec-value">
+                                                                    <label for="1080"></label>
+                                                                    月光银 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1071" value="1071" data-attr-id="162" data-vid="1071"
+                                                                    data-vname="琥珀金" class="spec-value">
+                                                                    <label for="1071"></label>
+                                                                    琥珀金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1072" value="1072" data-attr-id="162" data-vid="1072"
+                                                                    data-vname="玫瑰金" class="spec-value">
+                                                                    <label for="1072"></label>
+                                                                    玫瑰金 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1073" value="1073" data-attr-id="162" data-vid="1073"
+                                                                    data-vname="琥珀灰" class="spec-value">
+                                                                    <label for="1073"></label>
+                                                                    琥珀灰 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1074" value="1074" data-attr-id="162" data-vid="1074"
+                                                                    data-vname="陶瓷白" class="spec-value">
+                                                                    <label for="1074"></label>
+                                                                    陶瓷白 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1077" value="1077" data-attr-id="162" data-vid="1077"
+                                                                    data-vname="金色" class="spec-value">
+                                                                    <label for="1077"></label>
+                                                                    金色 &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1090" value="1090" data-attr-id="162" data-vid="1090"
+                                                                    data-vname="香槟金（白）" class="spec-value">
+                                                                    <label for="1090"></label>
+                                                                    香槟金（白） &nbsp; &nbsp;
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field goods-spec-item" data-spec-id="163">
+                                                        <input type="hidden" name="spec_alias[4][attr_id]" value="163">
+                                                        <div class="form-group spec-id-163" data-spec-id="163" data-spec-name="套餐类型">
+                                                            <!-- 规格名称 -->
+                                                            <label class="col-sm-2 control-label spec-name cur-p" data-spec-id="163">
+                                                                <span class="ng-binding">
+                                                                    套餐类型
+                                                                </span>
+                                                                ：
+                                                            </label>
+                                                            <!-- 规格值列表 -->
+                                                            <div class="col-sm-9 spec-values" data-spec-id="163">
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1075" value="1075" data-attr-id="163" data-vid="1075"
+                                                                    data-vname="官方标配" class="spec-value">
+                                                                    <label for="1075"></label>
+                                                                    官方标配 &nbsp; &nbsp;
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="simple-form-field goods-spec-item" data-spec-id="164">
+                                                        <input type="hidden" name="spec_alias[5][attr_id]" value="164">
+                                                        <div class="form-group spec-id-164" data-spec-id="164" data-spec-name="存储容量">
+                                                            <!-- 规格名称 -->
+                                                            <label class="col-sm-2 control-label spec-name cur-p" data-spec-id="164">
+                                                                <span class="ng-binding">
+                                                                    存储容量
+                                                                </span>
+                                                                ：
+                                                            </label>
+                                                            <!-- 规格值列表 -->
+                                                            <div class="col-sm-9 spec-values" data-spec-id="164">
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1082" value="1082" data-attr-id="164" data-vid="1082"
+                                                                    data-vname="32GB" class="spec-value">
+                                                                    <label for="1082"></label>
+                                                                    32GB &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1076" value="1076" data-attr-id="164" data-vid="1076"
+                                                                    data-vname="64GB" class="spec-value">
+                                                                    <label for="1076"></label>
+                                                                    64GB &nbsp; &nbsp;
+                                                                </label>
+                                                                <label class="control-label text-l cur-p w100">
+                                                                    <!-- 选中规格 -->
+                                                                    <input type="checkbox" id="1078" value="1078" data-attr-id="164" data-vid="1078"
+                                                                    data-vname="16GB" class="spec-value">
+                                                                    <label for="1078"></label>
+                                                                    16GB &nbsp; &nbsp;
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="sku_table_container" class="table-responsive" style="overflow: visible;">
+                                                        <table id="sku_table" class="table table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="sku-th-index">
+                                                                    </th>
+                                                                    <th>
+                                                                        市场价
+                                                                        <div class="batch">
+                                                                            <a href="javascript:void(0)" class="batch-edit" title="批量设置">
+                                                                            </a>
+                                                                            <div class="batch-input" >
+                                                                                <h6>
+                                                                                    批量设置市场价：
+                                                                                </h6>
+                                                                                <a href="javascript:void(0)" class="batch-close"></a>
+                                                                                <input type="text" class="form-control text small pull-none" value="">
+                                                                                <input type="button" class="btn btn-primary btn-sm pull-none m-l-5 btn_batch_set"
+                                                                                data-field="market_price" value="设置">
+                                                                            </div>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <span class="text-danger ng-binding">
+                                                                            *
+                                                                        </span>
+                                                                        店铺价
+                                                                        <div class="batch">
+                                                                            <a href="javascript:void(0)" class="batch-edit" title="批量设置">
+                                                                            </a>
+                                                                            <div class="batch-input" style="display: none;">
+                                                                                <h6>
+                                                                                    批量设置店铺价：
+                                                                                </h6>
+                                                                                <a href="javascript:void(0)" class="batch-close"></a>
+                                                                                <input class="form-control text small pull-none" type="text" value="">
+                                                                                <input type="button" class="btn btn-primary btn-sm pull-none m-l-5 btn_batch_set"
+                                                                                data-field="goods_price" value="设置">
+                                                                            </div>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        商品货号
+                                                                    </th>
+                                                                    <th>
+                                                                        商品条形码
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                        </table>
+                                                    </div>
+                                                    <!-- 规格数量大于1则发出警告提示 -->
+                                                </div>
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品价格 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-goods_price" class="col-sm-3 control-label">
+                                            <span class="text-danger ng-binding">
+                                                *
+                                            </span>
+                                            <span class="ng-binding">
+                                                店铺价：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <input type="text" id="libgoodsmodel-goods_price" class="form-control ipt pull-none m-r-10"
+                                                name="LibGoodsModel[goods_price]" data-anchor="店铺价" aria-required="true">
+                                                元
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                                <div class="help-block help-block-t">
+                                                    价格必须是0.01~9999999之间的数字，且不能高于市场价
+                                                    <br>
+                                                    此价格为商品实际销售价格，如果商品存在规格，该价格显示最低价格
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 市场价 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-market_price" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                市场价：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <input type="text" id="libgoodsmodel-market_price" class="form-control ipt pull-none m-r-10"
+                                                name="LibGoodsModel[market_price]" value="0">
+                                                元
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                                <div class="help-block help-block-t">
+                                                    为0则商品详情页不显示，价格必须是0.00~9999999之间的数字，此价格仅为市场参考售价，请根据该实际情况认真填写
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 成本价 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-cost_price" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                成本价：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <input type="text" id="libgoodsmodel-cost_price" class="form-control ipt pull-none m-r-10"
+                                                name="LibGoodsModel[cost_price]" value="0">
+                                                元
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                                <div class="help-block help-block-t">
+                                                    价格必须是0.00~9999999之间的数字，此价格为商户对所销售的商品实际成本价格进行备注记录
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品货号 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-goods_sn" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                商品货号：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <input type="text" id="libgoodsmodel-goods_sn" class="form-control" name="LibGoodsModel[goods_sn]">
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                                <div class="help-block help-block-t">
+                                                    商品货号是指商家管理商品的编号，买家不可见
+                                                    <br>
+                                                    最多可输入20个字，支持输入中文、字母、数字、_、/、-和小数点
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 商品条形码 -->
+                                <div class="simple-form-field">
+                                    <div class="form-group">
+                                        <label for="libgoodsmodel-goods_barcode" class="col-sm-3 control-label">
+                                            <span class="ng-binding">
+                                                商品条形码：
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-9">
+                                            <div class="form-control-box">
+                                                <input type="text" id="libgoodsmodel-goods_barcode" class="form-control" name="LibGoodsModel[goods_barcode]">
+                                            </div>
+                                            <div class="help-block help-block-t">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group text-center">
+                                    <button type="button" class="writeSubmit" style="margin:30px 0px 50px 0px" id="btn_submit" onclick="DoPublish()">
+                                        下一步
+                                    </button>
+                                </div>
+                            </form>
+                            <input type="file" id="file_goods_image" name="file_goods_image" style="display: none;"multiple="multiple" accept="image/*">
+                            <input type="file" id="file_pc_desc" name="file_pc_desc" style="display: none;"multiple="multiple" accept="image/jpeg,image/png">
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" id="hidSocket" value="{&quot;Operation&quot;:0,&quot;DeviceId&quot;:&quot;pc&quot;,&quot;AppName&quot;:null,&quot;BootAuth&quot;:null,&quot;data&quot;:&quot;{\&quot;UserID\&quot;:\&quot;165003\&quot;,\&quot;UserRole\&quot;:4,\&quot;ConnectionPlatform\&quot;:1,\&quot;DeviceId\&quot;:\&quot;pc\&quot;,\&quot;Key\&quot;:null,\&quot;CookieValue\&quot;:null,\&quot;AppMessageId\&quot;:null,\&quot;Version\&quot;:null}&quot;}">
+                <div class="sell_word2">
+                    <div class="sell_word" style="display: none;">
+                        <div class="word">
+                            您有
+                            <a href="http://123.232.124.106:8504//RetailReturnOrders/StoreSaleReturn/Index">
+                                <span class="word_r">
+                                    销售退货单
+                                </span>
+                            </a>
+                            等待处理!
+                        </div>
+                        <img src="http://123.232.124.106:8508//ui/Store/images/manage/note_clsbtn.png" class="word_btn">
+                    </div>
+                    <div class="sell_word1" style="display: none;">
+                        <div class="word">
+                            您有
+                            <a href="http://123.232.124.106:8504//RetailOrders/Store/Index?mes=3">
+                                <span class="word_o">
+                                    销售订单
+                                </span>
+                            </a>
+                            等待处理!
+                        </div>
+                        <img src="http://123.232.124.106:8508//ui/Store/images/manage/note_clsbtn.png" class="word_btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://123.232.124.106:8508/order/storeorder/js/socketserver.js?v=3.0.1" type="text/javascript">
+        </script>
+        <script src="http://123.232.124.106:8508/public/js/MerchantHead.js?v=3.0.1" type="text/javascript">
+        </script>
+        <script src="http://123.232.124.106:8508/ui/js/wfooter.js?v=3.0.1" type="text/javascript">
+        </script>
+        <script src="http://123.232.124.106:8508/public/js/jspage.js?v=3.0.1" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+            $("#a_top_1").addClass("mg_nav_on");
+            $("#li_Menu_1").addClass("sideOn");
+        </script>
+        <script type="text/javascript" src="http://123.232.124.106:8506/Public/HeadUser">
+        </script>
+    </body>
+
+</html>

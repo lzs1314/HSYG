@@ -1,0 +1,41 @@
+﻿@charset "utf-8";
+@import url('r_s_common.css');
+
+/******************商户-销售首页********************/
+.sell_content{width: 1200px;}
+.sell_banner{width: 1200px;height: 120px;position: relative;}
+.sell_banner span{display: block;width: 1200px;height: 120px;color: #ff7070;font: 600 36px/120px Microsoft Yahei;text-align: center;position: absolute;top: 0px;left: 0px;z-index: 10;}
+.sell_set{width: 1200px;height: 53px;padding-top: 10px;}
+.sellset_btn{float: left;display: block;width: 160px;height: 40px;background: url(../images/sell/sellset_btn.png) no-repeat;color: #323232;font: 14px/40px "Microsoft Yahei";text-align: center;border-radius: 4px;}
+.sellset_btn:hover{color: #fff;background: #ff6161;}
+.runmg_a{float: right;display: block;height: 34px;color: #383838;font:bold 14px "Microsoft Yahei";background: url(../images/sellerCenter/mgcIcon2.png) no-repeat 0px -158px;padding: 20px 0px 0px 68px;}
+.runmg_btn{float: right;display: block;width: 27px;height: 22px;background: #fe6d6d;color: #fff;font:bold 16px/22px "Microsoft Yahei";border-radius: 5px;text-align: center;margin-top: 18px;}
+.runmg_btn:hover{background: #e54242;}
+.sell_enter{width: 1200px;height: 158px;}
+.senter_resale{float: left;width: 596px;height: 158px;background: url(../images/sell/senter_bg1.png) no-repeat;}
+.enterBtn{display: block;width: 108px;height: 30px;border: 1px solid #f35050;border-radius: 4px;background: #fff;color: #f35050;font: 14px/30px "Microsoft Yahei";text-align: center;margin: 44px 0px 12px 206px;}
+.enterBtn:hover{color: #fff;border: 1px solid #ff7373;background: #ff7373;}
+.enterText{color: #999;font: 14px/20px "Microsoft Yahei";margin: 0px 0px 0px 206px;}
+.senter_whol{float: right;width: 596px;height: 158px;background: url(../images/sell/senter_bg2.png) no-repeat;}
+.sellormg{width: 1200px;}
+.sell_res{float: left;width: 590px;}
+.sell_whol{float: right;width: 590px;}
+.sellrw_tit{width: 577px;height: 38px;background: url(../images/sell/sellrw_tit.png) repeat-x;border-left: 3px solid #fa6b6b;color: #646464;font: 14px/38px "Microsoft Yahei";margin-top: 8px;padding-left: 10px;}
+.sellrw_cont{width: 584px;height: 130px;background: #fff;padding: 40px 0px 0px 6px;}
+.sellrw_cont li{float: left;width: 98px;height: 88px;border: 1px solid #dfe4ec;border-radius: 6px;text-align: center;margin-left: 36px;}
+.sellrw_cont li a{color: #646464;font: 14px/20px "Microsoft Yahei";display: block;padding-top: 42px;}
+.sellrw_cont li a span{color: #ff5b5a;font-weight: bold;}
+.rwIcon1{background: url(../images/sell/rwIcon.png) no-repeat 40px 17px;}
+.rwIcon2{background: url(../images/sell/rwIcon.png) no-repeat 40px -84px;}
+.rwIcon3{background: url(../images/sell/rwIcon.png) no-repeat 40px -184px;}
+.rwIcon4{background: url(../images/sell/rwIcon.png) no-repeat 40px -284px;}
+.rwIcon1:hover{background:#ff7373 url(../images/sell/rwIcon.png) no-repeat -40px 17px;}
+.rwIcon2:hover{background:#ff7373 url(../images/sell/rwIcon.png) no-repeat -43px -84px;}
+.rwIcon3:hover{background:#ff7373 url(../images/sell/rwIcon.png) no-repeat -40px -184px;}
+.rwIcon4:hover{background:#ff7373 url(../images/sell/rwIcon.png) no-repeat -44px -284px;}
+.sellrw_cont li:hover{border: 1px solid #ff7373;}
+.sellrw_cont li:hover a{color: #fff !important;}
+.sellrw_cont li:hover a span{color: #fff !important;}
+/******************end 商户-销售首页********************/
+
+

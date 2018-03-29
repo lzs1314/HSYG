@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>社区主-零售单商品定价</title>
+		<link type="text/css" href="css/r_community_module.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour" style="background: #f6f6f6;">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+        <div class="com_mallTop_wrap">
+            <div class="com_logo">
+                <a href="#" class="comlogo"></a>
+                <div class="welcome">欢迎<span>15288886666</span>用户登陆!</div>
+                <ul class="com_mallTop_right">
+	                <li class="quit"><a>退出</a></li>
+	                <li class="retail"><a>零售入口</a></li>
+		    		<li class="bldin"><a>便利店入口</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="community_main clearfloat">
+            <div class="nav_left clearfloat">
+                <ul class="side clearfloat">
+                    <li class="stair1 notli"><a href="#">基本信息</a></li>
+                    <li><a href="#">基本信息</a></li>
+                    <li><a href="#">新注册用户列表</a></li>
+                    <li><a href="#">修改登录密码</a></li>
+                    <li><a href="#">修改支付密码</a></li>
+                    <li class="stair2 notli"><a href="#">财务管理</a></li>
+                    <li><a href="#">财务管理</a></li>
+                    <li><a href="#">银行卡管理</a></li>
+                    <li><a href="#">社区主充值</a></li>
+                    <li><a href="#">提现</a></li>
+                    <li class="stair3 notli"><a href="#">零售定价维护</a></li>
+                    <li><a href="#">区间定价</a></li>
+                    <li class="sta_on"><a href="#">单商品定价</a></li>
+                    <li class="stair4 notli"><a href="#">批发定价维护</a></li>
+                    <li><a href="#">区间定价</a></li>
+                    <li><a href="#">单商品定价</a></li>
+                    <li class="stair5 notli"><a href="#">订单管理</a></li>
+                    <li><a href="#">零售订单管理</a></li>
+                    <li><a href="#">批发订单管理</a></li>
+                    <li class="stair6 notli"><a href="#">退货单管理</a></li>
+                    <li><a href="#">零售退货单管理</a></li>
+                    <li><a href="#">批发退货单管理</a></li>
+                </ul>
+                <a href="#"><img src="images/sellerCenter/dredge.png" class="ad"/></a>
+            </div>
+            <div class="community_content">
+                <div class="company_div shade clearfloat">
+					<div class="com_select com_selmin">
+	                    <p>请选择社区</p>
+	                    <ul class="empsel" style="display:none">
+	                    	<li class="li">请选择社区</li>
+	                        <li class="li">万祥新区</li>
+							<li class="li">合商社区</li>
+							<li class="li">还新慧园</li>
+							<li class="li">王官庄小区</li>
+							<li class="li">中海广场</li>
+	                    </ul>
+                	</div>
+					<div class="seek_div seek_inp">
+						<input type="text" class="seek_in" />
+						<span class="seek_span">输入商品名称或商品编码进行搜索</span>
+					</div>
+					<input type="button" class="seek_but" value="搜索" />
+					<input type="button" class="derive" value="一键导出" />
+					<input type="button" class="setting_pri" value="一键设置公司指导价" name="">
+				</div>
+
+				<div class="clearfix"></div>
+                <div class="com_mon_pri">
+                <!-- 没选择社区时 -->
+                <!-- <div class="shade comm">
+					<img src="images/r_recruit/comm.png" class="comm_rimg">
+					<div class="comm_div">亲~您还未选择社区，选择社区后，将显示对应社区信息</div>
+                </div> -->
+                <!-- end 没选择社区时 -->
+					<div class="come_pricing clearfloat">
+						<div class="pri not_pri"><p class="ple">未定价</p></div>
+		                <div class="pri"><p class="pricing">已定价</p></div>
+		            </div>
+					<div class="pricing_div bor common_reg shade" style="display: none;">
+						<table class="table_pri">
+							<tr class="tr_title">
+								<th class="w160">商品名称</th>
+								<th class="w150">商品编号</th>
+								<th class="w90">规格</th>
+								<th class="w160">供应商</th>
+								<th class="w80">批发价</th>
+								<th class="w80">零售价</th>
+								<th class="w90">公司指导价</th>
+								<th class="w80">定价</th>
+								<th class="w80">操作</th>
+							</tr>
+							<tr>
+								<td class="reg_hr reg_borri" colspan="9"></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统一</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>58878.80</td>
+								<td>25489.00</td>
+								<td><div class="topricing topricing1"></div></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南">济南济南济南济南</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>58878.80</td>
+								<td>25489.00</td>
+								<td><span class="topricing topricing1"></span></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南济南济南济南康师康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南康师康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅康师康师红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>——</td>
+								<td>25489.00</td>
+								<td><span class="topricing topricing1"></span></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统一</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">济南济南康师傅红烧红烧牛肉面</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>58878.80</td>
+								<td>25489.00</td>
+								<td><span class="topricing topricing1"></span></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>58878.80</td>
+								<td>25489.00</td>
+								<td><span class="topricing topricing1"></span></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>58878.80</td>
+								<td>25489.00</td>
+								<td><span class="topricing topricing1"></span></td>
+							</tr>
+						</table>
+						<div class="clearfloat rt20 rtbor" >
+	                        <div class="page pa">
+	                            <a class="page_prev page_prev_jin" href="javascript:void(0)"></a>
+	                            <a href="#" class="page_on">1</a>
+	                            <a href="#">2</a>
+	                            <a href="#">3</a>
+	                            <a href="#">4</a>
+	                            <b class="page_b">...</b>
+	                            <a href="#">5</a>
+	                            <a class="page_next" href="#"></a>
+	                            <p class="page_p">共<em>5</em>页</p>
+	                            <span class="page_span">到</span>
+	                            <input type="text" class="page_text" />
+	                            <input type="button" class="page_btn" value="GO" />
+	                        </div>
+	                    </div>
+					</div>
+					<div class="pricing_div bor common_reg shade">
+						<table class="table_pri">
+							<tr class="tr_title">
+								<th class="w160">商品名称</th>
+								<th class="w150">商品编号</th>
+								<th class="w90">规格</th>
+								<th class="w160">供应商</th>
+								<th class="w80">批发价</th>
+								<th class="w80">零售价</th>
+								<th class="w90">公司指导价</th>
+								<th class="w80">定价</th>
+								<th class="w80">操作</th>
+							</tr>
+							<tr>
+								<td class="reg_hr reg_borri" colspan="9"></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统一</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>588.80</td>
+								<td>588.80</td>
+								<td>254.00</td>
+								<td><div class="compile compile1"></div>
+									<div class="repeal repeal1"></div></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南">济南济南济南济南</div></td>
+								<td>25652.10</td>
+								<td>588.80</td>
+								<td>——</td>
+								<td>259.00</td>
+								<td><div class="compile compile1"></div>
+									<div class="repeal repeal1"></div></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南济南济南济南康师康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南康师康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅康师康师红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>5888.80</td>
+								<td>——</td>
+								<td>25489.00</td>
+								<td><div class="compile compile1"></div>
+									<div class="repeal repeal1"></div></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统一</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">济南济南康师傅红烧红烧牛肉面</div></td>
+								<td>25652.10</td>
+								<td>588.80</td>
+								<td>588.80</td>
+								<td>259.00</td>
+								<td><div class="compile compile1"></div>
+									<div class="repeal repeal1"></div></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>5887.80</td>
+								<td>588.80</td>
+								<td>25489.00</td>
+								<td><div class="compile compile1"></div>
+									<div class="repeal repeal1"></div></td>
+							</tr>
+							<tr class="tr">
+								<td><div class="td_fl" title="济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜">济南济南济南济南康师傅红烧红烧牛肉面统一老谭酸菜</div></td>
+								<td>QWE123456789211</td>
+								<td>700ml*20盒</td>
+								<td><div class="td_fl" title="济南康师傅红烧红烧牛肉面">康师傅红烧牛肉面统一老谭酸菜</div></td>
+								<td>25652.10</td>
+								<td>58878.80</td>
+								<td>588.80</td>
+								<td>2549.00</td>
+								<td><div class="compile compile1"></div>
+									<div class="repeal repeal1"></div></td>
+							</tr>
+						</table>
+						<div class="clearfloat rt20 rtbor" >
+	                        <div class="page pa">
+	                            <a class="page_prev page_prev_jin" href="javascript:void(0)"></a>
+	                            <a href="#" class="page_on">1</a>
+	                            <a href="#">2</a>
+	                            <a href="#">3</a>
+	                            <a href="#">4</a>
+	                            <b class="page_b">...</b>
+	                            <a href="#">5</a>
+	                            <a class="page_next" href="#"></a>
+	                            <p class="page_p">共<em>5</em>页</p>
+	                            <span class="page_span">到</span>
+	                            <input type="text" class="page_text" />
+	                            <input type="button" class="page_btn" value="GO" />
+	                        </div>
+	                    </div>
+					</div>
+				</div>
+            </div>	
+        </div>
+		<!-- 编辑弹窗 -->
+    	<div class="retail_layer" style="display:none;">
+    		<div class="spdj">商品定价</div>
+    		<div class="clearfloat">
+	    		<dl class="layer_dl clearfloat">
+					<dt>商品名称：</dt>
+					<dd>加多宝加多加多宝加多</dd>
+				</dl>
+				<dl class="layer_dl1 clearfloat">
+					<dt>批&nbsp;&nbsp;发&nbsp;&nbsp;价：</dt>
+					<dd>983215.00</dd>
+				</dl>
+				<dl class="layer_dl1 clearfloat">
+					<dt>零&nbsp;&nbsp;售&nbsp;&nbsp;价：</dt>
+					<dd class="retail_m">983215.00</dd>
+				</dl>
+				<div class="clearfix"></div>
+				<dl class="layer_dl clearfloat">
+					<dt>加&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：</dt>
+	                <dd>
+						<input class="inp_bj" maxlength="8" type="text"><span class="yuan">元</span>
+	                	<p class="wro_p wrb"></p>
+	                </dd>
+				</dl>
+				<dl class="layer_qj layer_pri clearfloat">
+					<dt></dt>
+					<dd class="pri_i" style="margin-left: 25px;"><i></i>价格设定为公司指导价</dd>
+				</dl>
+				<div class="clearfix"></div>
+				<dl class="layer_dl lay_hint clearfloat">
+					<dt style="color: #fe5656 !important;">温馨提示：</dt>
+					<dd style="color: #fe5656 !important;">若商品定价超过公司指导价，按公司指导价销售</dd>
+				</dl>
+				<dl class="layer_dl layer_ok">
+					<dt></dt>
+					<dd><input type="button" class="ok" value="确定" /><input class="ex" value="取消" type="button"/></dd>
+				</dl>
+				<div class="clearfix"></div>
+				<dl class="layer_dl clearfloat">
+					<dt></dt>
+					<dd></dd>
+				</dl>
+			</div>
+    	</div>
+					
+        <script src="js/layer/layer.js" ></script>
+   		<script src="js/checkIE.js"></script> 
+   		<script src="js/r_community.js"></script>		
+   		<script src="js/r_community_pricing_single.js"></script>
+	</body>
+</html>

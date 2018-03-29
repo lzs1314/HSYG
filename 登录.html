@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link type="text/css" href="css/login.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body>
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="hylogin_out">
+		    <div class="hylogin_logo">
+		    	<img src="images/login/logologin.png" />
+		    </div>
+	    </div>		
+	    <div class="hylogin_outcon">
+		    <div class="hylogin_cont clearfloat">
+			    <p class="hylogin_adimg"><img src="images/login/lg_limg.png" /></p>
+			    <div class="hylogin_kk">
+				    <div class="kktit">
+				    	<a class="kktit_on" href="#">
+				    		<span class="kktit_bre">账户登录</span>
+				    		<i></i>
+				    	</a>
+				    	<a href="#">
+				    		<span>扫码登录</span>
+				    		<i></i>
+				    	</a>
+				    </div>
+				    <div class="kkcont">
+				    	<form autocomplete="off">
+							<p class="kk_note kk_origin">账户登录，注意不要泄露自己的信息</p>
+						    <p class="placeholder_group">
+						    	<img class="kk_img" src="images/login/gray_user.png" />
+							    <input type="text"  maxlength="30"  class="kk_user" name="kk_user" />
+							    <span class="ptop pleft">请输入已验证手机号</span>
+						    </p>
+						    <p class="placeholder_group">
+						    	<img class="kk_img" src="images/login/gray_pwd.png" />
+							    <input type="text" maxlength="20" class="kk_pwd" name="kk_pwd" />
+							    <span class="ptop pleft J_pleft">请输入密码</span>
+						    </p>
+						    <p class="kk_vcode placeholder_group clearfloat">
+							    <input type="text" class="kk_codetext" maxlength="4" name="kk_codetext" />
+							    <span class="ptop pleft15">请输入验证码</span>
+							    <img src="images/login/vcode.jpg" />
+							    <a>换一张</a>
+						    </p>
+						    <p class="kk_link clearfloat">
+						    	<a class="kk_link_forget" href="#">忘记密码？</a>
+						    	<a class="kk_link_reg" href="#">免费注册</a>
+						    </p>
+						    <input type="submit" value="登 录" class="kk_sbtn"/>					    		
+				    	</form>	    	
+				    </div>
+				    <div class="kkcont" style="display: none;">
+				    	<div class="qrcode_err" style="display: none;">
+				    		<div class="err_mask"></div>
+					    	<p class="err_text" style="display: none;">登录失败</p>
+					    	<p class="err_text">二维码已失效</p>
+					    	<a class="qr_refreshBtn" href="#">刷新</a>
+				    	</div>
+				    	<div class="qrcode_main">
+					    	<div class="qrcode_img">
+					    		<img src="images/login/qrcode_img.jpg" />
+					    	</div>
+					    	<div class="qrcode_help" style="display: none;"></div>				    		
+				    	</div>
+				    	<div class="qrcode_tip">
+				    		<p>打开手机合商云购&nbsp;&nbsp;扫描二维码登录</p>
+				    		<a href="#">免费注册</a>
+				    	</div>				    	
+				    	<div class="qrcode_succ" style="display: none;">
+				    		<span></span>
+				    		<a href="#">免费注册</a>
+				    	</div>				    	
+				    </div>
+			    </div>
+		    </div>
+	    </div>   
+		<div class="login_footer_wrap">
+		    <ul class="login_footerNav clearfloat">
+			    <li style="margin-left: 0px;"><a href="#" target="_blank">首页</a></li>
+			    <li>|</li>
+			    <li><a href="#" target="_blank">购物指南</a></li>
+			    <li>|</li>
+			    <li><a href="#" target="_blank">支付方式</a></li>
+			    <li>|</li>
+			    <li><a href="#" target="_blank">售后服务</a></li>
+			    <li>|</li>
+			    <li><a href="#" target="_blank">配送方式</a></li>
+			    <li>|</li>
+			    <li><a href="#" target="_blank">个人中心</a></li>
+			    <li>|</li>
+			    <li><a href="#" target="_blank">客服中心</a></li>
+			    <li>|</li>
+		    </ul>
+		    <div class="login_footerInfo">
+		        <ul>
+		        	<li>Copyright © &nbsp;&nbsp;&nbsp;&nbsp;2014-2017 合商云购 www.heshang365.com版权所有&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" target="_blank">合商云购营业执照</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" target="_blank">酒类流通备案登记表</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" target="_blank">食品流通许可证</a>&nbsp;&nbsp;|&nbsp;&nbsp;鲁ICP备 14033877号-1
+		        </li>
+		        	<li><img class="login_phone" src="images/common/hs_footPhone.png">客服热线：400-8821-555&nbsp;&nbsp;&nbsp;&nbsp;办公地址：山东省济南市高新区舜泰广场7号楼7层</li>
+		        </ul>
+		    </div>    
+		</div>	    
+	    
+
+   		<script src="js/checkIE.js"></script>
+   		<script src="js/login.js"></script>
+	</body>
+</html>

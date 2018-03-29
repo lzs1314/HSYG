@@ -1,0 +1,918 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商户-账号安全</title>
+		<link type="text/css" href="css/r_s_account.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour" onload="setup();setupA();setupZ();preselectZ('山东省','济南市','历下区');preselect('山东省','济南市','市、县级市、县');preselectA('山东省','济南市','市、县级市、县')">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+		</div>
+		<div class="rs_mycontent clearfloat">
+			<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+			<div class="rs_mcright">
+				<div class="rs_mcrTitle clearfloat">
+					<p class="mt_tit">账号安全</p>
+				</div>
+				<div class="rs_mcrCont">
+					<div class="account_cont" style="padding:16px 0 30px 0">
+						<dl class="acc_sec_dl clearfloat lpwd_icon">
+							<dt>
+								登录密码
+								<p>上次登录时间为：2016年4月14日 11：13</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_lpwd">修改</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat phone_icon">
+							<dt>
+								手机号
+								<p>绑定手机号为150****5678</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_phone">修改</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat email_icon">
+							<dt>
+								邮箱
+								<p>绑定邮箱为123456@qq.com</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_email changemail">修改</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat email_icon">
+							<dt>
+								邮箱
+								<p>暂无邮箱信息</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_email addemail">添加</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat bank_icon">
+							<dt>
+								 银行卡
+								<p>绑定银行卡为6222****1006298</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_bank">申请变更</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat bank_icon" >
+							<dt>
+								银行卡
+								<p>暂无银行卡</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_bank1">绑定银行卡</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat ppwd_icon">
+							<dt>
+								支付密码
+								<p>暂无支付密码</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_ppwd1">设置</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat ppwd_icon">
+							<dt>
+								支付密码
+								<p>支付密码用于付款，保证资金安全建议经常更换</p>
+							</dt>
+							<dd><a class="acc_btn acc_sec_ppwd">修改</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat addr_icon">
+							<dt>
+								收货地址
+								<p>山东省济南市市中区二环南路中海国际大厦1601</p>
+							</dt>
+							<dd><a class="acc_btn change_site">变更</a></dd>
+						</dl>
+						<dl class="acc_sec_dl clearfloat addr_icon">
+							<dt>
+								收货地址
+								<p>暂无收货地址</p>
+							</dt>
+							<dd><a class="acc_btn add_site">添加</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--修改登录密码-->
+		<div class="changepwd_layer pb40" style="display:none;">
+			<p class="change_tit">修改登录密码</p>
+			<table class="alert_tb" cellpadding="0" cellspacing="0">
+		        <tr class="pb10">
+		            <td width="160" class="chvt38"><p class="chatab_tit">用户名：</p></td>
+		            <td width="300"><p class="chatab_text">用户1986</p></td>
+		        </tr>
+		        <tr>
+		            <td><p class="chatab_tit">原登录密码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		            		<input type="password" maxlength="20" class="old_lpwd">
+		            		<em>请输入原登录密码</em>
+		            		<span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">新登录密码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		            		<input type="password" maxlength="20" class="new_lpwd">
+		            		<em>请输入6-20位数字或字母</em>
+		            		<span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">确认登录密码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		            		<input type="password" maxlength="20" class="new_lpwd_2"/>
+		            		<em>请再次输入新登录密码</em>
+		            		<span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+			        <td>&nbsp;</td>
+			        <td>
+		                <input type="submit" class="chapwd_btn" value="确认修改"/><a href="#" class="forget_lpwd_a">忘记原密码？</a>
+		            </td>
+		        </tr>
+		    </table>
+		</div>
+		<!--修改手机号码-->
+		<div class="changepho_layer pb40" style="display:none;">
+			<p class="change_tit">修改手机号</p>
+			<table class="phoalert_tb" cellpadding="0" cellspacing="0">
+		        <tr class="pb10" id="way_phone" valign="top">
+		            <td width="140"><p class="chatab_tit">原手机号：</p></td>
+		            <td width="410">
+			            155****678
+			            <span class="verify_way verify_way_email">邮箱接收验证码</span>
+			            <div class="blank_5"></div>
+			            <input class="send_verify_span ophone_fsbtn" type="button" value="点击发送验证码"/>
+			            <span class="sec_note" style="display: none;"><a>120</a> 秒后重新发送</span>
+		            </td>
+		        </tr>
+		        <tr class="pb10" style="display: none;" id="way_email" valign="top">
+		            <td width="140"><p class="chatab_tit">邮箱：</p></td>
+		            <td width="410">
+		            	zhangzhangzhang@heshang365.com
+		            	<span class="verify_way verify_way_phone">手机接收验证码</span>
+		            	<div class="blank_5"></div>
+		            	<input class="send_verify_span send_phone_ss email_fsbtn" type="button" value="点击发送验证码"/>
+		            	<span class="sec_note" style="display: none;"><a>120</a> 秒后重新发送</span>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td><p class="chatab_tit">验证码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		           			<input type="text" class="old_verify" />
+		           			<em>请输入验证码</em>
+		           			<span class="cha_span"></span>
+		           		</p>
+		           	</td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td class="tdvt38"><p class="chatab_tit">新手机号<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		           			<input type="text" class="new_phone" maxlength="11" />
+		           			<em>请输入新手机号</em>
+			            	<span class="cha_span"></span>
+		           		</p>
+						<div class="blank_5 clearfix"></div>
+						<input class="send_verify_span send_phone_ss ophone_fsbtn" type="button" value="点击发送验证码" />
+			            <span class="sec_note" style="display: none;"><a>120</a> 秒后重新发送</span>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">验证码<i>*</i>：</p></td>
+		            <td>
+		           		<p class="chatab_input">
+		           			<input type="text" class="newph_verify" />
+		           			<em>请输入验证码</em>
+		           			<span class="cha_span"></span>
+		           		</p>
+		           	</td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		        	<td>&nbsp;</td>
+		            <td>
+		                <input type="submit" class="alert_btn phone_btn" value="确认修改"/>
+		            </td>
+		        </tr>
+		    </table>
+		</div>
+		<!--修改邮箱-->
+		<div class="changeemail_layer pb40" style="display:none;">
+			<p class="change_tit">修改邮箱</p>
+			<table class="emlalert_tb" cellpadding="0" cellspacing="0">
+		        <tr class="pb10" style="display: none;" valign="top" id="way_phone">
+		            <td width="140"><p class="chatab_tit">原手机号：</p></td>
+		            <td width="410">
+			            155****678
+			            <span class="verify_way verify_way_email">邮箱接收验证码</span>
+			            <div class="blank_5"></div>
+			            <input class="send_verify_span send_phone_ss ophone_fsbtn" type="button" value="点击发送验证码"/>
+			            <span class="sec_note" style="display: none;"><a>120</a> 秒后重新发送</span>
+		            </td>
+		        </tr>
+		        <tr class="pb10" id="way_email" valign="top">
+		            <td width="140"><p class="chatab_tit">邮箱：</p></td>
+		            <td width="410">
+		            	zhangzhangzhang@heshang365.com
+		            	<span class="verify_way verify_way_phone">手机接收验证码</span>
+		            	<div class="blank_5"></div>
+		            	<input class="send_verify_span send_phone_ss email_fsbtn" type="button" value="点击发送验证码"/>
+		            	<span class="sec_note" style="display: none;"><a>120</a> 秒后重新发送</span>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td><p class="chatab_tit">验证码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		           			<input type="text" class="old_verify" />
+		           			<em>请输入验证码</em>
+		           			<span class="cha_span"></span>
+		           		</p>
+		           	</td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td class="tdvt38"><p class="chatab_tit">新邮箱<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		           			<input type="text" maxlength="30" class="new_email" />
+		           			<em>请输入新邮箱</em>
+			            	<span class="cha_span"></span>
+		           		</p>
+						<div class="blank_5 clearfix"></div>
+						<input class="send_verify_span send_phone_ss email_fsbtn" type="button" value="点击发送验证码" />
+			            <span class="sec_note" style="display: none;"><a>120</a> 秒后重新发送</span>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">验证码<i>*</i>：</p></td>
+		            <td>
+		           		<p class="chatab_input">
+		           			<input type="text" class="newemail_verify" />
+		           			<em>请输入验证码</em>
+		           			<span class="cha_span"></span>
+		           		</p>
+		           	</td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		        	<td>&nbsp;</td>
+		            <td>
+		                <input type="submit" class="alert_btn email_btn" value="确认修改"/>
+		            </td>
+		        </tr>
+		    </table>
+		</div>    
+		<!--添加邮箱-->
+		<div class="addemail_layer pb40" style="display:none;">
+			<p class="change_tit">添加邮箱</p>
+			<table class="alert_tb" cellpadding="0" cellspacing="0">
+				<tr>
+		            <td width="120" class="chvt38"><p class="chatab_tit">邮箱<i>*</i>：</p></td>
+		            <td width="300">
+		            	<p class="chatab_input">
+		           			<input type="text" maxlength="30" class="add_email" />
+		           			<em>请输入邮箱</em>
+			            	<span class="cha_span"></span>
+		           		</p>
+						
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>				
+				<tr>
+					<td class="chatab_tit">验证码：</td>
+					<td>
+						<p class="eminput_sm">
+							<input type="text" maxlength="4" class="emsm_input J_emcode">
+							<em>请输入邮箱验证码</em>
+							<input type="button" class="emcodeBtn emcodeBtn_jin" value="获取邮箱验证码"><span class="cha_span"></span>
+						</p>
+
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="emcodeTip" style="display: none;">验证码已发出，请注意查收邮箱，如果没有收到，你可以在<span>119</span>秒后要求系统重新发送</p>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="submit" value="提 交" class="alert_btn addemail_btn"></td>
+				</tr>
+			</table>
+		</div>
+		<!--变更银行卡信息弹窗-->
+		<div class="change_layer pb40" style="display: none;">
+			<p class="change_tit">变更银行卡信息</p>
+			<table class="change_tab" cellpadding="0" cellspacing="0">
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">开户名<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_text">张高冷</p>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td width="120px" class="chvt38">
+						<p class="chatab_tit">原银行卡号<i>*</i>：</p>
+					</td>
+					<td width="300px">
+						<p class="chatab_text">622625678922220000</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_input">
+							<input class="chabankInput" type="text" maxlength="19" />
+							<em>目前仅支持绑定借记卡</em>
+							<span class="cha_span"></span>
+						</p>
+						<div class="clearfix"></div>
+						<p class="vnote">注：此处设置的银行卡会成为默认提款卡</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>				
+				<tr class="pb20">
+					<td class="chvt38">
+						<p class="chatab_tit">开户行<i>*</i>：</p>
+					</td>
+					<td>
+            			<select class="chselect" name="province" id="s1">
+                            <option></option>
+                        </select>
+                        <select class="chselect ml10" name="city" id="s2">
+                            <option></option>
+                        </select>
+                        <select class="chselect" name="town" id="s3" style="display: none;">
+                            <option></option>
+                        </select>
+                        <span class="cha_span"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<div class="chatab_input acc_bank">
+							<input class="chabankinfoInput" type="text" maxlength="20" />
+							<em>请填写开户分（支）行信息</em>
+						</div>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+		            <td>
+		                <input type="button" class="alert_btn chatab_btn" value="提交变更申请"/> 
+		            </td>
+		        </tr>
+			</table>
+		</div>
+		<!--end  变更银行卡信息弹窗-->
+		<!--关联银行卡-->
+		<div class="addbank_layer pb40" style="display: none;">
+			<p class="change_tit">关联银行卡信息</p>
+			<table class="change_tab" cellpadding="0" cellspacing="0">
+				<tr class="pb10">
+					<td width="120px" class="chvt38">
+						<p class="chatab_tit">开户名<i>*</i>：</p>
+					</td>
+					<td width="300px">
+						<p class="chatab_text">张高冷</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="chvt38">
+						<p class="chatab_tit">银行卡号<i>*</i>：</p>
+					</td>
+					<td>
+						<p class="chatab_input">
+							<input class="addbankInput" type="text" maxlength="50" />
+							<em>目前仅支持绑定借记卡</em>
+							<span class="cha_span"></span>
+						</p>
+						<div class="clearfix"></div>
+						<p class="vnote">注：此处设置的银行卡会成为默认提款卡</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>				
+				<tr class="pb20">
+					<td class="chvt38">
+						<p class="chatab_tit">开户行<i>*</i>：</p>
+					</td>
+					<td>
+            			<select class="chselect" name="province" id="p1">
+                            <option></option>
+                        </select>
+                        <select class="chselect ml10" name="city" id="p2">
+                            <option></option>
+                        </select>
+                        <select class="chselect" name="town" id="p3" style="display: none;">
+                            <option></option>
+                        </select>
+						<span class="cha_span"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<div class="chatab_input acc_bank1">
+							<input class="addbankinfoInput" type="text" maxlength="50" />
+							<em>请填写开户分（支）行信息</em>
+							<span class="cha_span"></span>
+						</div>
+					</td>
+				</tr>
+				<tr class="pb10">
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+		            <td>
+		                <input type="button" class="alert_btn addtab_btn" value="确认关联"/>
+		            </td>
+		        </tr>
+			</table>
+		</div>
+		<!--end  关联银行卡-->
+		<!--设置支付密码-->
+		<div class="addpwd_layer pb40" style="display: none;">
+			<p class="change_tit">设置支付密码</p>
+			<table class="alert_tb" cellpadding="0" cellspacing="0">
+		        <tr>
+		            <td width="160" align="right"><p class="chatab_tit">支付密码<i>*</i>：</p></td>
+		            <td width="300">
+		            	<p class="chatab_input">
+				            <input type="password" class="new_ppwd" />
+				            <em>请输入6-20位数字或字母</em>
+				            <span class="cha_span"></span>
+				        </p>
+				    </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td align="right" ><p class="chatab_tit">确认支付密码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+				            <input type="password" class="new_ppwd_2" />
+				            <em>再次输入支付密码</em>
+				            <span class="cha_span"></span>
+				        </p>
+				    </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				 <tr>
+			        <td>&nbsp;</td>
+			        <td>
+		                <input type="submit" class="alert_btn ppwd_btn" value="提交"/>
+		            </td>
+		        </tr>
+		    </table>	
+		</div>	
+		<!--end  设置支付密码-->
+		<!--修改支付密码-->
+		<div class="chapwd_layer pb40" style="display: none;">
+			<p class="change_tit">修改支付密码</p>
+			<table class="alert_tb" cellpadding="0" cellspacing="0">
+		        <tr>
+		            <td align="right" width="160"><p class="chatab_tit">当前支付密码<i>*</i>：</p></td>
+		            <td width="300">
+		            	<p class="chatab_input">
+		            		<input type="password" class="old_ppwd" />
+		            		<em>请输入6-20个英文字母和数字</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td align="right"><p class="chatab_tit">新支付密码<i>*</i>：</p></td>
+		            <td>
+			            <p class="chatab_input">
+			            	<input type="password" class="new_ppwd" />
+			            	<em>请输入6-20个英文字母和数字</em>
+				            <span class="cha_span"></span>
+			            </p>
+			        </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td align="right"><p class="chatab_tit">确认支付密码<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		            		<input type="password" class="new_ppwd_2" />
+		            		<em>请再次输入支付密码</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		           	</td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+			        <td>&nbsp;</td>
+			        <td>
+		                <input type="submit" class="cha_ppwd_btn" value="确认修改"/><a href="#" class="forget_lpwd_a">忘记原密码？</a>
+		            </td>
+		        </tr>
+		    </table>
+		</div>
+		<!--end 修改支付密码-->
+		<!-- 变更收货地址弹窗 -->
+		<div class="chaaddress_layer pb40" style="display: none;">
+			<p class="change_tit">变更收货地址</p>
+			<table class="alert_tb" cellpadding="0" cellspacing="0">
+		        <tr>
+		            <td><p class="chatab_tit">所属区域<i>*</i>：</p></td>
+		            <td>
+		                <select class="select1" name="province" id="z1">
+                            <option></option>
+                        </select>
+                        <select class="select1" name="city" id="z2">
+                            <option></option>
+                        </select>
+                        <select class="select1 select2" name="town" id="z3">
+                            <option></option>
+                        </select>
+                        <span class="cha_span"></span>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">所在(或周边)社区<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		            		<select class="select_lg">
+		                        <option>请选择</option>
+		                        <option>中海国际社区</option>
+		                        <option>其他小区</option>
+		                    </select>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">收货地址<i>*</i>：</p></td>
+		            <td>
+		                <p class="chatab_input">
+		            		<input type="text" maxlength="50" class="address" value="舜泰广场" />
+		            		<em>请输入收货地址</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+		            <td><p class="chatab_tit">收货人<i>*</i>：</p></td>
+		            <td>
+		                <p class="chatab_input">
+		            		<input type="text" maxlength="10" class="consignee" value="李易峰">
+		            		<em>请输入收货人姓名</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+		            <td><p class="chatab_tit">手机号<i>*</i>：</p></td>
+		            <td>
+		                <p class="chatab_input">
+		            		<input type="text" class="phone_inp" maxlength="11" value="15056565652" />
+		            		<em>请输入手机号</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		        	<td>&nbsp;</td>
+		            <td>
+		                <input type="submit" class="alert_btn siteBtn" value="确认变更"/>
+		            </td>
+		        </tr>
+		    </table>
+		</div>
+		<!-- end 变更收货地址弹窗 -->
+		<!-- 添加收货地址弹窗 -->
+	    <div class="address_layer pb40" style="display: none;">
+			<p class="change_tit">添加收货地址</p>
+			<table class="alert_tb" cellpadding="0" cellspacing="0">
+		        <tr>
+		            <td><p class="chatab_tit">所属区域<i>*</i>：</p></td>
+		            <td>
+		                <select class="select1" name="province" id="z1">
+                            <option></option>
+                        </select>
+                        <select class="select1" name="city" id="z2">
+                            <option></option>
+                        </select>
+                        <select class="select1 select2" name="town" id="z3">
+                            <option></option>
+                        </select>
+                        <span class="cha_span"></span>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">所在(或周边)社区<i>*</i>：</p></td>
+		            <td>
+		            	<p class="chatab_input">
+		            		<select class="select_lg1">
+		                        <option>请选择</option>
+		                        <option>中海国际社区</option>
+		                        <option>其他小区</option>
+		                    </select>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		            <td><p class="chatab_tit">收货地址<i>*</i>：</p></td>
+		            <td>
+		                <p class="chatab_input">
+		            		<input type="text" maxlength="50" class="address1" />
+		            		<em>请输入收货地址</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+		            <td><p class="chatab_tit">收货人<i>*</i>：</p></td>
+		            <td>
+		                <p class="chatab_input">
+		            		<input type="text" maxlength="10" class="consignee1" />
+		            		<em>请输入收货人姓名</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+		            <td><p class="chatab_tit">手机号<i>*</i>：</p></td>
+		            <td>
+		                <p class="chatab_input">
+		            		<input type="text" class="phone_inp1" maxlength="11" />
+		            		<em>请输入手机号</em>
+				            <span class="cha_span"></span>
+		            	</p>
+		            </td>
+		        </tr>
+		        <tr>
+					<td>&nbsp;</td>
+					<td>
+						<p class="cha_p">&nbsp;</p>
+					</td>
+				</tr>
+		        <tr>
+		        	<td>&nbsp;</td>
+		            <td>
+		                <input type="submit" class="alert_btn add_siteBtn" value="提交"/>
+		            </td>
+		        </tr>
+		    </table>
+		</div>
+		
+		
+		<script src="js/layer/layer.js"></script>
+		<script src="js/checkIE.js"></script>
+		<script src="js/geo.js"></script>
+		<script src="js/r_sellerCommon.js" ></script>
+		<script src="js/account_com.js"></script>
+	   	<script src="js/account_safety.js"></script>
+		
+	</body>
+</html>

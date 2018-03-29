@@ -1,0 +1,1122 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商户-商品发布-选择类目</title>
+		<link type="text/css" href="css/r_publish.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body class="sellerCenter_bodyColour">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="rs_myheadbg">
+			<div class="rs_myhead clearfloat">
+				<a class="rs_mylogo" href="#"></a>
+				<p class="rs_mysh"></p>
+				<a class="rs_rehome" href="#">返回首页</a>	
+				<p class="rs_welinfo">你好，用户<b>15628897685</b></p>
+			</div>
+		</div>
+		<div class="rs_mycontent clearfloat">
+			<ul class="rs_mcleft">
+				<li class="level1">
+					<a href="#" class="levIcon1 levcur">管理中心<i></i></a>
+					<ul class="level2">
+						<li class="lev2cur"><a href="#">管理首页</a></li>
+						<li><a href="#">账号安全</a></li>
+						<li><a href="#">账号信息</a></li>
+						<li><a href="#">找回登录密码</a></li>
+						<li><a href="#">找回支付密码</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon2">采&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的采购单</a></li>
+						<li><a href="#">我的采购退货单</a></li>
+						<li><a href="#">我的购物车</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon3">销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商户订单</a></li>
+						<li><a href="#">零售订单</a></li>
+						<li><a href="#">商户退货单</a></li>
+						<li><a href="#">零售退货单</a></li>
+						<li><a href="#">销售设置</a></li>
+						<li><a href="#">运费设置</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon4">商品管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">商品信息维护</a></li>
+						<li><a href="#">商品发布</a></li>
+						<li><a href="#">品牌申请</a></li>
+					</ul>
+				</li>
+				<li class="level1">
+					<a href="#" class="levIcon5">财务管理<i></i></a>
+					<ul class="level2" style="display: none;">
+						<li><a href="#">我的钱包</a></li>
+						<li><a href="#">充值</a></li>
+						<li><a href="#">提现</a></li>
+					</ul>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon6">库存管理</a>
+				</li>		
+				<li class="level">
+					<a href="#" class="levIcon7">供&nbsp;应&nbsp;链</a>
+				</li>					
+			</ul>
+			<div class="rs_mcright">
+				<div class="s_publishTit">
+					<img src="images/sellerCenter/s_publishTit1.png">
+				</div>
+				<div class="publishFirst_tit clearfloat">
+					<p>选择类目</p>
+					<a href="#" class="service_agreement_a">发布须知</a>
+				</div>
+				<div class="publishFirst_cont">
+					<div class="pubt_search clearfloat">
+						<input type="text" maxlength="20" class="stes_input">
+						<em>请输入商品类目</em>
+						<input type="button" class="stes_seabtn" value="搜 索">
+					</div>
+					<div class="hengbar">
+						<div class="div_scroll easy_scrollable">
+				        	<div class="sortit" id="chosen">
+				        		<div class="sortit_div">
+				        			<span>您当前选择的商品类别是：</span><i id="sortit"><li style="display:inline">男装</li><li style="display:inline"> &gt; T恤</li></i>
+				        		</div>
+				        	</div>
+					        <div class="wareSort clearfloat">
+					            <input type="hidden" id="ChosenValue" value="98,2">
+				                <div id="main" class="">
+				                    <div class="" id="level1">
+				                        <div class="box box-success box-solid sort_cont">
+				                            <div class="box-header sortInput_div">
+				                                <input class="search sortInput" id="_1search" type="text">
+				                                <span class="sortSpan">&nbsp;</span>
+				                            </div>
+				                            <div class="box-body">
+				                                <ul id="_1categories" class="sidebar-menu sort shubar">
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">移动测试类目-食品</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_877" style="list-style-type:none;">
+				                                                                <li id="li_878" spell="SPFLCS">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(878, 1)" chosen="0">食品分类测试</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">供应链商品类目</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_882" style="list-style-type:none;">
+				                                                                <li id="li_883" spell="GYLSP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(883, 1)" chosen="0">供应链商品</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">服装</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_1" style="list-style-type:none;">
+				                                                                <li id="li_14" spell="NZ" class="r_lev_cur">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(14, 1)" chosen="1">男装</a>
+				                                                                </li>
+				                                                                <li id="li_15" spell="NZ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(15, 1)" chosen="0">女装</a>
+				                                                                </li>
+				                                                                <li id="li_16" spell="NY">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(16, 1)" chosen="0">内衣</a>
+				                                                                </li>
+				                                                                <li id="li_17" spell="TZ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(17, 1)" chosen="0">童装</a>
+				                                                                </li>
+				                                                                <li id="li_18" spell="FSPS">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(18, 1)" chosen="0">服饰配饰</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">鞋子</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_2" style="list-style-type:none;">
+				                                                                <li id="li_19" spell="NX">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(19, 1)" chosen="0">男鞋</a>
+				                                                                </li>
+				                                                                <li id="li_20" spell="NX">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(20, 1)" chosen="0">女鞋</a>
+				                                                                </li>
+				                                                                <li id="li_21" spell="TX">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(21, 1)" chosen="0">童鞋</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">箱包皮具</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_3" style="list-style-type:none;">
+				                                                                <li id="li_27" spell="KT">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(27, 1)" chosen="0">卡套</a>
+				                                                                </li>
+				                                                                <li id="li_22" spell="BD">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(22, 1)" chosen="0">包袋</a>
+				                                                                </li>
+				                                                                <li id="li_23" spell="QB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(23, 1)" chosen="0">钱包</a>
+				                                                                </li>
+				                                                                <li id="li_24" spell="LXX">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(24, 1)" chosen="0">旅行箱</a>
+				                                                                </li>
+				                                                                <li id="li_25" spell="LXD">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(25, 1)" chosen="0">旅行袋</a>
+				                                                                </li>
+				                                                                <li id="li_26" spell="XBXGPJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(26, 1)" chosen="0">箱包相关配件</a>
+				                                                                </li>
+				                                                                <li id="li_28" spell="KB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(28, 1)" chosen="0">卡包</a>
+				                                                                </li>
+				                                                                <li id="li_29" spell="SJB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(29, 1)" chosen="0">手机包</a>
+				                                                                </li>
+				                                                                <li id="li_30" spell="BB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(30, 1)" chosen="0">背包</a>
+				                                                                </li>
+				                                                                <li id="li_31" spell="ZJBYCB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(31, 1)" chosen="0">证件包钥匙包</a>
+				                                                                </li>
+				                                                                <li id="li_32" spell="YCB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(32, 1)" chosen="0">钥匙包</a>
+				                                                                </li>
+				                                                                <li id="li_33" spell="PD">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(33, 1)" chosen="0">皮带</a>
+				                                                                </li>
+				                                                                <li id="li_34" spell="QTPJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(34, 1)" chosen="0">其他皮具</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">手机数码</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_4" style="list-style-type:none;">
+				                                                                <li id="li_35" spell="SJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(35, 1)" chosen="0">手机</a>
+				                                                                </li>
+				                                                                <li id="li_36" spell="BJB/Ipad">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(36, 1)" chosen="0">笔记本/Ipad</a>
+				                                                                </li>
+				                                                                <li id="li_38" spell="YJCC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(38, 1)" chosen="0">硬件存储</a>
+				                                                                </li>
+				                                                                <li id="li_39" spell="DNYJ/XSQ/ZB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(39, 1)" chosen="0">电脑硬件/显示器/周边</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">家用电器</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_5" style="list-style-type:none;">
+				                                                                <li id="li_40" spell="DJD">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(40, 1)" chosen="0">大家电</a>
+				                                                                </li>
+				                                                                <li id="li_41" spell="SHDQ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(41, 1)" chosen="0">生活电器</a>
+				                                                                </li>
+				                                                                <li id="li_42" spell="CFDQ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(42, 1)" chosen="0">厨房电器</a>
+				                                                                </li>
+				                                                                <li id="li_43" spell="YYJD">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(43, 1)" chosen="0">影音家电</a>
+				                                                                </li>
+				                                                                <li id="li_44" spell="GRHL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(44, 1)" chosen="0">个人护理</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">美妆个护</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_6" style="list-style-type:none;">
+				                                                                <li id="li_45" spell="MBHL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(45, 1)" chosen="0">面部护理</a>
+				                                                                </li>
+				                                                                <li id="li_46" spell="MFHF">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(46, 1)" chosen="0">美发护发</a>
+				                                                                </li>
+				                                                                <li id="li_47" spell="STHL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(47, 1)" chosen="0">身体护理</a>
+				                                                                </li>
+				                                                                <li id="li_48" spell="KQHL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(48, 1)" chosen="0">口腔护理</a>
+				                                                                </li>
+				                                                                <li id="li_49" spell="NSHL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(49, 1)" chosen="0">男士护理</a>
+				                                                                </li>
+				                                                                <li id="li_50" spell="XSCZ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(50, 1)" chosen="0">香水彩妆</a>
+				                                                                </li>
+				                                                                <li id="li_51" spell="QJ/HLYP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(51, 1)" chosen="0">清洁/护理用品</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">母婴用品</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_7" style="list-style-type:none;">
+				                                                                <li id="li_52" spell="NF">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(52, 1)" chosen="0">奶粉</a>
+				                                                                </li>
+				                                                                <li id="li_53" spell="YYFS">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(53, 1)" chosen="0">营养辅食</a>
+				                                                                </li>
+				                                                                <li id="li_54" spell="NKSJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(54, 1)" chosen="0">尿裤湿巾</a>
+				                                                                </li>
+				                                                                <li id="li_55" spell="WYYP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(55, 1)" chosen="0">喂养用品</a>
+				                                                                </li>
+				                                                                <li id="li_56" spell="XHYP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(56, 1)" chosen="0">洗护用品</a>
+				                                                                </li>
+				                                                                <li id="li_57" spell="QJFS">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(57, 1)" chosen="0">寝居服饰</a>
+				                                                                </li>
+				                                                                <li id="li_58" spell="TCTC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(58, 1)" chosen="0">童车童床</a>
+				                                                                </li>
+				                                                                <li id="li_59" spell="WJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(59, 1)" chosen="0">玩具</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">生鲜食品</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_8" style="list-style-type:none;">
+				                                                                <li id="li_60" spell="JGLSG">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(60, 1)" chosen="0">浆果类水果</a>
+				                                                                </li>
+				                                                                <li id="li_61" spell="HRGL/G?LSG">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(61, 1)" chosen="0">核仁果类/柑橘类水果</a>
+				                                                                </li>
+				                                                                <li id="li_62" spell="GLSG">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(62, 1)" chosen="0">瓜类水果</a>
+				                                                                </li>
+				                                                                <li id="li_63" spell="QTSG">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(63, 1)" chosen="0">其他水果</a>
+				                                                                </li>
+				                                                                <li id="li_64" spell="BCL/LY/SSSC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(64, 1)" chosen="0">白菜类/绿叶/水生蔬菜</a>
+				                                                                </li>
+				                                                                <li id="li_65" spell="GCL/GL/SY/CSSC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(65, 1)" chosen="0">根菜类/瓜类/薯芋/葱蒜蔬菜</a>
+				                                                                </li>
+				                                                                <li id="li_66" spell="QGL/DLSC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(66, 1)" chosen="0">茄果类/豆类蔬菜</a>
+				                                                                </li>
+				                                                                <li id="li_67" spell="JL/DNSSC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(67, 1)" chosen="0">菌类/多年生蔬菜</a>
+				                                                                </li>
+				                                                                <li id="li_68" spell="HXSC">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(68, 1)" chosen="0">海鲜水产</a>
+				                                                                </li>
+				                                                                <li id="li_69" spell="J?RL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(69, 1)" chosen="0">精选肉类</a>
+				                                                                </li>
+				                                                                <li id="li_70" spell="DL/DZP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(70, 1)" chosen="0">蛋类/蛋制品</a>
+				                                                                </li>
+				                                                                <li id="li_71" spell="SDSP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(71, 1)" chosen="0">速冻食品</a>
+				                                                                </li>
+				                                                                <li id="li_72" spell="YPTP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(72, 1)" chosen="0">饮品甜品</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">家装家居</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_9" style="list-style-type:none;">
+				                                                                <li id="li_73" spell="JF">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(73, 1)" chosen="0">家纺</a>
+				                                                                </li>
+				                                                                <li id="li_74" spell="SNZL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(74, 1)" chosen="0">收纳整理</a>
+				                                                                </li>
+				                                                                <li id="li_75" spell="SHRY">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(75, 1)" chosen="0">生活日用</a>
+				                                                                </li>
+				                                                                <li id="li_76" spell="JZRS">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(76, 1)" chosen="0">家装软饰</a>
+				                                                                </li>
+				                                                                <li id="li_77" spell="DSZM">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(77, 1)" chosen="0">灯饰照明</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">户外运动</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_10" style="list-style-type:none;">
+				                                                                <li id="li_78" spell="HWZB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(78, 1)" chosen="0">户外装备</a>
+				                                                                </li>
+				                                                                <li id="li_79" spell="YDFS">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(79, 1)" chosen="0">运动服饰</a>
+				                                                                </li>
+				                                                                <li id="li_80" spell="YDXB">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(80, 1)" chosen="0">运动鞋包</a>
+				                                                                </li>
+				                                                                <li id="li_81" spell="TYYP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(81, 1)" chosen="0">体育用品</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">生活服务</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_11" style="list-style-type:none;">
+				                                                                <li id="li_82" spell="BDSHFW">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(82, 1)" chosen="0">本地生活服务</a>
+				                                                                </li>
+				                                                                <li id="li_83" spell="YLBJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(83, 1)" chosen="0">医疗保健</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">食品/饮品</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_12" style="list-style-type:none;">
+				                                                                <li id="li_84" spell="MJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(84, 1)" chosen="0">名酒</a>
+				                                                                </li>
+				                                                                <li id="li_85" spell="XXSP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(85, 1)" chosen="0">休闲食品</a>
+				                                                                </li>
+				                                                                <li id="li_86" spell="LYDW">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(86, 1)" chosen="0">粮油调味</a>
+				                                                                </li>
+				                                                                <li id="li_87" spell="YLCD">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(87, 1)" chosen="0">饮料冲调</a>
+				                                                                </li>
+				                                                                <li id="li_88" spell="?C">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(88, 1)" chosen="0">茗茶</a>
+				                                                                </li>
+				                                                                <li id="li_90" spell="BJSP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(90, 1)" chosen="0">保健食品</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">五金百货</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_13" style="list-style-type:none;">
+				                                                                <li id="li_91" spell="WJGJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(91, 1)" chosen="0">五金工具</a>
+				                                                                </li>
+				                                                                <li id="li_92" spell="QJGJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(92, 1)" chosen="0">清洁工具</a>
+				                                                                </li>
+				                                                                <li id="li_93" spell="CYJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(93, 1)" chosen="0">餐饮具</a>
+				                                                                </li>
+				                                                                <li id="li_94" spell="JQYP/LP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(94, 1)" chosen="0">节庆用品/礼品</a>
+				                                                                </li>
+				                                                                <li id="li_95" spell="WSJ/Z/X?">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(95, 1)" chosen="0">卫生巾/纸/香薰</a>
+				                                                                </li>
+				                                                                <li id="li_96" spell="CFP?YJ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(96, 1)" chosen="0">厨房烹饪用具</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">测试类目20170619</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_856" style="list-style-type:none;">
+				                                                                <li id="li_879" spell="PPFBTMZ">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(879, 1)" chosen="0">品牌非必填没值</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test201706191750</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_857" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test201706191752</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_858" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_859" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_1</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_860" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_2</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_861" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_3</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_862" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_4</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_863" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_5</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_864" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_6</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_865" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_7</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_866" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_8</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_867" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_10</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_868" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">gg</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_871" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">gg</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_872" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">gg</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_873" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_11</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_874" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_12</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_875" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">test_hw_13</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_876" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">创建新分类</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_886" style="list-style-type:none;">
+				                                                                <li id="li_887" spell="CJEJFL">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(887, 1)" chosen="0">创建二级分类</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">宠物相关</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_803" style="list-style-type:none;">
+				                                                                <li id="li_89" spell="CWSP">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(89, 1)" chosen="0">宠物食品</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">三级类目14</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_830" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">任洪威测试类目0519</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_838" style="list-style-type:none;">
+				                                                                <li id="li_839" spell="RHWEJLM0519">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(839, 1)" chosen="0">任洪威二级类目0519</a>
+				                                                                </li>
+				                                                                <li id="li_869" spell="gg">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(869, 1)" chosen="0">gg</a>
+				                                                                </li>
+				                                                                <li id="li_870" spell="gg">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(870, 1)" chosen="0">gg</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">任洪威测试类目0519_1</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_841" style="list-style-type:none;">
+				                                                                <li id="li_842" spell="RHWEJLM0519_1">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(842, 1)" chosen="0">任洪威二级类目0519_1</a>
+				                                                                </li>
+				                                                                <li id="li_843" spell="RHWEJLM0519_2">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(843, 1)" chosen="0">任洪威二级类目0519_2</a>
+				                                                                </li>
+				                                                                <li id="li_844" spell="RHWEJLM0519_3">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(844, 1)" chosen="0">任洪威二级类目0519_3</a>
+				                                                                </li>
+				                                                                <li id="li_845" spell="RHWEJLM0519_4">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(845, 1)" chosen="0">任洪威二级类目0519_4</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">测试类目</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_846" style="list-style-type:none;">
+				                                                                <li id="li_847" spell="CSEJLM">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(847, 1)" chosen="0">测试二级类目</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">测试类目2</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_848" style="list-style-type:none;">
+				
+				                                                    </ul>
+				
+				                                            </li>
+				                                            <li class="treeview r_level1">
+				                                                <div class="r_tre1 r_lev1_icon">测试类目3</div>
+				                                                    <ul class="treeview-menu r_level2" id="son_849" style="list-style-type:none;">
+				                                                                <li id="li_850" spell="EJLM">
+				                                                                    <a style="cursor:pointer" href="javascript:LoadNextLevel(850, 1)" chosen="0">二级类目</a>
+				                                                                </li>
+				
+				                                                    </ul>
+				
+				                                            </li>
+				
+				                                </ul>
+				                            </div>
+				                        </div>
+				                    </div>
+				                	<div class="" id="level2" style="">
+				                        <div class="box box-success box-solid sort_cont">
+				                            <div class="box-header sortInput_div">
+				                                <input class="search sortInput" id="_2search" type="text">
+				                                <span class="sortSpan">&nbsp;</span>
+				                            </div>
+				                            <div class="box-body">
+				                                <ul id="_2categories" class="sidebar-menu sort shubar"><li class="treeview r_level1"><ul class="treeview-menu r_level2" id="son_14"><li id="li_97" spell="XXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(97, 2)" chosen="0">休闲裤</a></li><li id="li_98" spell="TX" class="r_lev_cur"><a style="cursor:pointer" href="javascript:LoadNextLevel(98, 2)" chosen="1">T恤</a></li><li id="li_99" spell="ZZS/MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(99, 2)" chosen="0">针织衫/毛衣</a></li><li id="li_100" spell="MZFZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(100, 2)" chosen="0">民族服装</a></li><li id="li_101" spell="GZZF"><a style="cursor:pointer" href="javascript:LoadNextLevel(101, 2)" chosen="0">工装制服</a></li><li id="li_102" spell="JK"><a style="cursor:pointer" href="javascript:LoadNextLevel(102, 2)" chosen="0">夹克</a></li><li id="li_103" spell="WY"><a style="cursor:pointer" href="javascript:LoadNextLevel(103, 2)" chosen="0">卫衣</a></li><li id="li_104" spell="XF"><a style="cursor:pointer" href="javascript:LoadNextLevel(104, 2)" chosen="0">西服</a></li><li id="li_105" spell="NZK"><a style="cursor:pointer" href="javascript:LoadNextLevel(105, 2)" chosen="0">牛仔裤</a></li><li id="li_106" spell="PoloS"><a style="cursor:pointer" href="javascript:LoadNextLevel(106, 2)" chosen="0">Polo衫</a></li><li id="li_107" spell="PKXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(107, 2)" chosen="0">皮裤西裤</a></li><li id="li_108" spell="XFTZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(108, 2)" chosen="0">西服套装</a></li><li id="li_109" spell="BX/MJ"><a style="cursor:pointer" href="javascript:LoadNextLevel(109, 2)" chosen="0">背心/马甲</a></li><li id="li_110" spell="FY"><a style="cursor:pointer" href="javascript:LoadNextLevel(110, 2)" chosen="0">风衣</a></li><li id="li_111" spell="PY"><a style="cursor:pointer" href="javascript:LoadNextLevel(111, 2)" chosen="0">皮衣</a></li><li id="li_112" spell="MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(112, 2)" chosen="0">棉衣</a></li><li id="li_113" spell="YRF"><a style="cursor:pointer" href="javascript:LoadNextLevel(113, 2)" chosen="0">羽绒服</a></li><li id="li_114" spell="NDY"><a style="cursor:pointer" href="javascript:LoadNextLevel(114, 2)" chosen="0">呢大衣</a></li><li id="li_115" spell="YRK"><a style="cursor:pointer" href="javascript:LoadNextLevel(115, 2)" chosen="0">羽绒裤</a></li><li id="li_116" spell="MK"><a style="cursor:pointer" href="javascript:LoadNextLevel(116, 2)" chosen="0">棉裤</a></li><li id="li_117" spell="XK"><a style="cursor:pointer" href="javascript:LoadNextLevel(117, 2)" chosen="0">西裤</a></li></ul></li></ul>
+				                            </div>
+				                        </div>
+				                    </div>
+				                	<div class="" id="level2" style="">
+				                        <div class="box box-success box-solid sort_cont">
+				                            <div class="box-header sortInput_div">
+				                                <input class="search sortInput" id="_2search" type="text">
+				                                <span class="sortSpan">&nbsp;</span>
+				                            </div>
+				                            <div class="box-body">
+				                                <ul id="_2categories" class="sidebar-menu sort shubar"><li class="treeview r_level1"><ul class="treeview-menu r_level2" id="son_14"><li id="li_97" spell="XXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(97, 2)" chosen="0">休闲裤</a></li><li id="li_98" spell="TX" class="r_lev_cur"><a style="cursor:pointer" href="javascript:LoadNextLevel(98, 2)" chosen="1">T恤</a></li><li id="li_99" spell="ZZS/MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(99, 2)" chosen="0">针织衫/毛衣</a></li><li id="li_100" spell="MZFZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(100, 2)" chosen="0">民族服装</a></li><li id="li_101" spell="GZZF"><a style="cursor:pointer" href="javascript:LoadNextLevel(101, 2)" chosen="0">工装制服</a></li><li id="li_102" spell="JK"><a style="cursor:pointer" href="javascript:LoadNextLevel(102, 2)" chosen="0">夹克</a></li><li id="li_103" spell="WY"><a style="cursor:pointer" href="javascript:LoadNextLevel(103, 2)" chosen="0">卫衣</a></li><li id="li_104" spell="XF"><a style="cursor:pointer" href="javascript:LoadNextLevel(104, 2)" chosen="0">西服</a></li><li id="li_105" spell="NZK"><a style="cursor:pointer" href="javascript:LoadNextLevel(105, 2)" chosen="0">牛仔裤</a></li><li id="li_106" spell="PoloS"><a style="cursor:pointer" href="javascript:LoadNextLevel(106, 2)" chosen="0">Polo衫</a></li><li id="li_107" spell="PKXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(107, 2)" chosen="0">皮裤西裤</a></li><li id="li_108" spell="XFTZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(108, 2)" chosen="0">西服套装</a></li><li id="li_109" spell="BX/MJ"><a style="cursor:pointer" href="javascript:LoadNextLevel(109, 2)" chosen="0">背心/马甲</a></li><li id="li_110" spell="FY"><a style="cursor:pointer" href="javascript:LoadNextLevel(110, 2)" chosen="0">风衣</a></li><li id="li_111" spell="PY"><a style="cursor:pointer" href="javascript:LoadNextLevel(111, 2)" chosen="0">皮衣</a></li><li id="li_112" spell="MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(112, 2)" chosen="0">棉衣</a></li><li id="li_113" spell="YRF"><a style="cursor:pointer" href="javascript:LoadNextLevel(113, 2)" chosen="0">羽绒服</a></li><li id="li_114" spell="NDY"><a style="cursor:pointer" href="javascript:LoadNextLevel(114, 2)" chosen="0">呢大衣</a></li><li id="li_115" spell="YRK"><a style="cursor:pointer" href="javascript:LoadNextLevel(115, 2)" chosen="0">羽绒裤</a></li><li id="li_116" spell="MK"><a style="cursor:pointer" href="javascript:LoadNextLevel(116, 2)" chosen="0">棉裤</a></li><li id="li_117" spell="XK"><a style="cursor:pointer" href="javascript:LoadNextLevel(117, 2)" chosen="0">西裤</a></li></ul></li></ul>
+				                            </div>
+				                        </div>
+				                    </div>
+				                	<div class="" id="level2" style="">
+				                        <div class="box box-success box-solid sort_cont">
+				                            <div class="box-header sortInput_div">
+				                                <input class="search sortInput" id="_2search" type="text">
+				                                <span class="sortSpan">&nbsp;</span>
+				                            </div>
+				                            <div class="box-body">
+				                                <ul id="_2categories" class="sidebar-menu sort shubar"><li class="treeview r_level1"><ul class="treeview-menu r_level2" id="son_14"><li id="li_97" spell="XXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(97, 2)" chosen="0">休闲裤</a></li><li id="li_98" spell="TX" class="r_lev_cur"><a style="cursor:pointer" href="javascript:LoadNextLevel(98, 2)" chosen="1">T恤</a></li><li id="li_99" spell="ZZS/MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(99, 2)" chosen="0">针织衫/毛衣</a></li><li id="li_100" spell="MZFZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(100, 2)" chosen="0">民族服装</a></li><li id="li_101" spell="GZZF"><a style="cursor:pointer" href="javascript:LoadNextLevel(101, 2)" chosen="0">工装制服</a></li><li id="li_102" spell="JK"><a style="cursor:pointer" href="javascript:LoadNextLevel(102, 2)" chosen="0">夹克</a></li><li id="li_103" spell="WY"><a style="cursor:pointer" href="javascript:LoadNextLevel(103, 2)" chosen="0">卫衣</a></li><li id="li_104" spell="XF"><a style="cursor:pointer" href="javascript:LoadNextLevel(104, 2)" chosen="0">西服</a></li><li id="li_105" spell="NZK"><a style="cursor:pointer" href="javascript:LoadNextLevel(105, 2)" chosen="0">牛仔裤</a></li><li id="li_106" spell="PoloS"><a style="cursor:pointer" href="javascript:LoadNextLevel(106, 2)" chosen="0">Polo衫</a></li><li id="li_107" spell="PKXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(107, 2)" chosen="0">皮裤西裤</a></li><li id="li_108" spell="XFTZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(108, 2)" chosen="0">西服套装</a></li><li id="li_109" spell="BX/MJ"><a style="cursor:pointer" href="javascript:LoadNextLevel(109, 2)" chosen="0">背心/马甲</a></li><li id="li_110" spell="FY"><a style="cursor:pointer" href="javascript:LoadNextLevel(110, 2)" chosen="0">风衣</a></li><li id="li_111" spell="PY"><a style="cursor:pointer" href="javascript:LoadNextLevel(111, 2)" chosen="0">皮衣</a></li><li id="li_112" spell="MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(112, 2)" chosen="0">棉衣</a></li><li id="li_113" spell="YRF"><a style="cursor:pointer" href="javascript:LoadNextLevel(113, 2)" chosen="0">羽绒服</a></li><li id="li_114" spell="NDY"><a style="cursor:pointer" href="javascript:LoadNextLevel(114, 2)" chosen="0">呢大衣</a></li><li id="li_115" spell="YRK"><a style="cursor:pointer" href="javascript:LoadNextLevel(115, 2)" chosen="0">羽绒裤</a></li><li id="li_116" spell="MK"><a style="cursor:pointer" href="javascript:LoadNextLevel(116, 2)" chosen="0">棉裤</a></li><li id="li_117" spell="XK"><a style="cursor:pointer" href="javascript:LoadNextLevel(117, 2)" chosen="0">西裤</a></li></ul></li></ul>
+				                            </div>
+				                        </div>
+				                    </div>
+				                	<div class="" id="level2" style="">
+				                        <div class="box box-success box-solid sort_cont">
+				                            <div class="box-header sortInput_div">
+				                                <input class="search sortInput" id="_2search" type="text">
+				                                <span class="sortSpan">&nbsp;</span>
+				                            </div>
+				                            <div class="box-body">
+				                                <ul id="_2categories" class="sidebar-menu sort shubar"><li class="treeview r_level1"><ul class="treeview-menu r_level2" id="son_14"><li id="li_97" spell="XXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(97, 2)" chosen="0">休闲裤</a></li><li id="li_98" spell="TX" class="r_lev_cur"><a style="cursor:pointer" href="javascript:LoadNextLevel(98, 2)" chosen="1">T恤</a></li><li id="li_99" spell="ZZS/MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(99, 2)" chosen="0">针织衫/毛衣</a></li><li id="li_100" spell="MZFZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(100, 2)" chosen="0">民族服装</a></li><li id="li_101" spell="GZZF"><a style="cursor:pointer" href="javascript:LoadNextLevel(101, 2)" chosen="0">工装制服</a></li><li id="li_102" spell="JK"><a style="cursor:pointer" href="javascript:LoadNextLevel(102, 2)" chosen="0">夹克</a></li><li id="li_103" spell="WY"><a style="cursor:pointer" href="javascript:LoadNextLevel(103, 2)" chosen="0">卫衣</a></li><li id="li_104" spell="XF"><a style="cursor:pointer" href="javascript:LoadNextLevel(104, 2)" chosen="0">西服</a></li><li id="li_105" spell="NZK"><a style="cursor:pointer" href="javascript:LoadNextLevel(105, 2)" chosen="0">牛仔裤</a></li><li id="li_106" spell="PoloS"><a style="cursor:pointer" href="javascript:LoadNextLevel(106, 2)" chosen="0">Polo衫</a></li><li id="li_107" spell="PKXK"><a style="cursor:pointer" href="javascript:LoadNextLevel(107, 2)" chosen="0">皮裤西裤</a></li><li id="li_108" spell="XFTZ"><a style="cursor:pointer" href="javascript:LoadNextLevel(108, 2)" chosen="0">西服套装</a></li><li id="li_109" spell="BX/MJ"><a style="cursor:pointer" href="javascript:LoadNextLevel(109, 2)" chosen="0">背心/马甲</a></li><li id="li_110" spell="FY"><a style="cursor:pointer" href="javascript:LoadNextLevel(110, 2)" chosen="0">风衣</a></li><li id="li_111" spell="PY"><a style="cursor:pointer" href="javascript:LoadNextLevel(111, 2)" chosen="0">皮衣</a></li><li id="li_112" spell="MY"><a style="cursor:pointer" href="javascript:LoadNextLevel(112, 2)" chosen="0">棉衣</a></li><li id="li_113" spell="YRF"><a style="cursor:pointer" href="javascript:LoadNextLevel(113, 2)" chosen="0">羽绒服</a></li><li id="li_114" spell="NDY"><a style="cursor:pointer" href="javascript:LoadNextLevel(114, 2)" chosen="0">呢大衣</a></li><li id="li_115" spell="YRK"><a style="cursor:pointer" href="javascript:LoadNextLevel(115, 2)" chosen="0">羽绒裤</a></li><li id="li_116" spell="MK"><a style="cursor:pointer" href="javascript:LoadNextLevel(116, 2)" chosen="0">棉裤</a></li><li id="li_117" spell="XK"><a style="cursor:pointer" href="javascript:LoadNextLevel(117, 2)" chosen="0">西裤</a></li></ul></li></ul>
+				                            </div>
+				                        </div>
+				                    </div>				                    
+				                </div>
+				            </div>
+			            </div>			            
+			        </div>
+					<div class="div_scroll easy_scrollable J_skbx" style="display: none;">
+			        	<div class="sortit" id="chosen">
+			        		<div class="sortit_div">
+			        			<span>匹配到<em>9</em>个类目</span>
+			        			<a class="sortit_a">&nbsp;</a>
+			        		</div>
+			        	</div>
+				        <div class="wareSort clearfloat">
+							<div class="pubt_seekbox">
+								<p class="skbx_on">
+									<em>1.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>夹克</span>
+								</p>
+								<p>
+									<em>2.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>针织衫/毛衣</span>
+								</p>
+								<p>
+									<em>3.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>羽绒服</span>
+								</p>
+								<p>
+									<em>4.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>衬衫</span>
+								</p>
+								<p>
+									<em>5.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>毛呢大衣</span>
+								</p>
+								<p>
+									<em>6.</em>
+									<span>模玩/动漫/cos</span>
+									<i>>></i>
+									<span>Cosplay服饰/道具/服务</span>
+									<i>>></i>
+									<span>Cosplay男装</span>
+								</p>
+								<p>
+									<em>7.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>皮衣</span>
+								</p>
+								<p>
+									<em>8.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>棉衣</span>
+								</p>
+								<p>
+									<em>9.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>风衣</span>
+								</p>
+								<p>
+									<em>2.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>针织衫/毛衣</span>
+								</p>
+								<p>
+									<em>3.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>羽绒服</span>
+								</p>
+								<p>
+									<em>4.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>衬衫</span>
+								</p>
+								<p>
+									<em>5.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>毛呢大衣</span>
+								</p>
+								<p>
+									<em>6.</em>
+									<span>模玩/动漫/cos</span>
+									<i>>></i>
+									<span>Cosplay服饰/道具/服务</span>
+									<i>>></i>
+									<span>Cosplay男装</span>
+								</p>
+								<p>
+									<em>7.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>皮衣</span>
+								</p>
+								<p>
+									<em>8.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>棉衣</span>
+								</p>
+								<p>
+									<em>9.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>风衣</span>
+								</p>
+								<p>
+									<em>2.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>针织衫/毛衣</span>
+								</p>
+								<p>
+									<em>3.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>羽绒服</span>
+								</p>
+								<p>
+									<em>4.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>衬衫</span>
+								</p>
+								<p>
+									<em>5.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>毛呢大衣</span>
+								</p>
+								<p>
+									<em>6.</em>
+									<span>模玩/动漫/cos</span>
+									<i>>></i>
+									<span>Cosplay服饰/道具/服务</span>
+									<i>>></i>
+									<span>Cosplay男装</span>
+								</p>
+								<p>
+									<em>7.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>皮衣</span>
+								</p>
+								<p>
+									<em>8.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>棉衣</span>
+								</p>
+								<p>
+									<em>9.</em>
+									<span>男装</span>
+									<i>>></i>
+									<span>风衣</span>
+								</p>
+							</div>	
+							<div class="pubt_seekbox_notf" style="display: none;">
+								<div class="skbx_notf">
+									<i>&nbsp;</i>
+									<span>抱歉，搜索不到相关类目！</span>
+								</div>
+							</div>
+			            </div>
+		            </div>
+			        <div class="clearfix"></div>
+			        <div class="employ_div clearfloat">
+			            <button type="button" class="writeSubmit" id="submit">下一步</button>
+			            <a class="employBtn employBtn_jin" id="spu_push" href="javascript:return false;">使用商品模板</a>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="blank_10"></div>
+		
+		
+		<!--发布需知弹窗-->
+		<div class="agree_panel" style="display:none;">
+			<h3>合商云购商品信息发布规范</h3>
+			<div class="agree_content">
+				<p class="warn_p">本规范适用于合商平台所有商家（以下简称“商家”）</p>
+				<dl>
+					<dt>一、商品发布规范</dt>
+					<dt>1. 规范目的</dt>
+					<dd>1.1 提升商品搜索命中率、点击率；</dd>
+					<dd>1.2 提升商品页面用户体验及购买转化率；</dd>
+					<dd>1.3 确保商品信息的精准度，提高商品曝光率。</dd>
+					<dt>2、商品信息发布限制</dt>
+					<dd>2.1 商家不得发布违法、或者根据合商平台规则禁止出售的商品相关信息；</dd>
+					<dd>2.2 商家不得发布侵犯他人知识产权的商品信息；</dd>
+					<dd>2.3 商家不得发布假货信息；</dd>
+					<dd>2.4 商家不得发布广告、海报等形式的广告商品信息；</dd>
+					<dd>2.5 商家不得发布其他网站信息（如链接、账号、合商平台以外平台标识等）；</dd>
+					<dd>2.6 商家不得随意更换商品重要属性（如主图等）导致商品信息更换；</dd>
+					<dd>2.7 完全相同的以及重要属性完全相同的产品，只允许发布一次；</dd>
+					<dd>2.8 未经合商平台允许商家商品信息不得有”合商平台首发”或”合商平台独家”等字样；</dd>
+					<dd>2.9 商家不得发布任何广告窗口（如非合商平台的广告、广告浮窗等）；</dd>
+					<dd>2.10 商家发布的商品信息中仅限使用微软雅黑和宋体；</dd>
+					<dd>2.11 商家不得发布盗版，侵权，假冒以及国家其他有规定不准销售的图书信息；</dd>
+					<dd>2.12商家发布的商品信息中不得使用“驰名商标”字样。</dd>
+					<dt>3．商品类目</dt>
+					<dd>3.1 商品发布时选择类目应与商家经营的商品信息实际相符，不得出现错放类目的情形；</dd>
+					<dt>4．商品属性</dt>
+					<dd>4.1 商品参数不得出现多处重复，如重复度过高，则不予通过。</dd>
+					<dt>5．商品标题</dt>
+					<dd>5.1 商品标题长度至少2个字，最长20个汉字；</dd>
+					<dd>5.2 商品标题及商品图片及商家经营的实际商品应一致，不得出现与商品无关的内容；</dd>
+					<dd>5.3 商品标题规范：品牌/型号（系列）+重要属性（材质、类型、用途、颜色、货号) +商品名称，其中重要属性可不填；</dd>
+					<dd>5.4 商品标题不得重复关键词或出现无关的关键词；</dd>
+					<dd>5.5 商品命名中不得擅自使用他人注册商标描述产品。如：XX品牌香奈儿风格珍珠耳环；</dd>
+					<dd>5.6 商品标题和描述中不得有不科学的表示功效的断言或者保证；不得有与同类产品功效、性能进行比较的言论或画面、形象；不得使用专家、医生、患者、未成年人或医疗科研、学术机构、医疗单位的名义进行广告宣传；不得运用数字或图表宣传治疗效果；不得宣传不使用商家的产品可能导致或加重某种疾病的语言、文字、画面；不得出现可能使人得出使用商家的产品可以使疾病迅速治愈、身体迅速康复的印象或结论的语言、文字、画面、形象。不得含有医疗术语、明示或者暗示医疗作用和效果的用语、虚假/夸大/绝对化的词语、医学名人的姓名等国家相关法规明确规定禁止使用的词；</dd>
+					<dd>5.7 商品标题中不得出现手机号、网址、QQ号、微信号等联系方式和疑问语句如怎么样、哪里找、问号等词汇。</dd>
+					<dt>6．商品主图图片</dt>
+					<dd>6.1 商品主图规格：图片支持jpg,jpeg格式，不能小于350*350像素，单张大小不可超过3M，图片应清晰，亮度充足，并且应满画布显示.</dd>
+					<dd>6.2 图片不能有大面积黑投影或大区域反射环境物（如摄影者形象/影像），金属质感商品特别注意；图片所示商品颜色、规格等必须与商品文字介绍一致；</dd>
+					<dd>6.3 每件商品需要提供三张及以上不同角度商品图片，且至少一张商品主体正面图片作为主图（主图应展示产品的全部）；</dd>
+					<dd>6.4 图片背景以合商平台实时发布的各类目商品规范规定为准；图片一定要清晰美观，图片中可以加入道具或装饰物作为衬托，如以白色背景拍摄的图片要求背景为纯白色；</dd>
+					<dd>6.5 模特图展现产品效果的应是真实模特拍摄，不允许用图片处理工具进行拼接等操作制作图片；模特图片表现效果应自然、美观、大方，不能失真；</dd>
+					<dd>6.6 商家应对使用图片拥有著作权或合法的使用权，不允许盗用非自己原创或无合法使用权的图片；对于图片中涉及模特肖像的，商家应确保已获得肖像权人的授权，且在授权范围及有效期内合理使用；</dd>
+					<dd>6.7 图片中不应该包括其它任何文字信息及二维码；</dd>
+					<dd>6.8拥有商品商标使用权的商家可将品牌LOGO放置于主图左上角，大小不能超过主图的1/9。</dd>
+					<dt>7．商品价格</dt>
+					<dd>7.1 商品价格、计量单位应真实准确描述，不得出现虚报价格、错误标注等与实际情况不符的情形；</dd>
+					<dd>7.2商家不得发虚假的或使人误解的商品价格信息，包括以下信息发布行为：</dd>
+					<dd>7.2.1标价签、价目表等所标示商品的品名、产地、规格、等级、质地、计价单位、价格等或者服务的项目、收费标准等有关内容与实际不符，并以此为手段诱骗买家购买的；</dd>
+					<dd>7.2.2使用欺骗性或者误导性的语言、文字、图片、计量单位等标价，诱导买家与其交易的；</dd>
+					<dd>7.2.3销售处理商品时，不标示处理品和处理品价格的；</dd>
+					<dd>7.2.4销售商品带有价格附加条件时，不标示或者含糊标示附加条件的；</dd>
+					<dd>7.2.4销售商品带有价格附加条件时，不标示或者含糊标示附加条件的；</dd>
+					<dt>8．商品描述</dt>
+					<dd>8.1 商品描述建议图片和文字相结合（注：图文结合，图片增加图片描述可提升商品搜索命中率）；</dd>
+					<dd>8.2 商品介绍的图片必须清晰，商品详情页面每张图片建议宽度不超过790px，高度不超过1000px；</dd>
+					<dd>8.3 商品页面不允许出现其他购物网址的链接或提示；</dd>
+					<dd>8.4 不得出现“xx最低、影响客户理解的错别字、正品、行货、xx第一、保真、xx专供、xx特供、本公司、联系方式”等不符合合商平台用语大环境的词语；</dd>
+					<dd>8.5 商品介绍不得出现虚假、夸大等与产品信息不一致的表述，如：功效、成分等方面的介绍；</dd>
+					<dd>8.6 无商标使用权的商家在商品详情描述时不允许在任何位置出现品牌LOGO及商标；</dd>
+					<dd>8.7 同一商家的同一店招/品牌（须有授权）的LOGO及商标必须体现统一颜色和形式，且LOGO及商标不得为水印形式；</dd>
+					<dd>8.8 商品描述时不得出现以下不对称的促销信息：</dd>
+					<dd>8.8.1单个商品信息有标识价格，点击进入商品详情页后合商平台价与标识价格不一致的；</dd>
+					<dd>8.8.2活动链接图：图片上描述的促销时间已经过期，或者图片上描述的信息和点击进入商品详情页后的信息不一致；</dd>
+					<dd>8.8.3所有内容必须与商品或商家店铺介绍、企业信息简介等自身属性相关；</dd>
+					<dd>8.8.4不得出现其它（非合商平台）平台或竞争对手的标识及其余明显复制、抄袭的内容等可能涉及侵犯第三方合法权益的内容。</dd>
+					<dt>9．商家发布的商品信息如不符合本规范，合商平台有权立即下架或删除相关商品信息。</dt>
+					<dt>10．若本规则与合商平台各类目商品规范不一致的，以各类目商品规范相应内容为准。</dt>
+					<dt>二、禁发商品规范</dt>
+					<dt>规范目的</dt>
+					<dd>1.符合国家相关法律法规</dd>
+					<dd>2.减少商品带来的危害与社会风险</dd>
+					<dt>规则定义</dt>
+					<dd>发布合商禁售商品：是指您发布了根据国家法律法规要求或合商自身管理要求禁止发布的商品或信息的行为。</dd>
+					<dt>具体内容</dt>
+					<dd>(一) 仿真枪、军警用品、危险武器类：</dd>
+					<dd>枪支、弹药、军火及仿制品；</dd>
+					<dd>可致使他人暂时失去反抗能力，对他人身体造成重大伤害的管制器具；</dd>
+					<dd>枪支、弹药、军火的相关器材、配件、附属产品，及仿制品的衍生工艺品等；</dd>
+					<dd>管制类刀具、弓弩配件及甩棍、飞镖等可能用于危害他人人身安全的管制器具；</dd>
+					<dd>警用、军用制服、标志、设备及制品；</dd>
+					<dd>带有宗教、种族歧视的相关商品或信息。</dd>
+					<dd>(二) 易燃易爆，有毒化学物、毒品类：</dd>
+					<dd>易燃、易爆物品（烟花爆竹除外）</dd>
+					<dd>剧毒化学品</dd>
+					<dd>毒品、制毒原料、制毒化学品及致瘾性药物</dd>
+					<dd>烟花爆竹</dd>
+					<dd>国家名录中禁止出售的危险化学品（剧毒化学品除外）</dd>
+					<dd>毒品吸食工具及配件</dd>
+					<dd>介绍制作易燃易爆品方法的相关教程、书籍</dd>
+					<dd>(三) 反动等破坏性信息类：</dd>
+					<dd>含有反动、破坏国家统一、破坏主权及领土完整、破坏社会稳定，涉及国家机密、扰乱社会秩序，宣扬邪教迷信，宣扬宗教、种族歧视等信息，或法律法规禁止出版发行的书籍、音像制品、视频、文件资料；</dd>
+					<dd>破网、翻墙软件及ＶＰＮ代理服务</dd>
+					<dd>不适宜在国内发行的涉政书刊及收藏性的涉密书籍、音像制品、视频、文件资料</dd>
+					<dd>国家禁止的集邮票品以及未经邮政行业管理部门批准制作的集邮品，以及一九四九年之后发行的包含“中华民国”字样的邮品。</dd>
+					<dd>(四) 色情低俗、催情用品类：</dd>
+					<dd>含有色情淫秽内容的音像制品；色情陪聊服务；成人网站论坛的账号及邀请码</dd>
+					<dd>可致使他人暂时失去反抗能力、意识模糊的口服或外用的催情类商品及人造处女膜</dd>
+					<dd>用于传播色情信息的软件及图片；含有情色、暴力、低俗内容的音像制品；原味内衣及相关产品</dd>
+					<dd>含有情色、暴力、低俗内容的动漫、小说、游戏和图片</dd>
+					<dd>网络低俗产物</dd>
+					<dd>(五) 涉及人身安全，隐私类：</dd>
+					<dd>用于监听、窃取隐私或机密的软件及设备</dd>
+					<dd>用于非法摄像、录音、取证等用途的设备</dd>
+					<dd>身份证及身份证验证、阅读设备</dd>
+					<dd>盗取或破解账号密码的软件、工具、教程及产物</dd>
+					<dd>个人隐私信息及企业内部数据；提供个人手机定位、电话清单查询、银行账户查询等服务</dd>
+					<dd>出售、转让、回收，包括已作废或者作为收藏用途的银行卡</dd>
+					<dd>(六) 药品、医疗器械类：</dd>
+					<dd>精神类、麻醉类、有毒类、放射类、兴奋剂类、计生类药品；非药品添加药品成分；国家公示已查处、药品监督管理局认定禁止生产、使用的药品（本项第2目除外）</dd>
+					<dd>用于预防、治疗人体疾病的药物、血液制品或医疗器械；未经药品监督管理部门批准生产、进口，或未经检验即销售的药品；</dd>
+					<dd>注射类美白针剂、溶脂针剂、填充针剂、瘦身针剂等用于人体注射的美容针剂类商品</dd>
+					<dd>(七) 非法服务、票证类：</dd>
+					<dd>伪造变造国家机关或特定机构颁发的文件、证书、公章、防伪标签等，仅限国家机关或特定机构方可提供的服务
+尚可使用或用于报销的票据（及服务）,尚可使用的外贸单证以及代理报关、清单、商检、单证手续的服务</dd>
+					<dd>未公开发行的国家级正式考试答案</dd>
+					<dd>算命、超度、风水、做法事等封建迷信类服务</dd>
+					<dd>汽车类违规代办服务</dd>
+					<dd>代写论文、代考试类相关服务</dd>
+					<dd>炒作博客人气、炒作网站人气、代投票类商品或信息</dd>
+					<dd>法律咨询、心理咨询、金融咨询、医生在线咨询及相关服务。</dd>
+					<dd>(八) 动植物、动植物器官及动物捕杀工具类：</dd>
+					<dd>人体器官、遗体</dd>
+					<dd>国家重点保护类动物、濒危动物的活体、内脏、任何肢体、皮毛、标本或其他制成品，已灭绝动物与现有国家二级以上保护动物的化石；</dd>
+					<dd>国家保护类植物活体（树苗除外）</dd>
+					<dd>国家保护的有益的或者有重要经济、科学研究价值的陆生野生动物的活体、内脏、任何肢体、皮毛、标本或其他制成品
+捕鱼器相关设备及配件</dd>
+					<dd>其他动物捕杀工具</dd>
+					<dd>猫狗肉、猫狗皮毛、鱼翅、熊胆及其制品</dd>
+					<dd>(九) 涉及盗取等非法所得及非法用途软件、工具或设备类:</dd>
+					<dd>走私、盗窃、抢劫等非法所得</dd>
+					<dd>赌博用具、考试作弊工具、汽车跑表器材等非法用途工具</dd>
+					<dd>卫星信号收发装置及软件；用于无线电信号屏蔽的仪器或设备</dd>
+					<dd>撬锁工具、开锁服务及其相关教程、书籍</dd>
+					<dd>一卡多号；有蹭网功能的无线网卡，以及描述信息中有告知会员能用于蹭网的设备</dd>
+					<dd>涉嫌欺诈等非法用途的软件</dd>
+					<dd>可能用于逃避交通管理的商品</dd>
+					<dd>利用电话线路上的直流馈电发光的灯</dd>
+					<dd>各类短信、邮件、旺旺群发设备、软件及服务</dd>
+					<dd>(十) 未经允许违反国家行政法规或不适合交易的商品类：</dd>
+					<dd>伪造变造的货币以及印制设备；</dd>
+					<dd>正在流通的人民币及仿制人民币</dd>
+					<dd>涉嫌违反《中华人民共和国文物保护法》相关规定的文物</dd>
+					<dd>烟草专卖品及烟草专用机械</dd>
+					<dd>未经许可的募捐类商品</dd>
+					<dd>未经许可发布的奥林匹克运动会、世界博览会、亚洲运动会等特许商品</dd>
+					<dd>大量流通中的外币及外币兑换服务</dd>
+					<dd>邮局包裹、EMS专递、快递等物流单据凭证及单号</dd>
+					<dd>国家补助或无偿发放的不得私自转让的商品</dd>
+					<dd>军需、国家机关专供、特供等商品</dd>
+					<dd>(十一) 虚拟类：</dd>
+					<dd>未经国家备案的网络游戏、游戏点卡、货币等相关服务类商品；</dd>
+					<dd>外挂、私服相关的网游类商品</dd>
+					<dd>官方已停止经营的游戏点卡或平台卡商品</dd>
+					<dd>虚拟抽奖类商品</dd>
+					<dd>时间不可查询的虚拟服务类商品</dd>
+					<dd>未带有平台代充标识的QQ增值业务商品</dd>
+					<dd>网络账户死保账号以及腾讯QQ账号</dd>
+					<dd>itunes账号及用户充值类商品</dd>
+					<dd>平台加款卡商家及其所属平台未经合商备案发布的商品</dd>
+					<dd>盛付通商品及在合商发布的穿越火线道具类商品</dd>
+					<dd>自动发货形式的一卡通系列商品及任何充值方式下以面值原价形式出售的一卡通系列商品</dd>
+					<dd>虚拟代刷服务类商品</dd>
+					<dd>不可查询的分期返还话费类商品</dd>
+					<dd>不限时间与流量的、时间不可查询的以及被称为漏洞卡、集团卡、内部卡、测试卡的上网资费卡或资费套餐及SIM卡
+慢充卡等实际无法在七十二小时内到账的虚拟商品</dd>
+					<dd>SP业务自消费类商品</dd>
+					<dd>(十二) 其他类：</dd>
+					<dd>非法传销类商品</dd>
+					<dd>由不具备生产资质的生产商生产的或不符合国家、地方、行业、企业强制性标准的商品</dd>
+					<dd>经权威质检部门或生产商认定、公布或召回的商品，国家明令淘汰或停止销售的商品，过期、失效、变质的商品，以及含有罂粟籽的食品、调味品、护肤品等制成品</dd>
+					<dd>秒杀器以及用于提高秒杀成功概率的相关软件</dd>
+					<dd>商品本身或外包装上所注明的产品标准、认证标志、成份及含量不符合国家规定的商品</dd>
+					<dd>手机直拨卡与直拨业务，电话回拨卡与回拨业务</dd>
+					<dd>带破解功能的手机卡贴</dd>
+				</dl>
+				<p class="warn_p">声明：如商家发布上述商品，合商平台有权下架或删除相关商品信息</p>
+			</div>
+		</div>
+		<!--end 发布需知弹窗-->
+		
+		<script src="js/layer/layer.js" ></script>
+		<script src="js/checkIE.js"></script>
+		<script src="js/r_sellerCommon.js"></script>
+		<script src="js/easyscroll.js"></script>
+		<script src="js/mousewheel.js"></script>
+   		<script src="js/r_publish.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $(".hengbar > .div_scroll").scroll_absolute({arrows:true});
+			  $(".shubar").scroll_absolute({arrows:true});
+			});
+		</script>   		
+	</body>
+</html>

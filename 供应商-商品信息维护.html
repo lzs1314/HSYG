@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>供应商-商品信息维护</title>
+		<link type="text/css" href="css/provider.css" rel="stylesheet" />
+		<script src="js/jquery-1.8.0.min.js"></script>
+	</head>
+	<body style="background: #f5f5f5;">
+		<div id="mall_iec">
+			<div id="iecin">
+				<span>×</span>
+				<p>您的IE浏览器版本过低，为了更好的用户体验，建议您升级IE浏览器或者使用firefox、google等浏览器</p>
+			</div>
+		</div>
+		<div class="provider_head_wrap">
+			<div class="provider_head clearfloat">
+				<a class="provlogo" href="#"></a>
+				<p class="greetUser">用户<b>15639265669</b>，欢迎登录！</p>
+				<p class="userHandle clearfloat">
+					<a class="uh_quit" href="#">退出</a>
+					<a class="uh_retail" href="#">零售入口</a>
+				</p>
+			</div>
+		</div>
+		<div class="provider_content clearfloat">
+			<ul class="prov_sidebar clearfloat">
+				<li class="sta1 notli"><a href="#">基本信息</a></li>
+				<li><a href="#">基本信息</a></li>
+				<li><a href="#">修改登录密码</a></li>
+				<li><a href="#">修改支付密码</a></li>
+				<li><a href="#">门店社区对应表</a></li>
+				<li class="sta2 notli"><a href="#">财务管理</a></li>
+				<li><a href="#">财务管理</a></li>
+				<li><a href="#">银行账户管理</a></li>
+				<li><a href="#">账户提现</a></li>
+				<li><a href="#">账户充值</a></li>
+				<li class="sta3 notli"><a href="#">商品管理</a></li>
+				<li><a href="#">商品信息发布</a></li>
+				<li><a href="#">商品批量上传</a></li>
+				<li class="sta_on"><a href="#">商品信息维护</a></li>
+				<li class="sta4"><a href="#">订单列表</a></li>
+                <li><a href="#">零售订单列表</a></li>
+                <li><a href="#">批发订单列表</a></li>
+                <li><a href="#">便利店订单列表</a></li>
+                <li class="sta5"><a href="#">退货单列表</a></li>
+                <li><a href="#">零售退货单列表</a></li>
+                <li><a href="#">批发退货单列表</a></li>
+                <li><a href="#">便利店退货单列表</a></li>
+			</ul>
+			<div class="prov_cont">
+				<div class="prov_tit clearfloat">
+					<p>商品信息维护</p>
+				</div>
+				<div class="tabs clearfloat">
+					<div class="tabs_div"><p class="tabs_on store">店内</p></div>
+                    <div class="tabs_div"><p class="tabs_off terrace">平台</p></div>
+		            <span class="bor_bot"></span>
+                </div>
+                <div class="stn_list">
+					<div>
+						<div class="infomaTit clearfloat">
+		                    <p class="vessel_dh ml8">
+		                    	商品状态：
+		                        <select>
+		                            <option>全部</option>
+		                            <option>在售</option>
+		                            <option>下架</option>
+		                            <option>无货</option>
+		                            <option>未上架</option>
+		                            <option>审核中</option>
+		                            <option>未通过</option>
+		                        </select>
+		                    </p>
+		                    <input class="infomaInput ml8" type="text" maxlength="20" value="输入商品名称/商品条码"/>
+		                    <a class="provBtn_search ml20" href="#"><i>&nbsp;</i>搜索</a>
+		                </div>
+					
+						<table class="stn_table C_stn_syst" cellpadding="0" cellspacing="0">
+							<tr>
+								<th width="170px">商品名称</th>
+								<th width="140px">商品条码</th>
+								<th width="80px">规格</th>
+								<th width="100px">分类</th>
+								<th width="90px">零售价</th>
+								<th width="90px">批发价</th>
+								<th width="90px">库存量</th>
+								<th width="90px">商品状态</th>
+								<th width="130px">操作</th>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女">百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女</p><span class="stn_syst">系统商品库</span></td>
+								<td class="stn_colr47">145868509652547856</td>
+								<td class="snorms_td"><p class="stn_line">—</p></td>
+								<td class="stn_colr57">T恤</td>
+								<td><p class="lsclick"><img src="images/sellerCenter/upd.png">51.00</p></td>
+								<td><p class="pfclick"><img src="images/sellerCenter/upd.png">49.00</p></td>
+								<td class="stn_colr47">10</td>
+								<td><p class="stn_onsale">在售</p></td>
+								<td class="stn_oper">
+									<a class="stn_xj" href="#">下架</a>
+									<a class="stn_edit" href="#">编辑</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+								<td class="stn_colr47">25698574521569358</td>
+								<td class="snorms_td"><p class="stn_line">—</p></td>
+								<td class="stn_colr57">睫毛膏/假睫毛增长液</td>
+								<td><p class="lsclick"><img src="images/sellerCenter/upd.png">45.00</p></td>
+								<td><p class="pfclick"><img src="images/sellerCenter/upd.png">47.00</p></td>
+								<td class="stn_colr47">0</td>
+								<td><p class="stn_not">无货</p></td>
+								<td class="stn_oper">
+									<a class="stn_xj" href="#">下架</a>
+									<a class="stn_edit" href="#">编辑</a>
+									<a class="stn_del" href="#">删除</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女">百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女</p><span class="stn_syst">系统商品库</span></td>
+								<td class="stn_colr47">1259685789652141</td>
+								<td class="snorms_td">
+									<a href="#" class="stn_norms"><img class="stn_norms2" src="images/sellerCenter/stn_norms2.png"></a>
+									<div class="snorms_div snorms_dndiv" style="display: none;">
+										<i class="snorms_dni"></i>
+										<table class="snorms_table">
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女">百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女</p></td>
+												<td width="140px" class="stn_colr47">1259685789652141</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>		
+										</table>								
+									</div>													
+								</td>
+								<td class="stn_colr57">T恤</td>
+								<td><p class="stn_line">—</p></td>
+								<td><p class="stn_line">—</p></td>
+								<td class="stn_colr47">0</td>
+								<td><p class="stn_noton">下架</p></td>
+								<td class="stn_oper">
+									<a class="stn_sj" href="#">上架</a>
+									<a class="stn_edit" href="#">编辑</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p><span class="stn_syst">系统商品库</span></td>
+								<td class="stn_colr47">9865874521632525485</td>
+								<td class="snorms_td"><p class="stn_line">—</p></td>
+								<td class="stn_colr57">T恤</td>
+								<td><p class="lsclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+								<td><p class="pfclick"><img src="images/sellerCenter/upd.png">22.00</p></td>
+								<td class="stn_colr47">0</td>
+								<td><p class="stn_not">无货</p></td>
+								<td class="stn_oper">
+									<a class="stn_xj" href="#">下架</a>
+									<a class="stn_edit" href="#">编辑</a>
+									<a class="stn_del" href="#">删除</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+								<td class="stn_colr47">45896582156985</td>
+								<td class="snorms_td">
+									<a href="#" class="stn_norms"><img class="stn_norms2" src="images/sellerCenter/stn_norms2.png"></a>
+									<div class="snorms_div snorms_dndiv" style="display: none;">
+										<i class="snorms_dni"></i>
+										<table class="snorms_table">
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">555889788888888888</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">555889788888888888</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="140px" class="stn_colr47">56985754552256325</td>
+												<td width="180px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="90px"><p class="lsclick"><img src="images/sellerCenter/upd.png">33.00</p></td>
+												<td width="90px"><p class="pfclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+												<td width="90px" class="stn_colr47">10</td>
+												<td width="90px"><p class="stn_noton">下架</p></td>
+												<td width="130px" class="stn_oper">
+													<a class="stn_sj" href="#">上架</a>
+													<a class="stn_edit" href="#">编辑</a>
+												</td>
+											</tr>
+										</table>								
+									</div>													
+								</td>
+								<td class="stn_colr57">T恤</td>
+								<td><p class="stn_line">—</p></td>
+								<td><p class="stn_line">—</p></td>
+								<td class="stn_colr47">79</td>
+								<td><p class="stn_cg">未上架</p></td>
+								<td class="stn_oper">
+									<a class="stn_sj" href="#">上架</a>
+									<a class="stn_edit" href="#">编辑</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+								<td class="stn_colr47">89878988888888888</td>
+								<td class="snorms_td"><p class="stn_line">—</p></td>
+								<td class="stn_colr57">T恤</td>
+								<td><p class="lsclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+								<td><p class="pfclick"><img src="images/sellerCenter/upd.png">22.00</p></td>
+								<td class="stn_colr47">79</td>
+								<td><p class="stn_wtg">未通过</p></td>
+								<td class="stn_oper">
+									<a class="stn_edit" href="#">编辑</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+								<td class="stn_colr47">36598748858589888</td>
+								<td class="snorms_td"><p class="stn_line">—</p></td>
+								<td class="stn_colr57">T恤</td>
+								<td><p class="lsclick"><img src="images/sellerCenter/upd.png">29.00</p></td>
+								<td><p class="pfclick"><img src="images/sellerCenter/upd.png">22.00</p></td>
+								<td class="stn_colr47">79</td>
+								<td><p class="stn_audit">审核中</p></td>
+								<td class="stn_oper"><p class="stn_line">—</p></td>
+							</tr>
+						</table>
+						<div class="clearfloat rt20 rtbor" >
+	                        <div class="page pa">
+	                            <a class="page_prev page_prev_jin" href="javascript:void(0)"></a>
+	                            <a href="#" class="page_on">1</a>
+	                            <a href="#">2</a>
+	                            <a href="#">3</a>
+	                            <a href="#">4</a>
+	                            <b class="page_b">...</b>
+	                            <a href="#">5</a>
+	                            <a class="page_next" href="#"></a>
+	                            <p class="page_p">共<em>5</em>页</p>
+	                            <span class="page_span">到</span>
+	                            <input type="text" class="page_text" />
+	                            <input type="button" class="page_btn" value="GO" />
+	                        </div>
+	                    </div>	
+	                </div>	
+	                <div style="display:none;">
+	                    <div class="infomaTit clearfloat">
+		                    <p class="vessel_dh ml8" id = "pudiv">
+		                    	选择类目：
+		                        <input type="text" value="全部" readonly="readonly" class="publish">
+		                        <a class="del" style="display: none;"></a>
+		                    </p>
+		                    <div id="accdiv" class="accordion" fillspace="sidebar" style="display:none;">
+					            <input id="searchTree" type="text" class="span2">
+					                <a id="searchTreeBtn" class="treesearchbtn"></a>
+					                <span onclick="$('ul.tree').colExpAll({clickType:'expAll'})" id="expandBtn" class="expall">收起</span>
+					            <div class="accordionContent">
+					            	<!-- 3级 -->
+						            <ul id="a" class="tree treeFolder collapse">
+						                <li>
+						                	<a class="on1" autobypy="fz">服装</a>
+						                  	<ul id="bzmenus" class="bzmenus_sub" style="display: none;">
+							                    <li>
+							                    	<a class="on2" autobypy="nz">男装</a>
+							                      	<ul>
+								                        <li><a class="on3" autobypy="tx" href="#">T恤</a></li>
+							                      	</ul>
+							                    </li>
+						                  	</ul>
+						                </li>
+						            </ul>
+						            <ul id="a_clone" class="" style="display: none;">
+						                <li>
+						                	<a class="on1" autobypy="fz">服装</a>
+						                  	<ul id="bzmenus" class="bzmenus_sub">
+							                    <li>
+							                    	<a class="on2" autobypy="nz">男装</a>
+							                      	<ul>
+								                        <li><a class="on3" autobypy="tx" href="#">T恤</a></li>
+							                      	</ul>
+							                    </li>
+						                  	</ul>
+						                </li>
+						            </ul>
+						            <!-- end 3级 -->
+						            <!-- 2级 -->
+						            <ul id="b" class="tree treeFolder collapse">
+						                <li>
+						                	<a class="on1" autobypy="xh">洗化</a>
+						                  	<ul id="slmenus" class="slmenus_sub" style="display: none;">
+							                    <li><a class="on2" autobypy="yybj" href="#">营养保健</a></li>
+						                  	</ul>
+						                </li>
+						            </ul>
+						            <ul id="b_clone" class="" style="display: none;">
+						                <li><a class="on1" autobypy="xh">洗化</a>
+						                  <ul id="slmenus" class="slmenus_sub" style="display: none;">
+						                    <li><a class="on2" autobypy="yybj" href="#">营养保健</a></li>
+						                  </ul>
+						                </li>
+						            </ul>
+						            <!-- end 2级 -->
+						            <!-- 1级 -->
+						            <ul id="c" class="tree treeFolder collapse">
+						                <li><a class="on1" autobypy="bh">百货</a></li>
+						            </ul>
+						            <ul id="c_clone" class="" style="display: none;">
+						                <li><a class="on1" autobypy="bh">百货</a></li>
+						            </ul>
+						            <!-- end 1级 -->
+						            <!-- 空 -->
+						            <ul id="z" class="tree treeFolder collapse" style="display: none;">
+						                <li>
+						                	<a class="on1" autobypy="kong"></a>
+						                  	<ul id="slmenus" class="slmenus_sub" style="display: none;">
+							                    <li><a class="on2" autobypy="kong" href="#"></a></li>
+						                  	</ul>
+						                </li>
+						            </ul>
+						            <ul id="z_clone" class="" style="display: none;">
+						                <li><a class="on1" autobypy="kong"></a>
+						                  <ul id="slmenus" class="slmenus_sub" style="display: none;">
+						                    <li><a class="on2" autobypy="kong" href="#"></a></li>
+						                  </ul>
+						                </li>
+						            </ul>
+						            <!-- 空 -->
+					            </div>
+					        </div>
+		                    <p class="vessel_dh ml8">
+		                    	导入状态：
+		                        <select>
+		                        	<option>全部</option>
+		                            <option>已导入</option>
+		                            <option>未导入</option>
+		                        </select>
+		                    </p>
+		                    <input class="infomaInput ml8" type="text" maxlength="20" value="输入商品名称/商品条码"/>
+		                    <a class="provBtn_search ml20" href="#"><i>&nbsp;</i>搜索</a>
+		                </div>
+	                    <table class="for_table" cellpadding="0" cellspacing="0">
+							<tr>
+								<th width="50px"></th>
+								<th width="180px">商品名称</th>
+								<th width="180px">商品条码</th>
+								<th width="160px">分类</th>
+								<th width="150px">规格</th>
+								<th width="160px">品牌</th>
+								<th width="120px">操作</th>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><input type="checkbox" name="checkbox1" disabled="disabled" class="checkbox1"></td>
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p><span class="stn_syst">暂停进货/销售</span></td>
+								<td class="stn_colr47">125658978548526696</td>
+								<td class="stn_colr47">婴童袜子</td>
+								<td class="snorms_td">
+									<a href="#" class="stn_norms"><img class="stn_norms2" src="images/sellerCenter/stn_norms2.png"></a>
+									<div class="snorms_div snorms_ptdiv" style="display: none;">
+										<i class="snorms_pti"></i>
+										<table class="snorms_table">
+											<tr>
+												<td width="50px"><input type="checkbox" name="checkbox2" class="checkbox1"></td>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑洗发露">沙宣水润去屑洗发露</p></td>
+												<td width="180px" class="stn_colr47">15689585488888</td>
+												<td width="160px" class="stn_colr47">婴童袜子</td>
+												<td width="310px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="120px" class="stn_colr57"><p class="stn_line">—</p></td>
+											</tr>
+										</table>								
+									</div>													
+								</td>
+								<td class="stn_colr57">ANDRINUO</td>
+								<td class="stn_oper"><p class="stn_line">—</p></td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><input type="checkbox" name="checkbox1" class="checkbox1"></td>
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑水洗发露水润滋养">沙宣水润去屑水洗发露水润滋养</p><span class="stn_syst">暂停进货/销售</span></td>
+								<td class="stn_colr47">125658978548526696</td>
+								<td class="stn_colr47">睫毛膏/假睫毛增长液</td>
+								<td class="snorms_td">
+									<a href="#" class="stn_norms"><img class="stn_norms2" src="images/sellerCenter/stn_norms2.png"></a>
+									<div class="snorms_div snorms_ptdiv" style="display: none;">
+										<i class="snorms_pti"></i>
+										<table class="snorms_table">
+											<tr>
+												<td width="50px"><input type="checkbox" name="checkbox2" class="checkbox1"></td>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="沙宣水润去屑水洗发露水润滋养">沙宣水润去屑水洗发露水润滋养</p></td>
+												<td width="180px" class="stn_colr47">15689585488888</td>
+												<td width="160px" class="stn_colr47">睫毛膏/假睫毛增长液</td>
+												<td width="310px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="120px" class="stn_colr57"><a class="stn_lead" href="#">导入</a></td>
+											</tr>
+										</table>								
+									</div>													
+								</td>
+								<td class="stn_colr57">ANDRINUO</td>
+								<td class="stn_oper">
+									<a class="stn_lead" href="#">导入</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"></td>
+								<td class="stn_p14"><p class="stn_pname" title="百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女">百搭小衫秋冬长袖时尚秋衣假两件外穿打底衫女</p></td>
+								<td class="stn_colr47">125658978548526696</td>
+								<td class="stn_colr47">T恤</td>
+								<td class="snorms_td">净含量：200g&nbsp;&nbsp;瓶装</td>
+								<td class="stn_colr57">16 Blocks/十六街区</td>
+								<td class="stn_oper"><p class="stn_line">—</p></td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><input type="checkbox" name="checkbox1" class="checkbox1"></td>
+								<td class="stn_p14"><p class="stn_pname" title="沙宣水润去屑水洗发露水润滋养">沙宣水润去屑水洗发露水润滋养</p><span class="stn_syst">暂停进货</span></td>
+								<td class="stn_colr47">125658978548526696</td>
+								<td class="stn_colr47">婴童袜子</td>
+								<td class="snorms_td"><p class="stn_line">—</p></td>
+								<td class="stn_colr57">ANDRINUO</td>
+								<td class="stn_oper">
+									<a class="stn_lead" href="#">导入</a>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="stn_p14"><input type="checkbox" name="checkbox1" class="checkbox1"></td>
+								<td class="stn_p14"><p class="stn_pname" title="柔肤水_测试">柔肤水_测试</p><span class="stn_syst">作&nbsp;&nbsp;废</span></td>
+								<td class="stn_colr47">125658978548526696</td>
+								<td class="stn_colr47">婴童袜子</td>
+								<td class="snorms_td">
+									<a href="#" class="stn_norms"><img class="stn_norms2" src="images/sellerCenter/stn_norms2.png"></a>
+									<div class="snorms_div snorms_ptdiv" style="display: none;">
+										<i class="snorms_pti"></i>
+										<table class="snorms_table">
+											<tr>
+												<td width="50px"><input type="checkbox" name="checkbox2" disabled="disabled" class="checkbox1"></td>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="柔肤水_测试">柔肤水_测试</p></td>
+												<td width="180px" class="stn_colr47">15689585488888</td>
+												<td width="160px" class="stn_colr47">婴童袜子</td>
+												<td width="310px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="120px" class="stn_colr57"><a class="stn_lead" href="#">导入</a></td>
+											</tr>
+											<tr>
+												<td width="50px"><input type="checkbox" name="checkbox2" class="checkbox1"></td>
+												<td width="150px" class="stn_p14"><p class="stn_pname" title="柔肤水_测试">柔肤水_测试</p></td>
+												<td width="180px" class="stn_colr47">15689585488888</td>
+												<td width="160px" class="stn_colr47">婴童袜子</td>
+												<td width="310px" class="stn_colr57">净含量：200g&nbsp;&nbsp;瓶装</td>
+												<td width="120px" class="stn_colr57"><a class="stn_lead" href="#">导入</a></td>
+											</tr>
+										</table>								
+									</div>													
+								</td>
+								<td class="stn_colr57">16 Blocks/十六街区</td>
+								<td class="stn_oper">
+									<a class="stn_lead" href="#">导入</a>
+								</td>
+							</tr>
+						</table>
+						<div style="border: 1px solid #e7e7e7;background: #f9f9f9;margin-bottom: 20px;">
+							<p class="opall">
+								<input type="checkbox" name="checkbox" class="checkbox" style="vertical-align: middle;margin-right: 8px;">
+								<span class="box_span">批量导入</span>
+							</p>
+						</div>
+						<div class="clearfloat rt20 rtbor">
+	                        <div class="page pa">
+	                            <a class="page_prev page_prev_jin" href="javascript:void(0)"></a>
+	                            <a href="#" class="page_on">1</a>
+	                            <a href="#">2</a>
+	                            <a href="#">3</a>
+	                            <a href="#">4</a>
+	                            <b class="page_b">...</b>
+	                            <a href="#">5</a>
+	                            <a class="page_next" href="#"></a>
+	                            <p class="page_p">共<em>5</em>页</p>
+	                            <span class="page_span">到</span>
+	                            <input type="text" class="page_text" />
+	                            <input type="button" class="page_btn" value="GO" />
+	                        </div>
+	                    </div>
+                    </div>		
+				</div>
+
+				<div class="stn_list">
+					<table class="stn_table C_stn_syst" cellpadding="0" cellspacing="0">
+						<tr>
+							<th width="180px">商品名称</th>
+							<th width="150px">商品编码</th>
+							<th width="120px">规格</th>
+							<th width="100px">零售价</th>
+							<th width="90px">批发价</th>
+							<th width="90px">库存量</th>
+							<th width="100px">商品状态</th>
+							<th width="150px">操作</th>
+						</tr>
+						<tr>
+							<td colspan="9">
+								<div class="notInfo">
+									<img src="images/provider/notInfo.png">
+									<p>暂无商品信息列表</p>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!--零售、批发价格改价弹窗-->
+		<div class="lsp_layer" style="display: none;">
+			<div class="prilay_tit">设置价格</div>
+			<table class="priceTab" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="90px"><p class="pri_tit">零售价<i>*</i>：</p></td>
+					<td width="200px"><input class="pri_input J_ls" /></td>
+					<td width="30px"><span class="priSpan"></span></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td colspan="2"><p class="priP">&nbsp;</p></td>
+				</tr>
+				<tr>
+					<td width="90px"><p class="pri_tit">批发价<i>*</i>：</p></td>
+					<td width="200px"><input class="pri_input J_pf" /></td>
+					<td width="30px"><span class="priSpan"></span></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td colspan="2"><p class="priP">&nbsp;</p></td>
+				</tr>
+			</table>
+		</div>
+		<!--end 零售、批发价格改价弹窗-->
+	
+		<!-- 导入 -->
+		<div class="lead" style="display: none;">
+			<div class='layer_lead'>导入后,该条商品资料将作为店内的资料使用</div>
+			<div class="lead_btn"><sapn class="agre">确定导入</sapn><sapn class="err">取&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;消</sapn></div>
+		</div>
+		<!-- end 导入 -->
+		<div class="imgd">
+      		<img src="images/sindex/loading-0.gif">
+  		</div>
+		<!--end 批发价格改价弹窗-->	
+		<script src="js/layer/layer.js"></script>
+   		<script src="js/checkIE.js"></script>
+   		<script src="js/provider.js"></script>
+   		<script src="js/provider_infomaintain.js"></script>
+   		<script src="js/provider_infomaintain_height.js"></script>
+   		<script type="text/javascript" src="js/jtree.js"></script>
+		<script type="text/javascript" src="js/jtree_1.js"></script>
+		<script type="text/javascript" src="js/jtree_2.js"></script>
+	</body>
+</html>
