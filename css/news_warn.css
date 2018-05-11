@@ -1,8 +1,0 @@
-.sell_word2{right: 0px;bottom: 0;z-index: 10000;position: fixed;width: 320px;}
-.sell_word{position: relative; width: 255px;height: 75px; padding-left: 60px;background: url(../images/manage/tui.png) no-repeat -13px -4px;}
-.sell_word1{position: relative;width: 255px;height: 90px; padding-left: 60px;background: url(../images/manage/xiao.png) no-repeat -13px -4px;}
-.word,.word1{padding-left: 20px; font: 14px "Microsoft Yahei";color: #757575;}
-.word_r,.word_o{color: #f35050;padding: 0px 5px;}
-.p2{padding-top: 4px;}
-.word_o:hover,.word_r:hover{border-bottom: 1px solid #f35050;cursor: pointer;}
-.sell_word .word_btn,.sell_word1 .word_btn{width: 20px; position: absolute;right: 4px;top: 8px;cursor: pointer;z-index: 10001;}
