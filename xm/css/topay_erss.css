@@ -1,6 +1,0 @@
-﻿@charset "utf-8";
-/* CSS Document */
-@import url('common.css');
-.err_out{width: 100%;background: #f5f5f5;padding:60px 0;}
-.content{width: 577px;height:446px;margin: 150px auto; position: relative;}
-.content img{width: 577px;height:446px;}

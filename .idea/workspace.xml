@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f2317dd-b344-4790-9ece-e2ee2a1f4105" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pyxu/02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/.idea/广大药品.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/banner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/banner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/banner4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/fd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/ip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/ju.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/sp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/tubiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/yuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/yuan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/img/zan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gd/js/jquery-1.11.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/404-商户v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/404-零售v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/500-商户v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/500-零售v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/500维护.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pyxu/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/ajax页码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/a通用弹窗.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/a鼠标跟随效果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/aptitude.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/community_module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/error.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_pc_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_pc_orderdetail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_pc_pharmacy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_primary.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_reservation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_reservation_list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_scart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/gd_topay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/help-center.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_back_pwd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_bulletin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_pc_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_pc_mycenter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_pc_orderdetail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/hs_returns_part.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/ibar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/issue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/list_adapt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/news_warn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/provider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_community_module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_community_price.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_gd_accounts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_gd_appraise.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_gd_list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_gd_reservation_list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_hs_list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_mgcenter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_publish.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_s_account.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_s_back_pwd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_s_common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_s_orderdetail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_s_release.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_sell.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_sellerCenter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/r_sgManage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/recruit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/reg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/s_common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/s_order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/s_release.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/sellerCenter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/sindex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/topay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/css/topay_erss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/account/ch_bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/account/modify_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/account/scs_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/account/way_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_bh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_bj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_cs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_dy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_gd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_gf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_gs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_hb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_heb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_hq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_hs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_hx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_js.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_jt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_lz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_ms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_nb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_nj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_pa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_pf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_qd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_ql.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_sh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_tj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_xy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_yd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_yl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_yz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_zd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_zg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_zhesh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_zs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/banklogo/cn_zx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/addnum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/appdownload-code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/arrIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/beian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/chooseIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/comCont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/cruIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/cruIcon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/cut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/del.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/err.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/errho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/grpIcon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/grp_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hinticon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hs_footPhone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hs_footerAd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hs_khd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hs_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hs_wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/hscarIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/lay1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/lay2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/lay3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/layCase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/mallTop_li.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/mall_top_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/mysqIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/mysq_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/mysq_tx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/nav_ad.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/nopics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/pageIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/publish_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/shade_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/shareIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/shareIcon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/site_cc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/site_gj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/site_police.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/site_xinyong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/sstIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/sthBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/timeicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/trumpet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/vcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/wricon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/wricon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/wricon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/common/xsj_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/error/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/error/500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/error/500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/error/error_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/error/ie-360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/alert_tb_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/cate_one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/cate_one_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/cate_two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/cate_two_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/doctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/floor/flr-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/footerImg/fi_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gdLogin_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gdLogin_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gdLogin_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_bottom_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_cataIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_cataIcon_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_close_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_floor1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_floor2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_floor3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_floor4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_floor5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_floor6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_footPhone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_load1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_load2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_nav_ad.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/gd_toTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/hs_loginIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/jyzg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/logo_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/logo_gd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/new_built.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/new_built_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/ordonnance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/pharmacy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/scont_store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/transmission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/gd_img/ypxx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/b11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/b12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/b13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/b14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/b15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr1-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr2-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr3-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/floor/flr4-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/gsimg/gsimg_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/gsimg/gsimg_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/gsimg/gsimg_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/gsimg/gsimg_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/gsimg/gsimg_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/list_good_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/popGood1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/popGood2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/popGood3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/popGood4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/popGood5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/s11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/s12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/s13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/s14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/s15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/salePrice_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/bigimg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/bigimg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/bigimg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/bigimg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/bigimg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/scont_intr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/smimg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/smimg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/smimg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/smimg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/goods_img/scont_gimg/smimg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/cbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/helpcIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/pay_bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/pay_way.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/personal-header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/personal-header-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/prefecture_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/prefecture_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/process_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/r1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/r3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/r4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/r5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/reg_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/reg_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/return_process_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/helpc/tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/ad_shang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/ad_xia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/arrowsR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/cataIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/cataIcon_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/comBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/comClass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/comIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/flt_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/flt_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/flt_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/flt_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/grp_hsIndex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hbn_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hbn_tit_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hs_ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hs_banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hs_banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hs_banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/hs_banner4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/ibarIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/mysq_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/mysq_tx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_index/top_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/ad_shang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/ad_xia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/arrowi1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/b11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/b12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/b13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/b14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/b15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/box-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/bsInfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/c11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/c12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/c13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/checkbox_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/cont_si.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/cont_si1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/fgirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/g_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_mid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_mid02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_mid03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_mid04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_mid05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_small02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_small03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_small04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/gd_img_small05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/hot_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/licon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/listIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/list_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/no_drugs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/ph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/recycle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/s11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/s21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/s31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/safebuy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/shouqi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/shu_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/slist_more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/slist_more2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/staIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_list/ygirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/Blist_fg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/addr_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/backir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/big.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/box_t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/bulletin_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/cart_settlement_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/carthIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/cause_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/delete_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/dshelf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/feedback_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/goods_yn_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/headupload_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/hlogicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/money_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/my_info_tx1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/my_info_tx2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/no_orders_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/ordericon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/ordlIcon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/ordlIcon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/ordlIcon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/pc_iicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/pc_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/personal_safe_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/personal_safe_icon_meil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/pic-back.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/pic-next.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/product_img_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/product_img_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/product_img_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/product_img_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/retBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/retTag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/small.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tanhao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tria_ii.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/choose_tx_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx/preview_tx_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/tx_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/txbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/way_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/hs_pc_all/ygirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/blue_pwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/blue_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/gray_pwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/gray_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/lg_limg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/logologin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/qrcode_help.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/qrcode_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/qrcode_succ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/qrcode_tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/red_pwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/red_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/login/vcode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/manage/tui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/manage/xiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/provider/issue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/provider/notInfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/provider/provBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/provider/provHead_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/provider/provInfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/provider/staIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/all.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/cause_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/cb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/com_im.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/comm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/cw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/cw1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/err.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/jb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/ling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/note_clsbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/pri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/scon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/scon_if.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/sconeye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/sqq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/sta_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/tahr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/tr_hr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/tui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/use.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/xiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/xl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_recruit/xl1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_sellerCenter/curi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_sellerCenter/mclIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_sellerCenter/rs_myhead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/r_sellerCenter/rs_myheadbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/aboutUs_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/difficulty_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/order_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recBg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recBg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recBg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recomm_advImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recomm_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/recruit_supplier_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/resup_advImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/resup_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/resup_deco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/resup_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/solve_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/step_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/wricon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/xl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/recruit/xl1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/adutiing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/agreed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/aptibtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/back_pwd_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/back_pwd_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/back_pwd_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/backir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/backpwdIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/backpwd_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/backpwd_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/backpwd_shade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/forbid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/hseye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/imgcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regAdd_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regAdd_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regHead1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regHead2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regHead3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/reg_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regce_left_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regce_right_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regchoo_tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regsucBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/regsuc_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/revIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/revren_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/reg/vcode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sell/rwIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sell/sell_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sell/sellrw_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sell/sellset_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sell/senter_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sell/senter_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/addRegionsBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/bslicense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/cancelIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/cntrl_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/deletePic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/derIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/dredge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/editpen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/employBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/evalIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/fe_exp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/fe_rev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/fee_area.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/font_suc_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/frtip_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/fsetBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/go_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/good_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/good_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/gtIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_img/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/hrHelp_owl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/jia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/littletriicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/look_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/mgcIcon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/notSearch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/notpur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/num1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/num2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/pabank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/publishNotice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/publishNotice_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/publish_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/purIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/pur_cont_tit_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/pur_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/pur_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/query_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/releIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sLeft_bottom_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sLeft_cont_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sLeft_top_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_content_rightBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_gift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_publishTit1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_publishTit2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_publishTit3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/s_publish_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sbatchIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sc_stateIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sc_state_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sellerCenter_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/setczBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sg_list_ttbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sg_p_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/shareBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sinfo_tx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/skbx_notf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/snorms_table_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sortIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/src_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stet_th_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/sthBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stn_norms1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stn_norms2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stn_th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stns_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stock_single_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/stock_wh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/store_icon_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/szseek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/unShelve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/upd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sellerCenter/xt_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/alllist_pro1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/banner_img/sindex_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/banner_img/sindex_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/banner_img/sindex_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/banner_img/sindex_sm_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/banner_img/sindex_sm_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/banner_img/sindex_sm_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/cata_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/cata_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/cata_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/contL_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/hs_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/hs_topAd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/icon_fenlei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/icon_qiye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/icon_shangpin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/inshadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/listicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/lstep_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/pj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/pj1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/pj2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/pj4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/regsucBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/regsucBtn2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_sm_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_sm_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_sm_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_sm_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_img/rgcy_sm_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgcy_tit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgfm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_img/rgpt_img_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/rgpt_tit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/s_headerCart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/scont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/scont_ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/scont_shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/scont_store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/shead_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sheadicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/shsxtext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/shsxtext2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sindex_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sindex_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sindex_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/slist_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/so_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/so_icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/so_icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sold_out1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sold_out2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sp_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sp_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sp_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sp_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/sthBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/tab_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/sindex/top_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/click.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/click_join.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/girl_happy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/girl_sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/hsMit_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/step_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/step_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/supportIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/toIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_goods1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_subbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_subbtn_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_wxTip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_wxcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/topay_zw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/wx_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/images/topay/wxclass_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-修改支付密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-修改登录密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-分类定价（广大）3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-商品信息维护.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-商品定价（广大）3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-商品批量处理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-商品模板.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-回收站 v3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-基本信息-供应商信息编辑.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-基本信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-找回支付密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-找回支付密码2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-模板商品信息预览页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-订单列表(便利店).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-订单列表.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-订单详情(便利店).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-财务管理-账户充值.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-财务管理-账户提现.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-财务管理-银行账户管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-财务管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-转账审核（广大）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-转账管理（广大）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-退货单列表(便利店).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-退货单列表.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-退货单详情(便利店).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/供应商-退货单详情(批发).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-侧边悬浮帮助v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-修改邮箱.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-单个店铺商品列表页-多规格(待用).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-单个店铺商品列表页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品信息维护-暂无商品资料.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品信息维护.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品列表页-多规格(待用).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品列表页v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-发布完成.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-品牌申请.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-商品模板.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-商品模板详情页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-填写信息-多商品属性复选框弹窗.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-填写信息（根据程序）v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品发布-选择类目v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品批量处理v3.2.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品详情下架页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-商品详情页v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-店铺列表.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的商户首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的评价-无评价v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的评价v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的购物车-无商品.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的购物车.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的采购单-搜索无结果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的采购单-无采购.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的采购单v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的采购单详情页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的采购退货单列表页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的采购退货单详情页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的钱包v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的销售单详情页（批发）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的销售单详情页（零售）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的销售单（批发）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-我的销售单（零售）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-找回支付密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-找回支付密码2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-找回登录密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-找回登录密码2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-提交订单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-申请退货.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-管理首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-订单支付失败.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-订单支付成功.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-账号信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-账号安全v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-运费设置.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-退货详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-钱包充值.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-钱包提现v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-销售设置.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-销售退货单列表（批发）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-销售退货单列表（零售）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-销售退货单详情页（批发零售可共用）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-销售首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/商户-首页v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品主推(新增、变更).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品主推.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品失效.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品明细.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品编辑.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品详情页 （非处方药）3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-商品详情页（处方药）3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-我的预约单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-提交订单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-用药人信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-登录.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-药品列表页 - 搜索不到药品.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-药品列表页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-门店社区对应表.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-需求清单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-预约单详情-社区主 .html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-预约单详情（供应商2）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-预约单详情（供应商）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-预约单详情（零售）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大-首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/广大供应商-订单详情（优化）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/支付失败.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/支付成功.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/注册-成功.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/注册.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/注册选择页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/登录.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-修改支付密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-修改登陆密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-公司定价（广大）3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-单品变价（广大）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-基本信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-批发单商品定价 3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-批发订单管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-批发订单详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-批发退货单详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-找回支付密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-找回支付密码2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-新用户注册列表.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-社区主充值.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-社区主加价（广大）3.2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-社区主提现.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-订单管理(无订单信息时).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-财务管理2017.12.20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-退货单管理(无退货单信息时).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-银行卡变更.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-银行卡管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售区间定价、批发区间定价 3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售单商品定价 3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售单商品定价（无信息时）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售订单管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售订单详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售退货单管理、批发退货单管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主模块-零售退货单详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/社区主资质-审核未通过v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/网站头-合商零售.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/网站头-商户.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/网站头-广大.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/网站尾-广大.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/资质上传 - 未通过页v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/资质上传-审核中v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/资质上传-禁用v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/资质上传v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-个人信息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-供应商招募v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-修改手机.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-修改登录密码.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-修改邮箱.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-合商快报列表页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-合商快报详情页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-商品列表页-没有搜索到相关商品.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-商品列表页v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-商品已下架.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-商品详情页v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-地址管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-安全中心.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-争议处理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-发票总则.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-合商配送说明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-商户配送说明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-在线支付.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-客服中心.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-开店专区.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-支付方式说明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-新用户注册.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-服务协议.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-服务承诺.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-货到付款.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-购物流程.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-购物说明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-退换货说明（合商）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-退换货说明（第三方）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-退款说明.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-防诈骗公告.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-帮助中心-首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-微信支付v3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-意见反馈.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的合商.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的收藏-无商品.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的收藏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的订单v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的评价-无评价v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的评价v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-我的购物车v3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-找回密码v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-提交订单v3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-查看物流v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-添加邮箱.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-社区主招募-未登录v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-社区主招募-登录v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-订单支付v3.2.2(2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-订单支付失败.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-订单支付成功.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-订单详情页v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-退货单列表-未搜索到v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-退货单列表v3.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-退货单详情页v3.3-优化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-退货申请.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xm/零售-首页.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/XU$.coverage" NAME="微信定时问好 Coverage Results" MODIFIED="1526019760777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyxu" />
+    <SUITE FILE_PATH="coverage/XU$04.coverage" NAME="04 Coverage Results" MODIFIED="1526020929580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyxu" />
+    <SUITE FILE_PATH="coverage/XU$02.coverage" NAME="02 Coverage Results" MODIFIED="1526013339911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyxu" />
+    <SUITE FILE_PATH="coverage/XU$03.coverage" NAME="03 Coverage Results" MODIFIED="1526020235962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyxu" />
+    <SUITE FILE_PATH="coverage/XU$01.coverage" NAME="01 Coverage Results" MODIFIED="1526019301016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyxu" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="03.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyxu/03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyxu/04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="微信定时问好.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyxu/微信定时问好.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyxu/01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyxu/02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pyxu/微信头像爬取.py" />
+        <option value="$PROJECT_DIR$/pyxu/01.py" />
+        <option value="$PROJECT_DIR$/pyxu/微信定时问好.py" />
+        <option value="$PROJECT_DIR$/pyxu/03.py" />
+        <option value="$PROJECT_DIR$/pyxu/04.py" />
+        <option value="$PROJECT_DIR$/pyxu/02.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="987" />
+    <option name="height" value="1029" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="XU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XU" type="462c0819:PsiDirectoryNode" />
+              <item name="pyxu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.04">
+    <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyxu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyxu/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyxu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyxu/02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyxu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyxu/03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="04" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyxu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyxu/04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="微信定时问好" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyxu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyxu/微信定时问好.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="微信聊天机器人" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyxu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyxu/微信聊天机器人.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.02" />
+      <item itemvalue="Python.01" />
+      <item itemvalue="Python.03" />
+      <item itemvalue="Python.微信定时问好" />
+      <item itemvalue="Python.04" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.04" />
+        <item itemvalue="Python.03" />
+        <item itemvalue="Python.微信定时问好" />
+        <item itemvalue="Python.01" />
+        <item itemvalue="Python.02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f2317dd-b344-4790-9ece-e2ee2a1f4105" name="Default" comment="" />
+      <created>1526009485885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526009485885</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3627451" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.31808278" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pyxu/微信头像爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/微信聊天机器人.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/微信定时问好.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/微信头像爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/微信聊天机器人.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/微信定时问好.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyxu/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
